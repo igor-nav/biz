@@ -1,0 +1,27 @@
+{
+  "name": "Example IT Managed Services",
+  "type": "IT Managed Services / MSP",
+  "location": "Austin, TX",
+  "url": "https://bizbuysell.com/listing/example",
+  "asking_price": 750000,
+  "revenue": [
+    {"year": 2023, "amount": 620000},
+    {"year": 2022, "amount": 580000},
+    {"year": 2021, "amount": 540000}
+  ],
+  "sde": [
+    {"year": 2023, "amount": 195000},
+    {"year": 2022, "amount": 178000},
+    {"year": 2021, "amount": 160000}
+  ],
+  "inventory": 0,
+  "ffe": 25000,
+  "real_estate": "leased",
+  "lease_monthly": 2200,
+  "lease_expires_year": 2027,
+  "years_in_business": 12,
+  "employees": 6,
+  "reason_for_selling": "Owner retiring",
+  "ai_opportunity": "Automate tier-1 helpdesk with AI agents; upsell AI-readiness assessments to SMB clients",
+  "notes": "Recurring revenue ~70% of total. Strong SMB client base. Owner will train for 90 days."
+}
