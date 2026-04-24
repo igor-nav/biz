@@ -1,0 +1,2 @@
+# biz
+Small business ideas
