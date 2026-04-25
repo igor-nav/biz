@@ -21,10 +21,38 @@ businesses/
 cmd/
   analyze/
     main.go        ← stats tool
+  import/
+    main.go        ← import a listing from a URL
+    bizbuysell.go  ← BizBuySell provider
 go.mod
 ```
 
 ## Adding a candidate
+
+### Option A – import from a listing URL (recommended)
+
+```sh
+go run ./cmd/import <URL>
+```
+
+The script fetches the listing, extracts as many fields as possible, and writes
+`businesses/<slug>/data.json`.  Review the file afterwards and fill in any
+fields that could not be scraped automatically (e.g. multi-year financials,
+`ai_opportunity`, `notes`).
+
+**Supported providers**
+
+| Provider | Example URL |
+|---|---|
+| BizBuySell | `https://www.bizbuysell.com/Business-Opportunity/…/1234567/` |
+
+**Flags**
+
+| Flag | Default | Description |
+|---|---|---|
+| `-dir` | `businesses` | root directory for candidate sub-dirs |
+
+### Option B – create manually
 
 1. Create `businesses/<slug>/data.json` using the schema below.
 2. Run `go run ./cmd/analyze` to see updated stats.
