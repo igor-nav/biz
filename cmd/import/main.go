@@ -58,12 +58,8 @@ type Provider interface {
 
 // registry is the ordered list of registered listing providers.
 // Add new providers here to extend support for additional sites.
-var registry []Provider
-
-func init() {
-	registry = []Provider{
-		&bizBuySellProvider{},
-	}
+var registry = []Provider{
+	&bizBuySellProvider{},
 }
 
 // ── main ──────────────────────────────────────────────────────────────────────

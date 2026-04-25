@@ -73,8 +73,8 @@ type Stats struct {
 	AnnualDebtSvc  float64
 
 	// Health ratios
-	DSCR        float64 // LatestSDE / AnnualDebtSvc  (≥ 1.25 required by SBA)
-	ROI         float64 // LatestSDE / DownPayment
+	DSCR         float64 // LatestSDE / AnnualDebtSvc  (≥ 1.25 required by SBA)
+	ROI          float64 // LatestSDE / DownPayment
 	PaybackYears float64 // DownPayment / LatestSDE
 
 	// Trend metrics (require ≥ 2 years of data)
@@ -83,11 +83,10 @@ type Stats struct {
 	SDEGrowth     float64 // YoY growth of the two most-recent years (fraction)
 }
 
-// latest returns the YearlyFigure with the highest year value.
-// Returns (0, false) when the slice is empty.
-func latest(figures []YearlyFigure) (float64, bool) {
+// latestFigure returns the YearlyFigure with the highest year value.
+func latestFigure(figures []YearlyFigure) (YearlyFigure, bool) {
 	if len(figures) == 0 {
-		return 0, false
+		return YearlyFigure{}, false
 	}
 	best := figures[0]
 	for _, f := range figures[1:] {
@@ -95,32 +94,18 @@ func latest(figures []YearlyFigure) (float64, bool) {
 			best = f
 		}
 	}
-	return best.Amount, true
+	return best, true
 }
 
-// prevOf returns the amount for the year immediately before maxYear.
-func prevOf(figures []YearlyFigure, maxYear int) (float64, bool) {
-	target := maxYear - 1
+// previousFigure returns the figure for the year immediately before current.
+func previousFigure(figures []YearlyFigure, current YearlyFigure) (YearlyFigure, bool) {
+	target := current.Year - 1
 	for _, f := range figures {
 		if f.Year == target {
-			return f.Amount, true
+			return f, true
 		}
 	}
-	return 0, false
-}
-
-// yearOf returns the year of the most recent YearlyFigure.
-func yearOf(figures []YearlyFigure) int {
-	if len(figures) == 0 {
-		return 0
-	}
-	best := figures[0]
-	for _, f := range figures[1:] {
-		if f.Year > best.Year {
-			best = f
-		}
-	}
-	return best.Year
+	return YearlyFigure{}, false
 }
 
 // monthlyPayment computes the fixed amortising payment for a loan.
@@ -144,8 +129,18 @@ func monthlyPayment(principal, annualRate float64, termYears int) float64 {
 func computeStats(slug string, b *Business, downPct, annualRate float64, termYears int) Stats {
 	s := Stats{Slug: slug, Biz: b}
 
-	s.LatestSDE, _ = latest(b.SDE)
-	s.LatestRevenue, _ = latest(b.Revenue)
+	if latestSDE, ok := latestFigure(b.SDE); ok {
+		s.LatestSDE = latestSDE.Amount
+		if prev, ok := previousFigure(b.SDE, latestSDE); ok && prev.Amount > 0 {
+			s.SDEGrowth = (latestSDE.Amount - prev.Amount) / prev.Amount
+		}
+	}
+	if latestRevenue, ok := latestFigure(b.Revenue); ok {
+		s.LatestRevenue = latestRevenue.Amount
+		if prev, ok := previousFigure(b.Revenue, latestRevenue); ok && prev.Amount > 0 {
+			s.RevenueGrowth = (latestRevenue.Amount - prev.Amount) / prev.Amount
+		}
+	}
 
 	if s.LatestSDE > 0 {
 		s.SDEMultiple = b.AskingPrice / s.LatestSDE
@@ -165,18 +160,6 @@ func computeStats(slug string, b *Business, downPct, annualRate float64, termYea
 	}
 	if s.LatestRevenue > 0 {
 		s.SDEMargin = s.LatestSDE / s.LatestRevenue
-	}
-
-	// YoY growth
-	revYear := yearOf(b.Revenue)
-	if prev, ok := prevOf(b.Revenue, revYear); ok && prev > 0 {
-		cur, _ := latest(b.Revenue)
-		s.RevenueGrowth = (cur - prev) / prev
-	}
-	sdeYear := yearOf(b.SDE)
-	if prev, ok := prevOf(b.SDE, sdeYear); ok && prev > 0 {
-		cur, _ := latest(b.SDE)
-		s.SDEGrowth = (cur - prev) / prev
 	}
 
 	return s
