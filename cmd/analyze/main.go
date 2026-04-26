@@ -73,8 +73,8 @@ type Stats struct {
 	AnnualDebtSvc  float64
 
 	// Health ratios
-	DSCR         float64 // LatestSDE / AnnualDebtSvc  (≥ 1.25 required by SBA)
-	ROI          float64 // LatestSDE / DownPayment
+	DSCR        float64 // LatestSDE / AnnualDebtSvc  (≥ 1.25 required by SBA)
+	ROI         float64 // LatestSDE / DownPayment
 	PaybackYears float64 // DownPayment / LatestSDE
 
 	// Trend metrics (require ≥ 2 years of data)
