@@ -18,12 +18,15 @@ Research repo for finding a small business to buy.
 businesses/
   <slug>/          ← one directory per candidate
     data.json      ← financials + notes (schema below)
+research/
+  *.md             ← supporting market, lender, broker, and diligence notes
 cmd/
   analyze/
     main.go        ← stats tool
   import/
     main.go        ← import a listing from a URL
     bizbuysell.go  ← BizBuySell provider
+    generic_listing.go ← shared broker-page parser
 go.mod
 ```
 
@@ -42,9 +45,13 @@ fields that could not be scraped automatically (e.g. multi-year financials,
 
 **Supported providers**
 
-| Provider | Example URL |
+| Provider | URL notes |
 |---|---|
 | BizBuySell | `https://www.bizbuysell.com/Business-Opportunity/…/1234567/` |
+| BizQuest | Detail listing pages on `bizquest.com`; search/results pages are rejected |
+| BusinessMart | Detail listing pages on `businessmart.com`; search/results pages are rejected |
+| Truforte | Detail listing pages on `trufortebusinessgroup.com`; search/results pages are rejected |
+| KMF Business Advisors | Detail listing pages on `kmfbusinessadvisors.com`; search/results pages are rejected |
 
 **Flags**
 

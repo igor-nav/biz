@@ -60,6 +60,30 @@ type Provider interface {
 // Add new providers here to extend support for additional sites.
 var registry = []Provider{
 	&bizBuySellProvider{},
+	&genericSiteProvider{
+		siteName:        "BizQuest",
+		slugPrefix:      "bizquest",
+		hosts:           []string{"bizquest.com"},
+		searchPathHints: []string{"businesses-for-sale-in-", "-businesses-for-sale-in-"},
+	},
+	&genericSiteProvider{
+		siteName:        "BusinessMart",
+		slugPrefix:      "businessmart",
+		hosts:           []string{"businessmart.com"},
+		searchPathHints: []string{"businesses-for-sale/florida/"},
+	},
+	&genericSiteProvider{
+		siteName:        "Truforte",
+		slugPrefix:      "truforte",
+		hosts:           []string{"trufortebusinessgroup.com", "truforte.com"},
+		searchPathHints: []string{"property-management-businesses-for-sale", "bbf-sba-lender-pre-qualified"},
+	},
+	&genericSiteProvider{
+		siteName:        "KMF Business Advisors",
+		slugPrefix:      "kmf",
+		hosts:           []string{"kmfbusinessadvisors.com"},
+		searchPathHints: []string{"sba-approved-businesses-for-sale"},
+	},
 }
 
 // ── main ──────────────────────────────────────────────────────────────────────
@@ -71,6 +95,10 @@ func main() {
 		flag.PrintDefaults()
 		fmt.Fprintln(os.Stderr, "\nSupported providers:")
 		fmt.Fprintln(os.Stderr, "  BizBuySell  (bizbuysell.com)")
+		fmt.Fprintln(os.Stderr, "  BizQuest    (bizquest.com)")
+		fmt.Fprintln(os.Stderr, "  BusinessMart (businessmart.com)")
+		fmt.Fprintln(os.Stderr, "  Truforte    (trufortebusinessgroup.com)")
+		fmt.Fprintln(os.Stderr, "  KMF Business Advisors (kmfbusinessadvisors.com)")
 	}
 	flag.Parse()
 

@@ -38,9 +38,9 @@ func (p *bizBuySellProvider) Fetch(rawURL string) (*Business, string, error) {
 
 	biz := &Business{URL: rawURL}
 
-	parseNextData(body, biz)  // Next.js embedded JSON (most reliable)
-	parseJSONLD(body, biz)    // JSON-LD structured data
-	parseBBSHTML(body, biz)   // HTML regex fallbacks
+	parseNextData(body, biz) // Next.js embedded JSON (most reliable)
+	parseJSONLD(body, biz)   // JSON-LD structured data
+	parseBBSHTML(body, biz)  // HTML regex fallbacks
 
 	slug := bizBuySellSlug(rawURL, biz.Name)
 	return biz, slug, nil
@@ -448,11 +448,67 @@ func bestFinancialYear(text string) int {
 
 // ── helpers ───────────────────────────────────────────────────────────────────
 
-// parseDollar converts "$1,250,000" or "1250000" to float64.
+// parseDollar converts "$1,250,000", "$39.5K", or "$400-600K" to float64.
+// Ranges return their midpoint so estimated listing ranges remain sortable.
 func parseDollar(s string) float64 {
-	s = strings.ReplaceAll(strings.TrimSpace(s), ",", "")
+	s = strings.ToLower(strings.TrimSpace(s))
+	replacer := strings.NewReplacer(
+		"$", "",
+		",", "",
+		"~", "",
+		"estimated", "",
+		"est.", "",
+		"est", "",
+		"\u2013", "-",
+		"\u2014", "-",
+	)
+	s = strings.TrimSpace(replacer.Replace(s))
+	s = strings.ReplaceAll(s, " to ", "-")
+
+	if strings.Contains(s, "-") {
+		parts := strings.SplitN(s, "-", 2)
+		suffix := moneySuffix(parts[1])
+		low := parseSingleDollar(parts[0], suffix)
+		high := parseSingleDollar(parts[1], suffix)
+		if low > 0 && high > 0 {
+			return (low + high) / 2
+		}
+	}
+
+	return parseSingleDollar(s, "")
+}
+
+func parseSingleDollar(s, fallbackSuffix string) float64 {
+	s = strings.Trim(strings.TrimSpace(s), " +")
+	suffix := moneySuffix(s)
+	if suffix == "" {
+		suffix = fallbackSuffix
+	} else {
+		s = strings.TrimSpace(s[:len(s)-1])
+	}
+
 	v, _ := strconv.ParseFloat(s, 64)
-	return v
+	switch suffix {
+	case "k":
+		return v * 1_000
+	case "m":
+		return v * 1_000_000
+	default:
+		return v
+	}
+}
+
+func moneySuffix(s string) string {
+	s = strings.Trim(strings.TrimSpace(s), " +")
+	if s == "" {
+		return ""
+	}
+	switch s[len(s)-1] {
+	case 'k', 'm':
+		return string(s[len(s)-1])
+	default:
+		return ""
+	}
 }
 
 // htmlUnescape replaces common HTML entities.

@@ -1,0 +1,23 @@
+{
+  "name": "Property Management Company",
+  "type": "Property Management",
+  "location": "Coral Springs, FL",
+  "url": "https://trufortebusinessgroup.com/property-management-businesses-for-sale/",
+  "asking_price": 275000,
+  "revenue": [],
+  "sde": [
+    {
+      "year": 2026,
+      "amount": 114000
+    }
+  ],
+  "inventory": 0,
+  "ffe": 0,
+  "real_estate": "unknown",
+  "lease_monthly": 0,
+  "years_in_business": 40,
+  "employees": 0,
+  "reason_for_selling": "",
+  "ai_opportunity": "Automated tenant screening, predictive maintenance, dynamic pricing, smart lock integration, automated lease generation, and AI chatbot support for tenant inquiries.",
+  "notes": "Imported from AlexNaHub shared research updated 2026-04-26. Ranked #1 for AI/IT improvement potential. Notes cite 40-year goodwill, low recession risk, and very high scalability. Cash flow shown as approximately $114K/year."
+}
