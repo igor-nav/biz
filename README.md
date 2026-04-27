@@ -2,6 +2,8 @@
 
 Research repo for finding a small business to buy.
 
+Current ranked research report: [REPORT.md](REPORT.md)
+
 ## Acquisition criteria
 
 | Criterion | Target |
@@ -27,6 +29,9 @@ cmd/
     main.go        ← import a listing from a URL
     bizbuysell.go  ← BizBuySell provider
     generic_listing.go ← shared broker-page parser
+  report/
+    main.go        ← generate REPORT.md
+    score.go       ← heuristic quality scoring rules
 go.mod
 ```
 
@@ -132,3 +137,12 @@ go run ./cmd/analyze -down 20 -rate 11.0 -term 10
 | DSCR | `SDE / annual_debt_service` – SBA requires ≥ 1.25 |
 | ROI on down payment | `SDE / down_payment` |
 | Payback period | `down_payment / SDE` |
+
+## Generating the report
+
+```sh
+go run ./cmd/report
+```
+
+This rewrites `REPORT.md` with the current candidate list ordered by decreasing
+quality score.
