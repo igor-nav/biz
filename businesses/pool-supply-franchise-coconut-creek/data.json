@@ -2,7 +2,7 @@
     "name":  "Pool Supply Franchise (#1 brand)",
     "type":  "Pool Supply Franchise",
     "location":  "Coconut Creek, FL",
-    "url":  "https://www.businessmart.com/businesses-for-sale/florida/broward-county.php",
+    "url":  "https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/",
     "asking_price":  695000,
     "revenue":  [
 
@@ -20,10 +20,26 @@
     "ai_opportunity":  "Route optimization AI, predictive maintenance, IoT pool monitoring, and automated reordering.",
     "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.",
     "links":  {
-                  "source":  "https://www.businessmart.com/businesses-for-sale/florida/broward-county.php",
-                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Pool%20Supply%20Franchise%20in%20Coconut%20Creek%2C%20FL",
-                  "yelp":  "https://www.yelp.com/search?find_desc=Pool%20Supply%20Franchise\u0026find_loc=Coconut%20Creek%2C%20FL",
-                  "bbb":  "https://www.bbb.org/search?find_text=Pool%20Supply%20Franchise\u0026find_loc=Coconut%20Creek%2C%20FL",
-                  "web_reviews":  "https://www.google.com/search?q=Pool%20Supply%20Franchise%20(%231%20brand)%20Pool%20Supply%20Franchise%20Coconut%20Creek%2C%20FL%20reviews"
+                  "source":  "https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/",
+                  "website":  "https://pinchapenny.com/stores/coconut-creek-fl-150",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Pinch%20A%20Penny%20Pool%20Patio%20Spa%204420%20W%20Hillsboro%20Blvd%20Ste%20107%20Coconut%20Creek%20FL%2033073",
+                  "reviews":  [
+                                  {
+                                      "label":  "Birdeye",
+                                      "url":  "https://reviews.birdeye.com/pinch-a-penny-pool-patio-spa-166394679379172"
+                                  },
+                                  {
+                                      "label":  "Chamber",
+                                      "url":  "https://www.chamberofcommerce.com/business-directory/florida/coconut-creek/swimming-pool-supply-store/2007668496-pinch-a-penny-pool-patio-spa"
+                                  },
+                                  {
+                                      "label":  "YellowPages",
+                                      "url":  "https://www.yellowpages.com/coconut-creek-fl/mip/pinch-a-penny-pool-patio-spa-3091631"
+                                  },
+                                  {
+                                      "label":  "MapQuest",
+                                      "url":  "https://www.mapquest.com/us/florida/pinch-a-penny-pool-patio-spa-278833284"
+                                  }
+                              ]
               }
 }

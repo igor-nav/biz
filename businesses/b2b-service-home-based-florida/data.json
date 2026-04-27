@@ -2,7 +2,7 @@
     "name":  "B2B Service (Home-Based)",
     "type":  "B2B Service",
     "location":  "Florida",
-    "url":  "https://www.bizbuysell.com/florida-businesses-for-sale/",
+    "url":  "",
     "asking_price":  0,
     "revenue":  [
 
@@ -20,10 +20,6 @@
     "ai_opportunity":  "AI client onboarding, automated delivery, predictive upselling, and lead scoring.",
     "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Price was TBD and cash flow was described as 55-65% recurring with no numeric amount.",
     "links":  {
-                  "source":  "https://www.bizbuysell.com/florida-businesses-for-sale/",
-                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=B2B%20Service%20in%20Florida",
-                  "yelp":  "https://www.yelp.com/search?find_desc=B2B%20Service\u0026find_loc=Florida",
-                  "bbb":  "https://www.bbb.org/search?find_text=B2B%20Service\u0026find_loc=Florida",
-                  "web_reviews":  "https://www.google.com/search?q=B2B%20Service%20(Home-Based)%20B2B%20Service%20Florida%20reviews"
+
               }
 }

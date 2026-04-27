@@ -14,26 +14,26 @@ Scoring assumptions: 10% down, 10.50% annual interest, 10-year SBA term. Scores 
 
 | Score | Business | Location | Asking | SDE | DSCR | SDE Multiple | Links |
 |---:|---|---|---:|---:|---:|---:|---|
-| 79.2 | [Established Pool Service Route - South Florida](businesses/established-pool-service-route-south-florida-2312834/data.json) | Deerfield Beach, FL | $485,000 | $148,000 | 2.09 | 3.28 | [Source](https://www.bizbuysell.com/Business-Opportunity/established-pool-service-route-south-florida/2312834/) [Maps](https://www.google.com/maps/search/?api=1&query=Pool%20Service%20%2F%20Maintenance%20in%20Deerfield%20Beach%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Pool%20Service%20%2F%20Maintenance&find_loc=Deerfield%20Beach%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Pool%20Service%20%2F%20Maintenance&find_loc=Deerfield%20Beach%2C%20FL) [Web](https://www.google.com/search?q=Established%20Pool%20Service%20Route%20-%20South%20Florida%20Pool%20Service%20%2F%20Maintenance%20Deerfield%20Beach%2C%20FL%20reviews) |
-| 74.6 | [Property Management Company](businesses/property-management-company-coral-springs/data.json) | Coral Springs, FL | $275,000 | $114,000 | 2.84 | 2.41 | [Source](https://trufortebusinessgroup.com/property-management-businesses-for-sale/) [Maps](https://www.google.com/maps/search/?api=1&query=Property%20Management%20in%20Coral%20Springs%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Property%20Management&find_loc=Coral%20Springs%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Property%20Management&find_loc=Coral%20Springs%2C%20FL) [Web](https://www.google.com/search?q=Property%20Management%20Company%20Property%20Management%20Coral%20Springs%2C%20FL%20reviews) |
-| 63.2 | [Example IT Managed Services](businesses/example/data.json) | Austin, TX | $750,000 | $195,000 | 1.78 | 3.85 | [Source](https://bizbuysell.com/listing/example) [Maps](https://www.google.com/maps/search/?api=1&query=IT%20Managed%20Services%20%2F%20MSP%20in%20Austin%2C%20TX) [Yelp](https://www.yelp.com/search?find_desc=IT%20Managed%20Services%20%2F%20MSP&find_loc=Austin%2C%20TX) [BBB](https://www.bbb.org/search?find_text=IT%20Managed%20Services%20%2F%20MSP&find_loc=Austin%2C%20TX) [Web](https://www.google.com/search?q=Example%20IT%20Managed%20Services%20IT%20Managed%20Services%20%2F%20MSP%20Austin%2C%20TX%20reviews) |
-| 53.1 | [Pest Control Business](businesses/pest-control-business-tampa-hillsborough/data.json) | Tampa / Hillsborough County, FL | $450,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/pest-control-businesses-for-sale-in-florida/) [Maps](https://www.google.com/maps/search/?api=1&query=Pest%20Control%20in%20Tampa%20%2F%20Hillsborough%20County%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Pest%20Control&find_loc=Tampa%20%2F%20Hillsborough%20County%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Pest%20Control&find_loc=Tampa%20%2F%20Hillsborough%20County%2C%20FL) [Web](https://www.google.com/search?q=Pest%20Control%20Business%20Pest%20Control%20Tampa%20%2F%20Hillsborough%20County%2C%20FL%20reviews) |
-| 48.7 | [Commercial Cleaning (Established)](businesses/commercial-cleaning-orlando-tampa/data.json) | Orlando / Tampa, FL | $400,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/florida/orlando/service-businesses-for-sale/) [Maps](https://www.google.com/maps/search/?api=1&query=Commercial%20Cleaning%20in%20Orlando%20%2F%20Tampa%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Commercial%20Cleaning&find_loc=Orlando%20%2F%20Tampa%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Commercial%20Cleaning&find_loc=Orlando%20%2F%20Tampa%2C%20FL) [Web](https://www.google.com/search?q=Commercial%20Cleaning%20(Established)%20Commercial%20Cleaning%20Orlando%20%2F%20Tampa%2C%20FL%20reviews) |
-| 46.4 | [Computer Repair and Device Sales](businesses/computer-repair-device-sales-sunrise/data.json) | Sunrise, FL | $100,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/) [Maps](https://www.google.com/maps/search/?api=1&query=Computer%20Repair%20%2F%20Device%20Sales%20in%20Sunrise%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Computer%20Repair%20%2F%20Device%20Sales&find_loc=Sunrise%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Computer%20Repair%20%2F%20Device%20Sales&find_loc=Sunrise%2C%20FL) [Web](https://www.google.com/search?q=Computer%20Repair%20and%20Device%20Sales%20Computer%20Repair%20%2F%20Device%20Sales%20Sunrise%2C%20FL%20reviews) |
-| 44.9 | [Landscaping / Maintenance](businesses/landscaping-maintenance-tampa-bay/data.json) | Tampa Bay, FL | $550,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/florida-businesses-for-sale/) [Maps](https://www.google.com/maps/search/?api=1&query=Landscaping%20%2F%20Maintenance%20in%20Tampa%20Bay%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Landscaping%20%2F%20Maintenance&find_loc=Tampa%20Bay%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Landscaping%20%2F%20Maintenance&find_loc=Tampa%20Bay%2C%20FL) [Web](https://www.google.com/search?q=Landscaping%20%2F%20Maintenance%20Landscaping%20%2F%20Maintenance%20Tampa%20Bay%2C%20FL%20reviews) |
-| 42.6 | [Pool Supply Franchise (#1 brand)](businesses/pool-supply-franchise-coconut-creek/data.json) | Coconut Creek, FL | $695,000 | TBD | TBD | TBD | [Source](https://www.businessmart.com/businesses-for-sale/florida/broward-county.php) [Maps](https://www.google.com/maps/search/?api=1&query=Pool%20Supply%20Franchise%20in%20Coconut%20Creek%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Pool%20Supply%20Franchise&find_loc=Coconut%20Creek%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Pool%20Supply%20Franchise&find_loc=Coconut%20Creek%2C%20FL) [Web](https://www.google.com/search?q=Pool%20Supply%20Franchise%20(%231%20brand)%20Pool%20Supply%20Franchise%20Coconut%20Creek%2C%20FL%20reviews) |
-| 41.6 | [SBA Pre-Qualified Amazon FBA Business](businesses/sba-prequalified-amazon-fba-tampa/data.json) | Tampa, FL | $400,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/) [Maps](https://www.google.com/maps/search/?api=1&query=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands%20in%20Tampa%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands&find_loc=Tampa%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands&find_loc=Tampa%2C%20FL) [Web](https://www.google.com/search?q=SBA%20Pre-Qualified%20Amazon%20FBA%20Business%20Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands%20Tampa%2C%20FL%20reviews) |
-| 41.1 | [Auto Repair and Tire Shop](businesses/auto-repair-tire-shop-miami-dade/data.json) | Miami-Dade County, FL | $500,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/florida/miami-dade-county/auto-repair-and-service-shops-for-sale/) [Maps](https://www.google.com/maps/search/?api=1&query=Auto%20Repair%20%2F%20Tire%20Shop%20in%20Miami-Dade%20County%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Auto%20Repair%20%2F%20Tire%20Shop&find_loc=Miami-Dade%20County%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Auto%20Repair%20%2F%20Tire%20Shop&find_loc=Miami-Dade%20County%2C%20FL) [Web](https://www.google.com/search?q=Auto%20Repair%20and%20Tire%20Shop%20Auto%20Repair%20%2F%20Tire%20Shop%20Miami-Dade%20County%2C%20FL%20reviews) |
-| 39.6 | [Telehealth Business - Turnkey](businesses/telehealth-business-turnkey-fort-lauderdale/data.json) | Fort Lauderdale, FL | $100,000 | TBD | TBD | TBD | [Source](https://www.businessmart.com/businesses-for-sale/florida/broward-county.php) [Maps](https://www.google.com/maps/search/?api=1&query=Telehealth%20in%20Fort%20Lauderdale%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Telehealth&find_loc=Fort%20Lauderdale%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Telehealth&find_loc=Fort%20Lauderdale%2C%20FL) [Web](https://www.google.com/search?q=Telehealth%20Business%20-%20Turnkey%20Telehealth%20Fort%20Lauderdale%2C%20FL%20reviews) |
-| 38.9 | [Promotional Products Franchise](businesses/promotional-products-franchise-broward/data.json) | Broward County, FL | $39,500 | TBD | TBD | TBD | [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/) [Maps](https://www.google.com/maps/search/?api=1&query=Promotional%20Products%20Franchise%20in%20Broward%20County%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Promotional%20Products%20Franchise&find_loc=Broward%20County%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Promotional%20Products%20Franchise&find_loc=Broward%20County%2C%20FL) [Web](https://www.google.com/search?q=Promotional%20Products%20Franchise%20Promotional%20Products%20Franchise%20Broward%20County%2C%20FL%20reviews) |
-| 36.6 | [Lucrative Consulting Business](businesses/lucrative-consulting-business-broward/data.json) | Broward County, FL | $55,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/) [Maps](https://www.google.com/maps/search/?api=1&query=Consulting%20in%20Broward%20County%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Consulting&find_loc=Broward%20County%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Consulting&find_loc=Broward%20County%2C%20FL) [Web](https://www.google.com/search?q=Lucrative%20Consulting%20Business%20Consulting%20Broward%20County%2C%20FL%20reviews) |
-| 35.9 | [Med Spa - Absentee Owner](businesses/med-spa-absentee-owner-fort-lauderdale/data.json) | Fort Lauderdale, FL | $700,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/) [Maps](https://www.google.com/maps/search/?api=1&query=Med%20Spa%20in%20Fort%20Lauderdale%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Med%20Spa&find_loc=Fort%20Lauderdale%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Med%20Spa&find_loc=Fort%20Lauderdale%2C%20FL) [Web](https://www.google.com/search?q=Med%20Spa%20-%20Absentee%20Owner%20Med%20Spa%20Fort%20Lauderdale%2C%20FL%20reviews) |
-| 34.4 | [Auto Body Shop - Turnkey](businesses/auto-body-shop-turnkey-broward/data.json) | Broward County, FL | $390,000 | TBD | TBD | TBD | [Source](https://www.businessmart.com/businesses-for-sale/florida/broward-county.php) [Maps](https://www.google.com/maps/search/?api=1&query=Auto%20Body%20%2F%20Collision%20Repair%20in%20Broward%20County%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Auto%20Body%20%2F%20Collision%20Repair&find_loc=Broward%20County%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Auto%20Body%20%2F%20Collision%20Repair&find_loc=Broward%20County%2C%20FL) [Web](https://www.google.com/search?q=Auto%20Body%20Shop%20-%20Turnkey%20Auto%20Body%20%2F%20Collision%20Repair%20Broward%20County%2C%20FL%20reviews) |
-| 34.4 | [Commissary / Commercial Kitchen](businesses/commissary-commercial-kitchen-broward/data.json) | Broward County, FL | $495,000 | TBD | TBD | TBD | [Source](https://www.businessmart.com/businesses-for-sale/florida/broward-county.php) [Maps](https://www.google.com/maps/search/?api=1&query=Commercial%20Kitchen%20%2F%20Commissary%20in%20Broward%20County%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Commercial%20Kitchen%20%2F%20Commissary&find_loc=Broward%20County%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Commercial%20Kitchen%20%2F%20Commissary&find_loc=Broward%20County%2C%20FL) [Web](https://www.google.com/search?q=Commissary%20%2F%20Commercial%20Kitchen%20Commercial%20Kitchen%20%2F%20Commissary%20Broward%20County%2C%20FL%20reviews) |
-| 34.1 | [Faith / Educational Streaming Platform](businesses/faith-educational-streaming-platform-fort-lauderdale/data.json) | Fort Lauderdale, FL | $1,000,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/) [Maps](https://www.google.com/maps/search/?api=1&query=Streaming%20Platform%20%2F%20SaaS%20in%20Fort%20Lauderdale%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Streaming%20Platform%20%2F%20SaaS&find_loc=Fort%20Lauderdale%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Streaming%20Platform%20%2F%20SaaS&find_loc=Fort%20Lauderdale%2C%20FL) [Web](https://www.google.com/search?q=Faith%20%2F%20Educational%20Streaming%20Platform%20Streaming%20Platform%20%2F%20SaaS%20Fort%20Lauderdale%2C%20FL%20reviews) |
-| 29.0 | [Secure Shredding and Document Storage](businesses/secure-shredding-document-storage-davie/data.json) | Davie, FL | $1,450,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/) [Maps](https://www.google.com/maps/search/?api=1&query=Secure%20Shredding%20%2F%20Document%20Storage%20in%20Davie%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=Secure%20Shredding%20%2F%20Document%20Storage&find_loc=Davie%2C%20FL) [BBB](https://www.bbb.org/search?find_text=Secure%20Shredding%20%2F%20Document%20Storage&find_loc=Davie%2C%20FL) [Web](https://www.google.com/search?q=Secure%20Shredding%20and%20Document%20Storage%20Secure%20Shredding%20%2F%20Document%20Storage%20Davie%2C%20FL%20reviews) |
-| 26.9 | [B2B Service (Home-Based)](businesses/b2b-service-home-based-florida/data.json) | Florida | TBD | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/florida-businesses-for-sale/) [Maps](https://www.google.com/maps/search/?api=1&query=B2B%20Service%20in%20Florida) [Yelp](https://www.yelp.com/search?find_desc=B2B%20Service&find_loc=Florida) [BBB](https://www.bbb.org/search?find_text=B2B%20Service&find_loc=Florida) [Web](https://www.google.com/search?q=B2B%20Service%20(Home-Based)%20B2B%20Service%20Florida%20reviews) |
-| 24.9 | [SBA Pre-Qualified eCom Jewelry Brand](businesses/sba-prequalified-ecom-jewelry-brand-tampa/data.json) | Tampa, FL | TBD | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-ecom-brand-jewelry-memberships-70-arr/2439164/) [Maps](https://www.google.com/maps/search/?api=1&query=E-Commerce%20Jewelry%20Brand%20in%20Tampa%2C%20FL) [Yelp](https://www.yelp.com/search?find_desc=E-Commerce%20Jewelry%20Brand&find_loc=Tampa%2C%20FL) [BBB](https://www.bbb.org/search?find_text=E-Commerce%20Jewelry%20Brand&find_loc=Tampa%2C%20FL) [Web](https://www.google.com/search?q=SBA%20Pre-Qualified%20eCom%20Jewelry%20Brand%20E-Commerce%20Jewelry%20Brand%20Tampa%2C%20FL%20reviews) |
+| 78.2 | [Established Pool Service Route - South Florida](businesses/established-pool-service-route-south-florida-2312834/data.json) | Deerfield Beach, FL | $485,000 | $148,000 | 2.09 | 3.28 |  |
+| 73.6 | [Property Management Company](businesses/property-management-company-coral-springs/data.json) | Coral Springs, FL | $275,000 | $114,000 | 2.84 | 2.41 |  |
+| 62.2 | [Example IT Managed Services](businesses/example/data.json) | Austin, TX | $750,000 | $195,000 | 1.78 | 3.85 |  |
+| 52.1 | [Pest Control Business](businesses/pest-control-business-tampa-hillsborough/data.json) | Tampa / Hillsborough County, FL | $450,000 | TBD | TBD | TBD |  |
+| 47.7 | [Commercial Cleaning (Established)](businesses/commercial-cleaning-orlando-tampa/data.json) | Orlando / Tampa, FL | $400,000 | TBD | TBD | TBD |  |
+| 46.4 | [Computer Repair and Device Sales](businesses/computer-repair-device-sales-sunrise/data.json) | Sunrise, FL | $100,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/) |
+| 43.9 | [Landscaping / Maintenance](businesses/landscaping-maintenance-tampa-bay/data.json) | Tampa Bay, FL | $550,000 | TBD | TBD | TBD |  |
+| 42.6 | [Pool Supply Franchise (#1 brand)](businesses/pool-supply-franchise-coconut-creek/data.json) | Coconut Creek, FL | $695,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/) [Website](https://pinchapenny.com/stores/coconut-creek-fl-150) [Maps](https://www.google.com/maps/search/?api=1&query=Pinch%20A%20Penny%20Pool%20Patio%20Spa%204420%20W%20Hillsboro%20Blvd%20Ste%20107%20Coconut%20Creek%20FL%2033073) [Birdeye](https://reviews.birdeye.com/pinch-a-penny-pool-patio-spa-166394679379172) [Chamber](https://www.chamberofcommerce.com/business-directory/florida/coconut-creek/swimming-pool-supply-store/2007668496-pinch-a-penny-pool-patio-spa) [YellowPages](https://www.yellowpages.com/coconut-creek-fl/mip/pinch-a-penny-pool-patio-spa-3091631) [MapQuest](https://www.mapquest.com/us/florida/pinch-a-penny-pool-patio-spa-278833284) |
+| 41.6 | [SBA Pre-Qualified Amazon FBA Business](businesses/sba-prequalified-amazon-fba-tampa/data.json) | Tampa, FL | $400,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/) |
+| 40.1 | [Auto Repair and Tire Shop](businesses/auto-repair-tire-shop-miami-dade/data.json) | Miami-Dade County, FL | $500,000 | TBD | TBD | TBD |  |
+| 39.6 | [Telehealth Business - Turnkey](businesses/telehealth-business-turnkey-fort-lauderdale/data.json) | Fort Lauderdale, FL | $100,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/Business-Opportunity/established-turnkey-telehealth-business-for-sale/2268825/) |
+| 38.9 | [Promotional Products Franchise](businesses/promotional-products-franchise-broward/data.json) | Broward County, FL | $39,500 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/) |
+| 36.6 | [Lucrative Consulting Business](businesses/lucrative-consulting-business-broward/data.json) | Broward County, FL | $55,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/lucrative-consulting-business/2482841/) |
+| 34.9 | [Med Spa - Absentee Owner](businesses/med-spa-absentee-owner-fort-lauderdale/data.json) | Fort Lauderdale, FL | $700,000 | TBD | TBD | TBD |  |
+| 34.4 | [Auto Body Shop - Turnkey](businesses/auto-body-shop-turnkey-broward/data.json) | Broward County, FL | $390,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-asset/premier-south-florida-auto-body-shop-high-growth-potential/2228786/) |
+| 34.4 | [Commissary / Commercial Kitchen](businesses/commissary-commercial-kitchen-broward/data.json) | Broward County, FL | $495,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-asset/commissary-kitchen-commercial-kitchen-usda-kitchen/2465883/) |
+| 34.1 | [Faith / Educational Streaming Platform](businesses/faith-educational-streaming-platform-fort-lauderdale/data.json) | Fort Lauderdale, FL | $1,000,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/faith-educational-social-white-label-streaming-platform/2377395/) |
+| 29.0 | [Secure Shredding and Document Storage](businesses/secure-shredding-document-storage-davie/data.json) | Davie, FL | $1,450,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/) |
+| 25.9 | [B2B Service (Home-Based)](businesses/b2b-service-home-based-florida/data.json) | Florida | TBD | TBD | TBD | TBD |  |
+| 24.9 | [SBA Pre-Qualified eCom Jewelry Brand](businesses/sba-prequalified-ecom-jewelry-brand-tampa/data.json) | Tampa, FL | TBD | TBD | TBD | TBD | [Source](https://www.websiteclosers.com/businesses/sba-pre-qualified-ecommerce-brand-jewelry-memberships-70-arr-3-400-active-members-180-000-social-media-followers-9-year-business/117008/) |
 
 ## Scoring Model
 
@@ -49,74 +49,64 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 
 ## Candidate Notes
 
-### 1. Established Pool Service Route - South Florida - 79.2
+### 1. Established Pool Service Route - South Florida - 78.2
 
 - Slug: `established-pool-service-route-south-florida-2312834`
 - Type: Pool Service / Maintenance
 - Location: Deerfield Beach, FL
-- Source: <https://www.bizbuysell.com/Business-Opportunity/established-pool-service-route-south-florida/2312834/>
-- Links: [Source](https://www.bizbuysell.com/Business-Opportunity/established-pool-service-route-south-florida/2312834/), [Maps](https://www.google.com/maps/search/?api=1&query=Pool%20Service%20%2F%20Maintenance%20in%20Deerfield%20Beach%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Pool%20Service%20%2F%20Maintenance&find_loc=Deerfield%20Beach%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Pool%20Service%20%2F%20Maintenance&find_loc=Deerfield%20Beach%2C%20FL), [Web](https://www.google.com/search?q=Established%20Pool%20Service%20Route%20-%20South%20Florida%20Pool%20Service%20%2F%20Maintenance%20Deerfield%20Beach%2C%20FL%20reviews)
 - Asking price: $485,000; down payment at 10%: $48,500
 - Latest SDE: $148,000; latest revenue: $420,000; DSCR: 2.09; SDE multiple: 3.28
-- Score breakdown: financial 28.0, AI/IT 13.8, budget 18.0, recurring 9.4, data 10.0
+- Score breakdown: financial 28.0, AI/IT 13.8, budget 18.0, recurring 9.4, data 9.0
 - Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; asking price fits the target budget; recurring or defensible revenue signals
 - AI opportunity: Automate route scheduling and customer communication; add AI-based water-chemistry monitoring upsell for smart-pool customers
 - Notes: Profitable pool cleaning and maintenance route with 120+ residential and commercial accounts in Broward County. Accounts are contracted; strong recurring revenue. Includes 2 service vans, all equipment, and chemicals inventory. New owner can immediately add commercial accounts.
 
-### 2. Property Management Company - 74.6
+### 2. Property Management Company - 73.6
 
 - Slug: `property-management-company-coral-springs`
 - Type: Property Management
 - Location: Coral Springs, FL
-- Source: <https://trufortebusinessgroup.com/property-management-businesses-for-sale/>
-- Links: [Source](https://trufortebusinessgroup.com/property-management-businesses-for-sale/), [Maps](https://www.google.com/maps/search/?api=1&query=Property%20Management%20in%20Coral%20Springs%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Property%20Management&find_loc=Coral%20Springs%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Property%20Management&find_loc=Coral%20Springs%2C%20FL), [Web](https://www.google.com/search?q=Property%20Management%20Company%20Property%20Management%20Coral%20Springs%2C%20FL%20reviews)
 - Asking price: $275,000; down payment at 10%: $27,500
 - Latest SDE: $114,000; latest revenue: TBD; DSCR: 2.84; SDE multiple: 2.41
-- Score breakdown: financial 26.0, AI/IT 16.8, budget 18.0, recurring 5.8, data 8.0
+- Score breakdown: financial 26.0, AI/IT 16.8, budget 18.0, recurring 5.8, data 7.0
 - Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; asking price fits the target budget
 - Open questions: revenue is missing; real-estate/lease status is unknown
 - AI opportunity: Automated tenant screening, predictive maintenance, dynamic pricing, smart lock integration, automated lease generation, and AI chatbot support for tenant inquiries.
 - Notes: Imported from AlexNaHub shared research updated 2026-04-26. Ranked #1 for AI/IT improvement potential. Notes cite 40-year goodwill, low recession risk, and very high scalability. Cash flow shown as approximately $114K/year.
 
-### 3. Example IT Managed Services - 63.2
+### 3. Example IT Managed Services - 62.2
 
 - Slug: `example`
 - Type: IT Managed Services / MSP
 - Location: Austin, TX
-- Source: <https://bizbuysell.com/listing/example>
-- Links: [Source](https://bizbuysell.com/listing/example), [Maps](https://www.google.com/maps/search/?api=1&query=IT%20Managed%20Services%20%2F%20MSP%20in%20Austin%2C%20TX), [Yelp](https://www.yelp.com/search?find_desc=IT%20Managed%20Services%20%2F%20MSP&find_loc=Austin%2C%20TX), [BBB](https://www.bbb.org/search?find_text=IT%20Managed%20Services%20%2F%20MSP&find_loc=Austin%2C%20TX), [Web](https://www.google.com/search?q=Example%20IT%20Managed%20Services%20IT%20Managed%20Services%20%2F%20MSP%20Austin%2C%20TX%20reviews)
 - Asking price: $750,000; down payment at 10%: $75,000
 - Latest SDE: $195,000; latest revenue: $620,000; DSCR: 1.78; SDE multiple: 3.85
-- Score breakdown: financial 24.0, AI/IT 9.4, budget 15.0, recurring 4.8, data 10.0
+- Score breakdown: financial 24.0, AI/IT 9.4, budget 15.0, recurring 4.8, data 9.0
 - Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple
 - AI opportunity: Automate tier-1 helpdesk with AI agents; upsell AI-readiness assessments to SMB clients
 - Notes: Recurring revenue ~70% of total. Strong SMB client base. Owner will train for 90 days.
 
-### 4. Pest Control Business - 53.1
+### 4. Pest Control Business - 52.1
 
 - Slug: `pest-control-business-tampa-hillsborough`
 - Type: Pest Control
 - Location: Tampa / Hillsborough County, FL
-- Source: <https://www.bizquest.com/pest-control-businesses-for-sale-in-florida/>
-- Links: [Source](https://www.bizquest.com/pest-control-businesses-for-sale-in-florida/), [Maps](https://www.google.com/maps/search/?api=1&query=Pest%20Control%20in%20Tampa%20%2F%20Hillsborough%20County%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Pest%20Control&find_loc=Tampa%20%2F%20Hillsborough%20County%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Pest%20Control&find_loc=Tampa%20%2F%20Hillsborough%20County%2C%20FL), [Web](https://www.google.com/search?q=Pest%20Control%20Business%20Pest%20Control%20Tampa%20%2F%20Hillsborough%20County%2C%20FL%20reviews)
 - Asking price: $450,000; down payment at 10%: $45,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 21.2, budget 18.0, recurring 6.9, data 4.0
+- Score breakdown: financial 3.0, AI/IT 21.2, budget 18.0, recurring 6.9, data 3.0
 - Positive signals: asking price fits the target budget; strong AI/IT improvement surface
 - Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
 - AI opportunity: AI route optimization, predictive treatment modeling, automated customer portal, drone property inspection, and AI-powered upselling.
 - Notes: Imported from AlexNaHub shared research updated 2026-04-26. Ranked #2 for AI/IT improvement potential. Shared document listed price as $300-600K estimate and cash flow as strong recurring; midpoint $450K is used for analyzer sorting until exact broker data is available.
 
-### 5. Commercial Cleaning (Established) - 48.7
+### 5. Commercial Cleaning (Established) - 47.7
 
 - Slug: `commercial-cleaning-orlando-tampa`
 - Type: Commercial Cleaning
 - Location: Orlando / Tampa, FL
-- Source: <https://www.bizbuysell.com/florida/orlando/service-businesses-for-sale/>
-- Links: [Source](https://www.bizbuysell.com/florida/orlando/service-businesses-for-sale/), [Maps](https://www.google.com/maps/search/?api=1&query=Commercial%20Cleaning%20in%20Orlando%20%2F%20Tampa%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Commercial%20Cleaning&find_loc=Orlando%20%2F%20Tampa%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Commercial%20Cleaning&find_loc=Orlando%20%2F%20Tampa%2C%20FL), [Web](https://www.google.com/search?q=Commercial%20Cleaning%20(Established)%20Commercial%20Cleaning%20Orlando%20%2F%20Tampa%2C%20FL%20reviews)
 - Asking price: $400,000; down payment at 10%: $40,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 16.8, budget 18.0, recurring 6.9, data 4.0
+- Score breakdown: financial 3.0, AI/IT 16.8, budget 18.0, recurring 6.9, data 3.0
 - Positive signals: asking price fits the target budget
 - Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
 - AI opportunity: Route optimization, automated scheduling, IoT supply tracking, and AI quality control cameras.
@@ -127,8 +117,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `computer-repair-device-sales-sunrise`
 - Type: Computer Repair / Device Sales
 - Location: Sunrise, FL
-- Source: <https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/>
-- Links: [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/), [Maps](https://www.google.com/maps/search/?api=1&query=Computer%20Repair%20%2F%20Device%20Sales%20in%20Sunrise%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Computer%20Repair%20%2F%20Device%20Sales&find_loc=Sunrise%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Computer%20Repair%20%2F%20Device%20Sales&find_loc=Sunrise%2C%20FL), [Web](https://www.google.com/search?q=Computer%20Repair%20and%20Device%20Sales%20Computer%20Repair%20%2F%20Device%20Sales%20Sunrise%2C%20FL%20reviews)
+- Links: [Source](https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/)
 - Asking price: $100,000; down payment at 10%: $10,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 16.8, budget 18.0, recurring 4.6, data 4.0
@@ -137,16 +126,14 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - AI opportunity: AI diagnostics, managed IT expansion, remote monitoring, automated ticket systems, B2B service contracts, cybersecurity offerings, and automated inventory management.
 - Notes: Imported from AlexNaHub shared research updated 2026-04-26. Ranked #3 for AI/IT improvement potential. Cash flow was undisclosed in the shared document.
 
-### 7. Landscaping / Maintenance - 44.9
+### 7. Landscaping / Maintenance - 43.9
 
 - Slug: `landscaping-maintenance-tampa-bay`
 - Type: Landscaping / Maintenance
 - Location: Tampa Bay, FL
-- Source: <https://www.bizbuysell.com/florida-businesses-for-sale/>
-- Links: [Source](https://www.bizbuysell.com/florida-businesses-for-sale/), [Maps](https://www.google.com/maps/search/?api=1&query=Landscaping%20%2F%20Maintenance%20in%20Tampa%20Bay%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Landscaping%20%2F%20Maintenance&find_loc=Tampa%20Bay%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Landscaping%20%2F%20Maintenance&find_loc=Tampa%20Bay%2C%20FL), [Web](https://www.google.com/search?q=Landscaping%20%2F%20Maintenance%20Landscaping%20%2F%20Maintenance%20Tampa%20Bay%2C%20FL%20reviews)
 - Asking price: $550,000; down payment at 10%: $55,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 16.0, budget 15.0, recurring 6.9, data 4.0
+- Score breakdown: financial 3.0, AI/IT 16.0, budget 15.0, recurring 6.9, data 3.0
 - Positive signals: AI/IT angle identified, but financial diligence is still needed
 - Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
 - AI opportunity: AI design tools, automated bidding, IoT soil sensors, route optimization, and drone surveys.
@@ -157,8 +144,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `pool-supply-franchise-coconut-creek`
 - Type: Pool Supply Franchise
 - Location: Coconut Creek, FL
-- Source: <https://www.businessmart.com/businesses-for-sale/florida/broward-county.php>
-- Links: [Source](https://www.businessmart.com/businesses-for-sale/florida/broward-county.php), [Maps](https://www.google.com/maps/search/?api=1&query=Pool%20Supply%20Franchise%20in%20Coconut%20Creek%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Pool%20Supply%20Franchise&find_loc=Coconut%20Creek%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Pool%20Supply%20Franchise&find_loc=Coconut%20Creek%2C%20FL), [Web](https://www.google.com/search?q=Pool%20Supply%20Franchise%20(%231%20brand)%20Pool%20Supply%20Franchise%20Coconut%20Creek%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/), [Website](https://pinchapenny.com/stores/coconut-creek-fl-150), [Maps](https://www.google.com/maps/search/?api=1&query=Pinch%20A%20Penny%20Pool%20Patio%20Spa%204420%20W%20Hillsboro%20Blvd%20Ste%20107%20Coconut%20Creek%20FL%2033073), [Birdeye](https://reviews.birdeye.com/pinch-a-penny-pool-patio-spa-166394679379172), [Chamber](https://www.chamberofcommerce.com/business-directory/florida/coconut-creek/swimming-pool-supply-store/2007668496-pinch-a-penny-pool-patio-spa), [YellowPages](https://www.yellowpages.com/coconut-creek-fl/mip/pinch-a-penny-pool-patio-spa-3091631), [MapQuest](https://www.mapquest.com/us/florida/pinch-a-penny-pool-patio-spa-278833284)
 - Asking price: $695,000; down payment at 10%: $69,500
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 16.0, budget 15.0, recurring 4.6, data 4.0
@@ -172,8 +158,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `sba-prequalified-amazon-fba-tampa`
 - Type: Amazon FBA / Home and Kitchen Brands
 - Location: Tampa, FL
-- Source: <https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/>
-- Links: [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/), [Maps](https://www.google.com/maps/search/?api=1&query=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands%20in%20Tampa%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands&find_loc=Tampa%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands&find_loc=Tampa%2C%20FL), [Web](https://www.google.com/search?q=SBA%20Pre-Qualified%20Amazon%20FBA%20Business%20Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands%20Tampa%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/)
 - Asking price: $400,000; down payment at 10%: $40,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 11.6, budget 20.0, recurring 1.5, data 5.5
@@ -182,16 +167,14 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - AI opportunity: AI demand forecasting, automated PPC optimization, inventory forecasting, listing optimization, review mining, and product expansion analytics.
 - Notes: Imported from AlexNaHub shared research updated 2026-04-26. Shared document says SBA pre-qualified, Tampa, 9-year-old Amazon FBA business with 4 home and kitchen brands. Price was listed as $400K+; $400K is used as a conservative floor until exact broker data is available.
 
-### 10. Auto Repair and Tire Shop - 41.1
+### 10. Auto Repair and Tire Shop - 40.1
 
 - Slug: `auto-repair-tire-shop-miami-dade`
 - Type: Auto Repair / Tire Shop
 - Location: Miami-Dade County, FL
-- Source: <https://www.bizbuysell.com/florida/miami-dade-county/auto-repair-and-service-shops-for-sale/>
-- Links: [Source](https://www.bizbuysell.com/florida/miami-dade-county/auto-repair-and-service-shops-for-sale/), [Maps](https://www.google.com/maps/search/?api=1&query=Auto%20Repair%20%2F%20Tire%20Shop%20in%20Miami-Dade%20County%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Auto%20Repair%20%2F%20Tire%20Shop&find_loc=Miami-Dade%20County%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Auto%20Repair%20%2F%20Tire%20Shop&find_loc=Miami-Dade%20County%2C%20FL), [Web](https://www.google.com/search?q=Auto%20Repair%20and%20Tire%20Shop%20Auto%20Repair%20%2F%20Tire%20Shop%20Miami-Dade%20County%2C%20FL%20reviews)
 - Asking price: $500,000; down payment at 10%: $50,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 13.8, budget 18.0, recurring 2.3, data 4.0
+- Score breakdown: financial 3.0, AI/IT 13.8, budget 18.0, recurring 2.3, data 3.0
 - Positive signals: asking price fits the target budget
 - Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
 - AI opportunity: AI diagnostics, predictive maintenance, automated inventory, and fleet management.
@@ -202,8 +185,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `telehealth-business-turnkey-fort-lauderdale`
 - Type: Telehealth
 - Location: Fort Lauderdale, FL
-- Source: <https://www.businessmart.com/businesses-for-sale/florida/broward-county.php>
-- Links: [Source](https://www.businessmart.com/businesses-for-sale/florida/broward-county.php), [Maps](https://www.google.com/maps/search/?api=1&query=Telehealth%20in%20Fort%20Lauderdale%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Telehealth&find_loc=Fort%20Lauderdale%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Telehealth&find_loc=Fort%20Lauderdale%2C%20FL), [Web](https://www.google.com/search?q=Telehealth%20Business%20-%20Turnkey%20Telehealth%20Fort%20Lauderdale%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/Business-Opportunity/established-turnkey-telehealth-business-for-sale/2268825/)
 - Asking price: $100,000; down payment at 10%: $10,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 14.6, budget 18.0, recurring 0.0, data 4.0
@@ -217,8 +199,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `promotional-products-franchise-broward`
 - Type: Promotional Products Franchise
 - Location: Broward County, FL
-- Source: <https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/>
-- Links: [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/), [Maps](https://www.google.com/maps/search/?api=1&query=Promotional%20Products%20Franchise%20in%20Broward%20County%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Promotional%20Products%20Franchise&find_loc=Broward%20County%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Promotional%20Products%20Franchise&find_loc=Broward%20County%2C%20FL), [Web](https://www.google.com/search?q=Promotional%20Products%20Franchise%20Promotional%20Products%20Franchise%20Broward%20County%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/)
 - Asking price: $39,500; down payment at 10%: $3,950
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 11.6, budget 18.0, recurring 2.3, data 4.0
@@ -232,8 +213,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `lucrative-consulting-business-broward`
 - Type: Consulting
 - Location: Broward County, FL
-- Source: <https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/>
-- Links: [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/), [Maps](https://www.google.com/maps/search/?api=1&query=Consulting%20in%20Broward%20County%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Consulting&find_loc=Broward%20County%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Consulting&find_loc=Broward%20County%2C%20FL), [Web](https://www.google.com/search?q=Lucrative%20Consulting%20Business%20Consulting%20Broward%20County%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/lucrative-consulting-business/2482841/)
 - Asking price: $55,000; down payment at 10%: $5,500
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 11.6, budget 18.0, recurring 0.0, data 4.0
@@ -242,16 +222,14 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - AI opportunity: AI proposal generation, automated onboarding, CRM automation, and AI research assistant workflows.
 - Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.
 
-### 14. Med Spa - Absentee Owner - 35.9
+### 14. Med Spa - Absentee Owner - 34.9
 
 - Slug: `med-spa-absentee-owner-fort-lauderdale`
 - Type: Med Spa
 - Location: Fort Lauderdale, FL
-- Source: <https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/>
-- Links: [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/), [Maps](https://www.google.com/maps/search/?api=1&query=Med%20Spa%20in%20Fort%20Lauderdale%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Med%20Spa&find_loc=Fort%20Lauderdale%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Med%20Spa&find_loc=Fort%20Lauderdale%2C%20FL), [Web](https://www.google.com/search?q=Med%20Spa%20-%20Absentee%20Owner%20Med%20Spa%20Fort%20Lauderdale%2C%20FL%20reviews)
 - Asking price: $700,000; down payment at 10%: $70,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 11.6, budget 15.0, recurring 2.3, data 4.0
+- Score breakdown: financial 3.0, AI/IT 11.6, budget 15.0, recurring 2.3, data 3.0
 - Positive signals: AI/IT angle identified, but financial diligence is still needed
 - Open questions: SDE/cash flow is missing; revenue is missing; real-estate/lease status is unknown
 - AI opportunity: AI booking, automated marketing, customer retention CRM, and online reputation management.
@@ -262,8 +240,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `auto-body-shop-turnkey-broward`
 - Type: Auto Body / Collision Repair
 - Location: Broward County, FL
-- Source: <https://www.businessmart.com/businesses-for-sale/florida/broward-county.php>
-- Links: [Source](https://www.businessmart.com/businesses-for-sale/florida/broward-county.php), [Maps](https://www.google.com/maps/search/?api=1&query=Auto%20Body%20%2F%20Collision%20Repair%20in%20Broward%20County%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Auto%20Body%20%2F%20Collision%20Repair&find_loc=Broward%20County%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Auto%20Body%20%2F%20Collision%20Repair&find_loc=Broward%20County%2C%20FL), [Web](https://www.google.com/search?q=Auto%20Body%20Shop%20-%20Turnkey%20Auto%20Body%20%2F%20Collision%20Repair%20Broward%20County%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/business-asset/premier-south-florida-auto-body-shop-high-growth-potential/2228786/)
 - Asking price: $390,000; down payment at 10%: $39,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 9.4, budget 18.0, recurring 0.0, data 4.0
@@ -277,8 +254,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `commissary-commercial-kitchen-broward`
 - Type: Commercial Kitchen / Commissary
 - Location: Broward County, FL
-- Source: <https://www.businessmart.com/businesses-for-sale/florida/broward-county.php>
-- Links: [Source](https://www.businessmart.com/businesses-for-sale/florida/broward-county.php), [Maps](https://www.google.com/maps/search/?api=1&query=Commercial%20Kitchen%20%2F%20Commissary%20in%20Broward%20County%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Commercial%20Kitchen%20%2F%20Commissary&find_loc=Broward%20County%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Commercial%20Kitchen%20%2F%20Commissary&find_loc=Broward%20County%2C%20FL), [Web](https://www.google.com/search?q=Commissary%20%2F%20Commercial%20Kitchen%20Commercial%20Kitchen%20%2F%20Commissary%20Broward%20County%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/business-asset/commissary-kitchen-commercial-kitchen-usda-kitchen/2465883/)
 - Asking price: $495,000; down payment at 10%: $49,500
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 9.4, budget 18.0, recurring 0.0, data 4.0
@@ -292,8 +268,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `faith-educational-streaming-platform-fort-lauderdale`
 - Type: Streaming Platform / SaaS
 - Location: Fort Lauderdale, FL
-- Source: <https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/>
-- Links: [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/), [Maps](https://www.google.com/maps/search/?api=1&query=Streaming%20Platform%20%2F%20SaaS%20in%20Fort%20Lauderdale%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Streaming%20Platform%20%2F%20SaaS&find_loc=Fort%20Lauderdale%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Streaming%20Platform%20%2F%20SaaS&find_loc=Fort%20Lauderdale%2C%20FL), [Web](https://www.google.com/search?q=Faith%20%2F%20Educational%20Streaming%20Platform%20Streaming%20Platform%20%2F%20SaaS%20Fort%20Lauderdale%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/faith-educational-social-white-label-streaming-platform/2377395/)
 - Asking price: $1,000,000; down payment at 10%: $100,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 14.6, budget 12.0, recurring 0.0, data 4.5
@@ -307,8 +282,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `secure-shredding-document-storage-davie`
 - Type: Secure Shredding / Document Storage
 - Location: Davie, FL
-- Source: <https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/>
-- Links: [Source](https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/), [Maps](https://www.google.com/maps/search/?api=1&query=Secure%20Shredding%20%2F%20Document%20Storage%20in%20Davie%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=Secure%20Shredding%20%2F%20Document%20Storage&find_loc=Davie%2C%20FL), [BBB](https://www.bbb.org/search?find_text=Secure%20Shredding%20%2F%20Document%20Storage&find_loc=Davie%2C%20FL), [Web](https://www.google.com/search?q=Secure%20Shredding%20and%20Document%20Storage%20Secure%20Shredding%20%2F%20Document%20Storage%20Davie%2C%20FL%20reviews)
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/)
 - Asking price: $1,450,000; down payment at 10%: $145,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 9.4, budget 8.0, recurring 4.6, data 4.0
@@ -317,16 +291,14 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - AI opportunity: Route optimization, compliance automation, and digital transformation consulting.
 - Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document. Above the target budget; keep only if seller financing, SBA structure, or partnership makes it feasible.
 
-### 19. B2B Service (Home-Based) - 26.9
+### 19. B2B Service (Home-Based) - 25.9
 
 - Slug: `b2b-service-home-based-florida`
 - Type: B2B Service
 - Location: Florida
-- Source: <https://www.bizbuysell.com/florida-businesses-for-sale/>
-- Links: [Source](https://www.bizbuysell.com/florida-businesses-for-sale/), [Maps](https://www.google.com/maps/search/?api=1&query=B2B%20Service%20in%20Florida), [Yelp](https://www.yelp.com/search?find_desc=B2B%20Service&find_loc=Florida), [BBB](https://www.bbb.org/search?find_text=B2B%20Service&find_loc=Florida), [Web](https://www.google.com/search?q=B2B%20Service%20(Home-Based)%20B2B%20Service%20Florida%20reviews)
 - Asking price: TBD; down payment at 10%: TBD
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 13.8, budget 3.0, recurring 4.6, data 2.5
+- Score breakdown: financial 3.0, AI/IT 13.8, budget 3.0, recurring 4.6, data 1.5
 - Positive signals: AI/IT angle identified, but financial diligence is still needed
 - Open questions: asking price is missing; SDE/cash flow is missing; revenue is missing
 - AI opportunity: AI client onboarding, automated delivery, predictive upselling, and lead scoring.
@@ -337,8 +309,7 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Slug: `sba-prequalified-ecom-jewelry-brand-tampa`
 - Type: E-Commerce Jewelry Brand
 - Location: Tampa, FL
-- Source: <https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-ecom-brand-jewelry-memberships-70-arr/2439164/>
-- Links: [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-ecom-brand-jewelry-memberships-70-arr/2439164/), [Maps](https://www.google.com/maps/search/?api=1&query=E-Commerce%20Jewelry%20Brand%20in%20Tampa%2C%20FL), [Yelp](https://www.yelp.com/search?find_desc=E-Commerce%20Jewelry%20Brand&find_loc=Tampa%2C%20FL), [BBB](https://www.bbb.org/search?find_text=E-Commerce%20Jewelry%20Brand&find_loc=Tampa%2C%20FL), [Web](https://www.google.com/search?q=SBA%20Pre-Qualified%20eCom%20Jewelry%20Brand%20E-Commerce%20Jewelry%20Brand%20Tampa%2C%20FL%20reviews)
+- Links: [Source](https://www.websiteclosers.com/businesses/sba-pre-qualified-ecommerce-brand-jewelry-memberships-70-arr-3-400-active-members-180-000-social-media-followers-9-year-business/117008/)
 - Asking price: TBD; down payment at 10%: TBD
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
 - Score breakdown: financial 3.0, AI/IT 11.6, budget 3.0, recurring 3.8, data 3.5

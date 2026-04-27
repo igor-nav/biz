@@ -42,10 +42,17 @@ type Business struct {
 
 type Links struct {
 	Source     string `json:"source"`
+	Website    string `json:"website"`
 	GoogleMaps string `json:"google_maps"`
 	Yelp       string `json:"yelp"`
 	BBB        string `json:"bbb"`
 	WebReviews string `json:"web_reviews"`
+	Reviews    []Link `json:"reviews"`
+}
+
+type Link struct {
+	Label string `json:"label"`
+	URL   string `json:"url"`
 }
 
 type Candidate struct {
@@ -206,9 +213,6 @@ func writeDetails(b *bytes.Buffer, entries []ReportEntry) {
 		fmt.Fprintf(b, "- Slug: `%s`\n", entry.Slug)
 		fmt.Fprintf(b, "- Type: %s\n", blank(biz.Type))
 		fmt.Fprintf(b, "- Location: %s\n", blank(biz.Location))
-		if biz.URL != "" {
-			fmt.Fprintf(b, "- Source: <%s>\n", biz.URL)
-		}
 		if links := detailLinks(biz); links != "" {
 			fmt.Fprintf(b, "- Links: %s\n", links)
 		}
@@ -316,27 +320,25 @@ type reportLink struct {
 
 func reportLinks(b Business) []reportLink {
 	links := []reportLink{
-		{Label: "Source", URL: firstNonEmpty(b.Links.Source, b.URL)},
+		{Label: "Source", URL: b.Links.Source},
+		{Label: "Website", URL: b.Links.Website},
 		{Label: "Maps", URL: b.Links.GoogleMaps},
 		{Label: "Yelp", URL: b.Links.Yelp},
 		{Label: "BBB", URL: b.Links.BBB},
 		{Label: "Web", URL: b.Links.WebReviews},
 	}
+	for _, review := range b.Links.Reviews {
+		links = append(links, reportLink{
+			Label: review.Label,
+			URL:   review.URL,
+		})
+	}
 
 	out := links[:0]
 	for _, link := range links {
-		if strings.TrimSpace(link.URL) != "" {
+		if strings.TrimSpace(link.Label) != "" && strings.TrimSpace(link.URL) != "" {
 			out = append(out, link)
 		}
 	}
 	return out
-}
-
-func firstNonEmpty(values ...string) string {
-	for _, value := range values {
-		if strings.TrimSpace(value) != "" {
-			return value
-		}
-	}
-	return ""
 }

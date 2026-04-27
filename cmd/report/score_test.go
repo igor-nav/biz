@@ -49,3 +49,32 @@ func TestScoreWarnsOnMissingFinancials(t *testing.T) {
 		t.Fatalf("first warning = %q", score.Warnings[0])
 	}
 }
+
+func TestReportLinksDoNotFallBackToLegacyURL(t *testing.T) {
+	b := Business{URL: "https://example.com/search-results"}
+
+	if got := reportLinks(b); len(got) != 0 {
+		t.Fatalf("reportLinks() = %#v, want no links", got)
+	}
+}
+
+func TestReportLinksIncludeVerifiedReviewSources(t *testing.T) {
+	b := Business{
+		Links: Links{
+			Source: "https://example.com/listing",
+			Reviews: []Link{
+				{Label: "Birdeye", URL: "https://reviews.example.com"},
+				{Label: "Missing URL"},
+				{URL: "https://missing-label.example.com"},
+			},
+		},
+	}
+
+	got := reportLinks(b)
+	if len(got) != 2 {
+		t.Fatalf("len(reportLinks()) = %d, want 2: %#v", len(got), got)
+	}
+	if got[1].Label != "Birdeye" || got[1].URL != "https://reviews.example.com" {
+		t.Fatalf("review link = %#v", got[1])
+	}
+}

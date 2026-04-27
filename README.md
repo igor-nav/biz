@@ -77,12 +77,15 @@ fields that could not be scraped automatically (e.g. multi-year financials,
   "type": "IT Managed Services / MSP", // business category
   "location": "Austin, TX",
   "url": "https://bizbuysell.com/...", // listing URL (optional)
-  "links": {                           // diligence links for REPORT.md
+  "links": {                           // exact diligence links for REPORT.md; omit unknowns
     "source": "https://bizbuysell.com/...",
-    "google_maps": "https://www.google.com/maps/search/?api=1&query=...",
-    "yelp": "https://www.yelp.com/search?find_desc=...&find_loc=...",
-    "bbb": "https://www.bbb.org/search?find_text=...&find_loc=...",
-    "web_reviews": "https://www.google.com/search?q=...+reviews"
+    "website": "https://acme.example.com/location",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=Acme%20IT%20Services%20Austin%20TX",
+    "yelp": "https://www.yelp.com/biz/acme-it-services-austin",
+    "bbb": "https://www.bbb.org/us/tx/austin/profile/...",
+    "reviews": [
+      {"label": "Birdeye", "url": "https://reviews.example.com/acme-it-services"}
+    ]
   },
   "asking_price": 750000,
 

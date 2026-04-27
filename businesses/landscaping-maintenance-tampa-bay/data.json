@@ -2,7 +2,7 @@
     "name":  "Landscaping / Maintenance",
     "type":  "Landscaping / Maintenance",
     "location":  "Tampa Bay, FL",
-    "url":  "https://www.bizbuysell.com/florida-businesses-for-sale/",
+    "url":  "",
     "asking_price":  550000,
     "revenue":  [
 
@@ -20,10 +20,6 @@
     "ai_opportunity":  "AI design tools, automated bidding, IoT soil sensors, route optimization, and drone surveys.",
     "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $400-700K estimate and cash flow as recurring; midpoint $550K is used for analyzer sorting until exact broker data is available.",
     "links":  {
-                  "source":  "https://www.bizbuysell.com/florida-businesses-for-sale/",
-                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Landscaping%20%2F%20Maintenance%20in%20Tampa%20Bay%2C%20FL",
-                  "yelp":  "https://www.yelp.com/search?find_desc=Landscaping%20%2F%20Maintenance\u0026find_loc=Tampa%20Bay%2C%20FL",
-                  "bbb":  "https://www.bbb.org/search?find_text=Landscaping%20%2F%20Maintenance\u0026find_loc=Tampa%20Bay%2C%20FL",
-                  "web_reviews":  "https://www.google.com/search?q=Landscaping%20%2F%20Maintenance%20Landscaping%20%2F%20Maintenance%20Tampa%20Bay%2C%20FL%20reviews"
+
               }
 }

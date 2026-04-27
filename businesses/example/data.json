@@ -2,7 +2,7 @@
     "name":  "Example IT Managed Services",
     "type":  "IT Managed Services / MSP",
     "location":  "Austin, TX",
-    "url":  "https://bizbuysell.com/listing/example",
+    "url":  "",
     "asking_price":  750000,
     "revenue":  [
                     {
@@ -43,10 +43,6 @@
     "ai_opportunity":  "Automate tier-1 helpdesk with AI agents; upsell AI-readiness assessments to SMB clients",
     "notes":  "Recurring revenue ~70% of total. Strong SMB client base. Owner will train for 90 days.",
     "links":  {
-                  "source":  "https://bizbuysell.com/listing/example",
-                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=IT%20Managed%20Services%20%2F%20MSP%20in%20Austin%2C%20TX",
-                  "yelp":  "https://www.yelp.com/search?find_desc=IT%20Managed%20Services%20%2F%20MSP\u0026find_loc=Austin%2C%20TX",
-                  "bbb":  "https://www.bbb.org/search?find_text=IT%20Managed%20Services%20%2F%20MSP\u0026find_loc=Austin%2C%20TX",
-                  "web_reviews":  "https://www.google.com/search?q=Example%20IT%20Managed%20Services%20IT%20Managed%20Services%20%2F%20MSP%20Austin%2C%20TX%20reviews"
+
               }
 }
