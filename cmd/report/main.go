@@ -3,67 +3,20 @@ package main
 
 import (
 	"bytes"
-	"encoding/json"
 	"flag"
 	"fmt"
 	"math"
 	"os"
-	"path/filepath"
 	"sort"
 	"strings"
 	"time"
+
+	core "github.com/igor-nav/biz/internal/biz"
 )
 
-type YearlyFigure struct {
-	Year   int     `json:"year"`
-	Amount float64 `json:"amount"`
-}
-
-type Business struct {
-	Name             string         `json:"name"`
-	Type             string         `json:"type"`
-	Location         string         `json:"location"`
-	URL              string         `json:"url"`
-	Links            Links          `json:"links"`
-	AskingPrice      float64        `json:"asking_price"`
-	Revenue          []YearlyFigure `json:"revenue"`
-	SDE              []YearlyFigure `json:"sde"`
-	Inventory        float64        `json:"inventory"`
-	FFE              float64        `json:"ffe"`
-	RealEstate       string         `json:"real_estate"`
-	LeaseMonthly     float64        `json:"lease_monthly"`
-	LeaseExpiresYear int            `json:"lease_expires_year"`
-	YearsInBusiness  int            `json:"years_in_business"`
-	Employees        int            `json:"employees"`
-	ReasonForSelling string         `json:"reason_for_selling"`
-	AIOpportunity    string         `json:"ai_opportunity"`
-	Notes            string         `json:"notes"`
-}
-
-type Links struct {
-	Source     string `json:"source"`
-	Website    string `json:"website"`
-	GoogleMaps string `json:"google_maps"`
-	Yelp       string `json:"yelp"`
-	BBB        string `json:"bbb"`
-	WebReviews string `json:"web_reviews"`
-	Reviews    []Link `json:"reviews"`
-}
-
-type Link struct {
-	Label string `json:"label"`
-	URL   string `json:"url"`
-}
-
-type Candidate struct {
-	Slug string
-	Path string
-	Biz  Business
-}
-
 type ReportEntry struct {
-	Candidate
-	Metrics Metrics
+	core.Candidate
+	Metrics core.Metrics
 	Score   Score
 }
 
@@ -75,7 +28,7 @@ func main() {
 	term := flag.Int("term", 10, "SBA loan term in years")
 	flag.Parse()
 
-	candidates, err := loadCandidates(*dir)
+	candidates, err := core.LoadCandidates(*dir)
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "report: %v\n", err)
 		os.Exit(1)
@@ -86,13 +39,13 @@ func main() {
 	}
 
 	entries := make([]ReportEntry, 0, len(candidates))
-	terms := Terms{
+	terms := core.Terms{
 		DownPct:    *down / 100,
 		AnnualRate: *rate / 100,
 		TermYears:  *term,
 	}
 	for _, candidate := range candidates {
-		metrics := ComputeMetrics(candidate.Biz, terms)
+		metrics := core.ComputeMetrics(candidate.Biz, terms)
 		score := ScoreBusiness(candidate.Biz, metrics)
 		entries = append(entries, ReportEntry{
 			Candidate: candidate,
@@ -116,41 +69,7 @@ func main() {
 	fmt.Printf("report: wrote %s with %d candidate(s)\n", *out, len(entries))
 }
 
-func loadCandidates(root string) ([]Candidate, error) {
-	entries, err := os.ReadDir(root)
-	if err != nil {
-		return nil, fmt.Errorf("reading %s: %w", root, err)
-	}
-
-	var candidates []Candidate
-	for _, entry := range entries {
-		if !entry.IsDir() {
-			continue
-		}
-		slug := entry.Name()
-		path := filepath.Join(root, slug, "data.json")
-		data, err := os.ReadFile(path)
-		if err != nil {
-			if os.IsNotExist(err) {
-				continue
-			}
-			return nil, fmt.Errorf("reading %s: %w", path, err)
-		}
-
-		var biz Business
-		if err := json.Unmarshal(data, &biz); err != nil {
-			return nil, fmt.Errorf("parsing %s: %w", path, err)
-		}
-		candidates = append(candidates, Candidate{
-			Slug: slug,
-			Path: filepath.ToSlash(path),
-			Biz:  biz,
-		})
-	}
-	return candidates, nil
-}
-
-func renderReport(entries []ReportEntry, terms Terms) []byte {
+func renderReport(entries []ReportEntry, terms core.Terms) []byte {
 	var b bytes.Buffer
 	generated := time.Now().Format("2006-01-02")
 
@@ -295,7 +214,7 @@ func mdLink(s string) string {
 	return strings.ReplaceAll(s, " ", "%20")
 }
 
-func linkList(b Business) string {
+func linkList(b core.Business) string {
 	links := reportLinks(b)
 	parts := make([]string, 0, len(links))
 	for _, link := range links {
@@ -304,7 +223,7 @@ func linkList(b Business) string {
 	return strings.Join(parts, " ")
 }
 
-func detailLinks(b Business) string {
+func detailLinks(b core.Business) string {
 	links := reportLinks(b)
 	parts := make([]string, 0, len(links))
 	for _, link := range links {
@@ -318,7 +237,7 @@ type reportLink struct {
 	URL   string
 }
 
-func reportLinks(b Business) []reportLink {
+func reportLinks(b core.Business) []reportLink {
 	links := []reportLink{
 		{Label: "Source", URL: b.Links.Source},
 		{Label: "Website", URL: b.Links.Website},

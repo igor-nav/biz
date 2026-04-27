@@ -1,28 +1,10 @@
 package main
 
 import (
-	"math"
 	"strings"
+
+	core "github.com/igor-nav/biz/internal/biz"
 )
-
-type Terms struct {
-	DownPct    float64
-	AnnualRate float64
-	TermYears  int
-}
-
-type Metrics struct {
-	LatestSDE     float64
-	LatestRevenue float64
-	SDEMultiple   float64
-	SDEMargin     float64
-	DownPayment   float64
-	LoanAmount    float64
-	MonthlyDebt   float64
-	AnnualDebt    float64
-	DSCR          float64
-	PaybackYears  float64
-}
 
 type Score struct {
 	Total          float64
@@ -35,99 +17,126 @@ type Score struct {
 	Warnings       []string
 }
 
-func ComputeMetrics(b Business, terms Terms) Metrics {
-	var m Metrics
-	if latestSDE, ok := latestFigure(b.SDE); ok {
-		m.LatestSDE = latestSDE.Amount
-	}
-	if latestRevenue, ok := latestFigure(b.Revenue); ok {
-		m.LatestRevenue = latestRevenue.Amount
-	}
-
-	if m.LatestSDE > 0 {
-		m.SDEMultiple = b.AskingPrice / m.LatestSDE
-	}
-	if m.LatestRevenue > 0 {
-		m.SDEMargin = m.LatestSDE / m.LatestRevenue
-	}
-
-	m.DownPayment = b.AskingPrice * terms.DownPct
-	m.LoanAmount = b.AskingPrice - m.DownPayment
-	m.MonthlyDebt = monthlyPayment(m.LoanAmount, terms.AnnualRate, terms.TermYears)
-	m.AnnualDebt = m.MonthlyDebt * 12
-
-	if m.AnnualDebt > 0 {
-		m.DSCR = m.LatestSDE / m.AnnualDebt
-	}
-	if m.LatestSDE > 0 && m.DownPayment > 0 {
-		m.PaybackYears = m.DownPayment / m.LatestSDE
-	}
-
-	return m
-}
-
-func ScoreBusiness(b Business, m Metrics) Score {
-	var s Score
+func ScoreBusiness(b core.Business, m core.Metrics) Score {
 	text := searchableText(b)
-
-	s.Financial = financialScore(m)
-	s.AIFit = aiFitScore(text)
-	s.Budget = budgetScore(b, m, text)
-	s.Recurring = recurringScore(b, text)
-	s.DataConfidence = dataConfidenceScore(b, m)
-
+	s := Score{
+		Financial:      financialScore(m),
+		AIFit:          aiFitScore(text),
+		Budget:         budgetScore(b, m, text),
+		Recurring:      recurringScore(b, text),
+		DataConfidence: dataConfidenceScore(b, m),
+	}
 	s.Reasons = reasons(b, m, s, text)
 	s.Warnings = warnings(b, m, text)
 	s.Total = clamp(s.Financial+s.AIFit+s.Budget+s.Recurring+s.DataConfidence, 0, 100)
 	return s
 }
 
-func financialScore(m Metrics) float64 {
+type compareOp int
+
+const (
+	atLeast compareOp = iota
+	greaterThan
+	atMost
+	atMostPositive
+)
+
+type thresholdRule struct {
+	Op     compareOp
+	Value  float64
+	Points float64
+}
+
+type keywordRule struct {
+	Needles []string
+	Points  float64
+}
+
+type factRule struct {
+	Points float64
+	Match  func(core.Business, core.Metrics) bool
+}
+
+var (
+	dscrRules = []thresholdRule{
+		{Op: atLeast, Value: 2.0, Points: 12},
+		{Op: atLeast, Value: 1.5, Points: 10},
+		{Op: atLeast, Value: 1.25, Points: 7},
+		{Op: greaterThan, Value: 0, Points: 3},
+	}
+	sdeMultipleRules = []thresholdRule{
+		{Op: atMostPositive, Value: 2.5, Points: 8},
+		{Op: atMost, Value: 3.5, Points: 6},
+		{Op: atMost, Value: 4, Points: 4},
+		{Op: atMost, Value: 5, Points: 2},
+	}
+	sdeMarginRules = []thresholdRule{
+		{Op: atLeast, Value: 0.30, Points: 4},
+		{Op: atLeast, Value: 0.20, Points: 3},
+		{Op: greaterThan, Value: 0, Points: 1.5},
+	}
+	paybackRules = []thresholdRule{
+		{Op: atMostPositive, Value: 0.5, Points: 6},
+		{Op: atMost, Value: 1.5, Points: 4},
+		{Op: atMost, Value: 3, Points: 2},
+	}
+	askingPriceRules = []thresholdRule{
+		{Op: atMost, Value: 500_000, Points: 12},
+		{Op: atMost, Value: 750_000, Points: 9},
+		{Op: atMost, Value: 1_000_000, Points: 6},
+		{Op: atMost, Value: 1_500_000, Points: 3},
+	}
+	downPaymentRules = []thresholdRule{
+		{Op: atMost, Value: 100_000, Points: 5},
+		{Op: atMost, Value: 250_000, Points: 4},
+	}
+	yearsInBusinessRules = []thresholdRule{
+		{Op: atLeast, Value: 20, Points: 3.5},
+		{Op: atLeast, Value: 10, Points: 2.5},
+		{Op: atLeast, Value: 5, Points: 1.5},
+	}
+	aiKeywordRules = []keywordRule{
+		{Needles: []string{"ai ", " ai", "artificial intelligence", "machine learning"}, Points: 2.2},
+		{Needles: []string{"automation", "automated", "workflow"}, Points: 2.2},
+		{Needles: []string{"predictive", "forecast", "forecasting"}, Points: 2.2},
+		{Needles: []string{"route", "routing", "scheduling"}, Points: 2.2},
+		{Needles: []string{"iot", "sensor", "monitoring", "remote"}, Points: 2.2},
+		{Needles: []string{"crm", "portal", "customer retention"}, Points: 2.2},
+		{Needles: []string{"saas", "software", "platform", "e-commerce", "ecom"}, Points: 2.2},
+		{Needles: []string{"diagnostic", "cybersecurity", "ticket"}, Points: 2.2},
+		{Needles: []string{"dynamic pricing", "bidding", "lead scoring", "upsell"}, Points: 2.2},
+	}
+	aiCategoryRules = []keywordRule{
+		{Needles: []string{"property management", "pest control", "computer repair", "telehealth", "streaming platform", "commercial cleaning", "managed it"}, Points: 3},
+	}
+	recurringKeywordRules = []keywordRule{
+		{Needles: []string{"recurring", "contracts", "contracted", "membership", "arr"}, Points: 2.3},
+		{Needles: []string{"essential", "recession-resistant", "housing always needed"}, Points: 2.3},
+		{Needles: []string{"route", "routes", "accounts"}, Points: 2.3},
+		{Needles: []string{"maintenance", "property management", "pest control", "commercial cleaning", "pool service"}, Points: 2.3},
+		{Needles: []string{"b2b", "managed it", "document storage"}, Points: 2.3},
+	}
+	dataConfidenceRules = []factRule{
+		{Points: 2, Match: func(b core.Business, _ core.Metrics) bool { return b.AskingPrice > 0 }},
+		{Points: 3, Match: func(_ core.Business, m core.Metrics) bool { return m.LatestSDE > 0 }},
+		{Points: 1.5, Match: func(_ core.Business, m core.Metrics) bool { return m.LatestRevenue > 0 }},
+		{Points: 1, Match: func(b core.Business, _ core.Metrics) bool { return core.HasVerifiedSource(b) }},
+		{Points: 1, Match: func(b core.Business, _ core.Metrics) bool { return b.Location != "" }},
+		{Points: 1, Match: func(b core.Business, _ core.Metrics) bool { return b.YearsInBusiness > 0 || b.Employees > 0 }},
+		{Points: 0.5, Match: func(b core.Business, _ core.Metrics) bool {
+			return b.FFE > 0 || b.Inventory > 0 || b.LeaseMonthly > 0 || core.HasKnownRealEstate(b.RealEstate)
+		}},
+	}
+)
+
+func financialScore(m core.Metrics) float64 {
 	if m.LatestSDE <= 0 {
 		return 3
 	}
-
-	var score float64
-	switch {
-	case m.DSCR >= 2.0:
-		score += 12
-	case m.DSCR >= 1.5:
-		score += 10
-	case m.DSCR >= 1.25:
-		score += 7
-	case m.DSCR > 0:
-		score += 3
-	}
-
-	switch {
-	case m.SDEMultiple > 0 && m.SDEMultiple <= 2.5:
-		score += 8
-	case m.SDEMultiple <= 3.5:
-		score += 6
-	case m.SDEMultiple <= 4:
-		score += 4
-	case m.SDEMultiple <= 5:
-		score += 2
-	}
-
-	switch {
-	case m.SDEMargin >= 0.30:
-		score += 4
-	case m.SDEMargin >= 0.20:
-		score += 3
-	case m.SDEMargin > 0:
-		score += 1.5
-	}
-
-	switch {
-	case m.PaybackYears > 0 && m.PaybackYears <= 0.5:
-		score += 6
-	case m.PaybackYears <= 1.5:
-		score += 4
-	case m.PaybackYears <= 3:
-		score += 2
-	}
-
+	score := firstThresholdScore(m.DSCR, dscrRules)
+	score += firstThresholdScore(m.SDEMultiple, sdeMultipleRules)
+	score += firstThresholdScore(m.SDEMargin, sdeMarginRules)
+	score += firstThresholdScore(m.PaybackYears, paybackRules)
 	return clamp(score, 0, 30)
 }
 
@@ -135,55 +144,18 @@ func aiFitScore(text string) float64 {
 	if strings.TrimSpace(text) == "" {
 		return 0
 	}
-
 	score := 5.0
-	groups := [][]string{
-		{"ai ", " ai", "artificial intelligence", "machine learning"},
-		{"automation", "automated", "workflow"},
-		{"predictive", "forecast", "forecasting"},
-		{"route", "routing", "scheduling"},
-		{"iot", "sensor", "monitoring", "remote"},
-		{"crm", "portal", "customer retention"},
-		{"saas", "software", "platform", "e-commerce", "ecom"},
-		{"diagnostic", "cybersecurity", "ticket"},
-		{"dynamic pricing", "bidding", "lead scoring", "upsell"},
-	}
-	for _, group := range groups {
-		if containsAny(text, group...) {
-			score += 2.2
-		}
-	}
-
-	if containsAny(text, "property management", "pest control", "computer repair", "telehealth", "streaming platform", "commercial cleaning", "managed it") {
-		score += 3
-	}
+	score += keywordScore(text, aiKeywordRules)
+	score += keywordScore(text, aiCategoryRules)
 	return clamp(score, 0, 25)
 }
 
-func budgetScore(b Business, m Metrics, text string) float64 {
+func budgetScore(b core.Business, m core.Metrics, text string) float64 {
 	if b.AskingPrice <= 0 {
 		return 3
 	}
-
-	var score float64
-	switch {
-	case b.AskingPrice <= 500_000:
-		score += 12
-	case b.AskingPrice <= 750_000:
-		score += 9
-	case b.AskingPrice <= 1_000_000:
-		score += 6
-	case b.AskingPrice <= 1_500_000:
-		score += 3
-	}
-
-	switch {
-	case m.DownPayment <= 100_000:
-		score += 5
-	case m.DownPayment <= 250_000:
-		score += 4
-	}
-
+	score := firstThresholdScore(b.AskingPrice, askingPriceRules)
+	score += firstThresholdScore(m.DownPayment, downPaymentRules)
 	if containsAny(text, "sba pre-qualified", "sba approved", "sba-prequalified") {
 		score += 3
 	} else {
@@ -192,58 +164,17 @@ func budgetScore(b Business, m Metrics, text string) float64 {
 	return clamp(score, 0, 20)
 }
 
-func recurringScore(b Business, text string) float64 {
-	var score float64
-	signals := [][]string{
-		{"recurring", "contracts", "contracted", "membership", "arr"},
-		{"essential", "recession-resistant", "housing always needed"},
-		{"route", "routes", "accounts"},
-		{"maintenance", "property management", "pest control", "commercial cleaning", "pool service"},
-		{"b2b", "managed it", "document storage"},
-	}
-	for _, group := range signals {
-		if containsAny(text, group...) {
-			score += 2.3
-		}
-	}
-	switch {
-	case b.YearsInBusiness >= 20:
-		score += 3.5
-	case b.YearsInBusiness >= 10:
-		score += 2.5
-	case b.YearsInBusiness >= 5:
-		score += 1.5
-	}
+func recurringScore(b core.Business, text string) float64 {
+	score := keywordScore(text, recurringKeywordRules)
+	score += firstThresholdScore(float64(b.YearsInBusiness), yearsInBusinessRules)
 	return clamp(score, 0, 15)
 }
 
-func dataConfidenceScore(b Business, m Metrics) float64 {
-	var score float64
-	if b.AskingPrice > 0 {
-		score += 2
-	}
-	if m.LatestSDE > 0 {
-		score += 3
-	}
-	if m.LatestRevenue > 0 {
-		score += 1.5
-	}
-	if b.URL != "" {
-		score += 1
-	}
-	if b.Location != "" {
-		score += 1
-	}
-	if b.YearsInBusiness > 0 || b.Employees > 0 {
-		score += 1
-	}
-	if b.FFE > 0 || b.Inventory > 0 || b.LeaseMonthly > 0 || knownRealEstate(b.RealEstate) {
-		score += 0.5
-	}
-	return clamp(score, 0, 10)
+func dataConfidenceScore(b core.Business, m core.Metrics) float64 {
+	return clamp(factScore(b, m, dataConfidenceRules), 0, 10)
 }
 
-func reasons(b Business, m Metrics, s Score, text string) []string {
+func reasons(b core.Business, m core.Metrics, s Score, text string) []string {
 	var out []string
 	if m.DSCR >= 1.25 {
 		out = append(out, "passes SBA DSCR threshold")
@@ -269,7 +200,7 @@ func reasons(b Business, m Metrics, s Score, text string) []string {
 	return out
 }
 
-func warnings(b Business, m Metrics, text string) []string {
+func warnings(b core.Business, m core.Metrics, text string) []string {
 	var out []string
 	if b.AskingPrice <= 0 {
 		out = append(out, "asking price is missing")
@@ -292,41 +223,66 @@ func warnings(b Business, m Metrics, text string) []string {
 	return out
 }
 
-func latestFigure(figures []YearlyFigure) (YearlyFigure, bool) {
-	if len(figures) == 0 {
-		return YearlyFigure{}, false
-	}
-	best := figures[0]
-	for _, figure := range figures[1:] {
-		if figure.Year > best.Year {
-			best = figure
+func firstThresholdScore(value float64, rules []thresholdRule) float64 {
+	for _, rule := range rules {
+		if thresholdMatches(value, rule) {
+			return rule.Points
 		}
 	}
-	return best, true
+	return 0
 }
 
-func monthlyPayment(principal, annualRate float64, termYears int) float64 {
-	if principal <= 0 {
-		return 0
+func thresholdMatches(value float64, rule thresholdRule) bool {
+	switch rule.Op {
+	case atLeast:
+		return value >= rule.Value
+	case greaterThan:
+		return value > rule.Value
+	case atMost:
+		return value <= rule.Value
+	case atMostPositive:
+		return value > 0 && value <= rule.Value
+	default:
+		return false
 	}
-	monthlyRate := annualRate / 12
-	months := float64(termYears * 12)
-	if monthlyRate == 0 {
-		return principal / months
-	}
-	return principal * monthlyRate * math.Pow(1+monthlyRate, months) / (math.Pow(1+monthlyRate, months) - 1)
 }
 
-func searchableText(b Business) string {
-	return strings.ToLower(strings.Join([]string{
+func keywordScore(text string, rules []keywordRule) float64 {
+	var score float64
+	for _, rule := range rules {
+		if containsAny(text, rule.Needles...) {
+			score += rule.Points
+		}
+	}
+	return score
+}
+
+func factScore(b core.Business, m core.Metrics, rules []factRule) float64 {
+	var score float64
+	for _, rule := range rules {
+		if rule.Match(b, m) {
+			score += rule.Points
+		}
+	}
+	return score
+}
+
+func searchableText(b core.Business) string {
+	parts := []string{
 		b.Name,
 		b.Type,
 		b.Location,
 		b.URL,
+		b.Links.Source,
+		b.Links.Website,
 		b.ReasonForSelling,
 		b.AIOpportunity,
 		b.Notes,
-	}, " "))
+	}
+	for _, review := range b.Links.Reviews {
+		parts = append(parts, review.Label, review.URL)
+	}
+	return strings.ToLower(strings.Join(parts, " "))
 }
 
 func containsAny(text string, needles ...string) bool {
@@ -336,15 +292,6 @@ func containsAny(text string, needles ...string) bool {
 		}
 	}
 	return false
-}
-
-func knownRealEstate(realEstate string) bool {
-	switch strings.ToLower(strings.TrimSpace(realEstate)) {
-	case "leased", "owned", "none":
-		return true
-	default:
-		return false
-	}
 }
 
 func clamp(v, min, max float64) float64 {

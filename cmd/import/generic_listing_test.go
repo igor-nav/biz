@@ -3,6 +3,8 @@ package main
 import (
 	"net/url"
 	"testing"
+
+	core "github.com/igor-nav/biz/internal/biz"
 )
 
 func TestParseDollarSupportsSuffixesAndRanges(t *testing.T) {
@@ -33,8 +35,7 @@ func TestParseGenericHTMLExtractsListingFields(t *testing.T) {
 			</body>
 		</html>`
 
-	var biz Business
-	parseGenericHTML(body, &biz, "BizQuest")
+	biz := parseGenericHTML(body, "BizQuest")
 
 	if biz.Name != "Computer Repair and Device Sales" {
 		t.Fatalf("Name = %q", biz.Name)
@@ -65,5 +66,22 @@ func TestGenericProviderRejectsSearchPages(t *testing.T) {
 	}
 	if !provider.isSearchPage(u) {
 		t.Fatal("expected search/results page to be rejected")
+	}
+}
+
+func TestMergeExtractionsUsesFirstNonEmptyPriority(t *testing.T) {
+	got := mergeExtractions(
+		extraction{Source: "trusted", Business: core.Business{Name: "Trusted Name", AskingPrice: 100}},
+		extraction{Source: "fallback", Business: core.Business{Name: "Fallback Name", Type: "Service", AskingPrice: 200}},
+	)
+
+	if got.Name != "Trusted Name" {
+		t.Fatalf("Name = %q", got.Name)
+	}
+	if got.AskingPrice != 100 {
+		t.Fatalf("AskingPrice = %v", got.AskingPrice)
+	}
+	if got.Type != "Service" {
+		t.Fatalf("Type = %q", got.Type)
 	}
 }

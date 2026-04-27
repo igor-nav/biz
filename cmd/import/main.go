@@ -1,10 +1,5 @@
 // import fetches a for-sale business listing from a supported URL and creates a
 // businesses/<slug>/data.json file following the project schema.
-//
-// Usage:
-//
-//	go run ./cmd/import <URL>
-//	go run ./cmd/import -dir /path/to/businesses <URL>
 package main
 
 import (
@@ -14,50 +9,15 @@ import (
 	"net/url"
 	"os"
 	"path/filepath"
+
+	core "github.com/igor-nav/biz/internal/biz"
 )
 
-// ── data model ────────────────────────────────────────────────────────────────
-
-// YearlyFigure pairs a calendar year with a dollar amount.
-// It mirrors the schema used by businesses/<slug>/data.json.
-type YearlyFigure struct {
-	Year   int     `json:"year"`
-	Amount float64 `json:"amount"`
-}
-
-// Business mirrors the schema of businesses/<slug>/data.json.
-type Business struct {
-	Name             string         `json:"name"`
-	Type             string         `json:"type"`
-	Location         string         `json:"location"`
-	URL              string         `json:"url,omitempty"`
-	AskingPrice      float64        `json:"asking_price"`
-	Revenue          []YearlyFigure `json:"revenue,omitempty"`
-	SDE              []YearlyFigure `json:"sde,omitempty"`
-	Inventory        float64        `json:"inventory,omitempty"`
-	FFE              float64        `json:"ffe,omitempty"`
-	RealEstate       string         `json:"real_estate,omitempty"`
-	LeaseMonthly     float64        `json:"lease_monthly,omitempty"`
-	LeaseExpiresYear int            `json:"lease_expires_year,omitempty"`
-	YearsInBusiness  int            `json:"years_in_business,omitempty"`
-	Employees        int            `json:"employees,omitempty"`
-	ReasonForSelling string         `json:"reason_for_selling,omitempty"`
-	AIOpportunity    string         `json:"ai_opportunity,omitempty"`
-	Notes            string         `json:"notes,omitempty"`
-}
-
-// ── provider registry ─────────────────────────────────────────────────────────
-
-// Provider describes a site-specific listing scraper.
 type Provider interface {
-	// Supports reports whether this provider can handle the given URL.
 	Supports(u *url.URL) bool
-	// Fetch downloads the listing and returns the populated Business and a slug.
-	Fetch(rawURL string) (*Business, string, error)
+	Fetch(rawURL string) (*core.Business, string, error)
 }
 
-// registry is the ordered list of registered listing providers.
-// Add new providers here to extend support for additional sites.
 var registry = []Provider{
 	&bizBuySellProvider{},
 	&genericSiteProvider{
@@ -85,8 +45,6 @@ var registry = []Provider{
 		searchPathHints: []string{"sba-approved-businesses-for-sale"},
 	},
 }
-
-// ── main ──────────────────────────────────────────────────────────────────────
 
 func main() {
 	dir := flag.String("dir", "businesses", "root directory for candidate sub-dirs")

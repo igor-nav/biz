@@ -18,6 +18,8 @@ import (
 	"strings"
 	"time"
 	"unicode"
+
+	core "github.com/igor-nav/biz/internal/biz"
 )
 
 // bizBuySellProvider scrapes business-for-sale listings from BizBuySell.com.
@@ -30,20 +32,21 @@ func (p *bizBuySellProvider) Supports(u *url.URL) bool {
 }
 
 // Fetch downloads and parses a BizBuySell listing page.
-func (p *bizBuySellProvider) Fetch(rawURL string) (*Business, string, error) {
+func (p *bizBuySellProvider) Fetch(rawURL string) (*core.Business, string, error) {
 	body, err := fetchPage(rawURL)
 	if err != nil {
 		return nil, "", err
 	}
 
-	biz := &Business{URL: rawURL}
-
-	parseNextData(body, biz) // Next.js embedded JSON (most reliable)
-	parseJSONLD(body, biz)   // JSON-LD structured data
-	parseBBSHTML(body, biz)  // HTML regex fallbacks
+	biz := mergeExtractions(
+		baseExtraction(rawURL),
+		extraction{Source: "__NEXT_DATA__", Business: parseNextData(body)},
+		extraction{Source: "json-ld", Business: parseJSONLD(body)},
+		extraction{Source: "html", Business: parseBBSHTML(body)},
+	)
 
 	slug := bizBuySellSlug(rawURL, biz.Name)
-	return biz, slug, nil
+	return &biz, slug, nil
 }
 
 // ── HTTP fetch ────────────────────────────────────────────────────────────────
@@ -84,21 +87,22 @@ func fetchPage(rawURL string) (string, error) {
 var reNextData = regexp.MustCompile(`(?s)<script[^>]+id=["']__NEXT_DATA__["'][^>]*>(.*?)</script>`)
 
 // parseNextData extracts business data from the Next.js __NEXT_DATA__ JSON blob.
-func parseNextData(body string, biz *Business) {
+func parseNextData(body string) core.Business {
 	m := reNextData.FindStringSubmatch(body)
 	if len(m) < 2 {
-		return
+		return core.Business{}
 	}
 
 	var nd map[string]any
 	if err := json.Unmarshal([]byte(strings.TrimSpace(m[1])), &nd); err != nil {
-		return
+		return core.Business{}
 	}
 
 	listing := findListingMap(nd)
 	if listing == nil {
-		return
+		return core.Business{}
 	}
+	var biz core.Business
 
 	// Helpers that only write if the field is still empty/zero.
 	setStr := func(dst *string, keys ...string) {
@@ -175,14 +179,14 @@ func parseNextData(body string, biz *Business) {
 		var cf float64
 		setFloat(&cf, "cashFlow", "sde", "sellerDiscretionaryEarnings")
 		if cf > 0 {
-			biz.SDE = []YearlyFigure{{Year: year, Amount: cf}}
+			biz.SDE = []core.YearlyFigure{{Year: year, Amount: cf}}
 		}
 	}
 	if len(biz.Revenue) == 0 {
 		var rev float64
 		setFloat(&rev, "grossRevenue", "revenue", "annualRevenue")
 		if rev > 0 {
-			biz.Revenue = []YearlyFigure{{Year: year, Amount: rev}}
+			biz.Revenue = []core.YearlyFigure{{Year: year, Amount: rev}}
 		}
 	}
 
@@ -206,6 +210,7 @@ func parseNextData(body string, biz *Business) {
 			biz.RealEstate = strings.ToLower(strings.TrimSpace(v))
 		}
 	}
+	return biz
 }
 
 // findListingMap walks common Next.js pageProps paths to find the listing object.
@@ -269,8 +274,9 @@ func extractLocationFromMap(listing map[string]any) string {
 
 var reJSONLD = regexp.MustCompile(`(?is)<script[^>]+type=["']application/ld\+json["'][^>]*>(.*?)</script>`)
 
-// parseJSONLD looks for JSON-LD script tags and fills any still-empty fields.
-func parseJSONLD(body string, biz *Business) {
+// parseJSONLD looks for JSON-LD script tags and returns extracted fields.
+func parseJSONLD(body string) core.Business {
+	var biz core.Business
 	for _, m := range reJSONLD.FindAllStringSubmatch(body, -1) {
 		var obj map[string]any
 		if err := json.Unmarshal([]byte(strings.TrimSpace(m[1])), &obj); err != nil {
@@ -298,6 +304,7 @@ func parseJSONLD(body string, biz *Business) {
 			}
 		}
 	}
+	return biz
 }
 
 // jsonFloat extracts a number from a JSON map value, accepting both float64 and string.
@@ -341,8 +348,9 @@ var (
 	reNearYear = regexp.MustCompile(`(?i)(20\d{2})\s+(?:cash\s*flow|gross\s*revenue|sde)|(?:cash\s*flow|gross\s*revenue|sde)\s*[^.]{0,30}?\(?(20\d{2})\)?`)
 )
 
-// parseBBSHTML fills still-empty Business fields using HTML regex patterns.
-func parseBBSHTML(body string, biz *Business) {
+// parseBBSHTML extracts Business fields using HTML regex patterns.
+func parseBBSHTML(body string) core.Business {
+	var biz core.Business
 	// Remove scripts and styles so their text doesn't interfere.
 	stripped := reScriptStyle.ReplaceAllString(body, " ")
 
@@ -381,7 +389,7 @@ func parseBBSHTML(body string, biz *Business) {
 	if len(biz.SDE) == 0 {
 		if m := reCashFlow.FindStringSubmatch(text); len(m) > 1 {
 			if amt := parseDollar(m[1]); amt > 0 {
-				biz.SDE = []YearlyFigure{{Year: year, Amount: amt}}
+				biz.SDE = []core.YearlyFigure{{Year: year, Amount: amt}}
 			}
 		}
 	}
@@ -390,7 +398,7 @@ func parseBBSHTML(body string, biz *Business) {
 	if len(biz.Revenue) == 0 {
 		if m := reRevenue.FindStringSubmatch(text); len(m) > 1 {
 			if amt := parseDollar(m[1]); amt > 0 {
-				biz.Revenue = []YearlyFigure{{Year: year, Amount: amt}}
+				biz.Revenue = []core.YearlyFigure{{Year: year, Amount: amt}}
 			}
 		}
 	}
@@ -429,6 +437,7 @@ func parseBBSHTML(body string, biz *Business) {
 			biz.Type = strings.TrimSpace(m[1])
 		}
 	}
+	return biz
 }
 
 // bestFinancialYear finds the most recent year (20xx) mentioned near a financial

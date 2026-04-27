@@ -1,23 +1,27 @@
 package main
 
-import "testing"
+import (
+	"testing"
+
+	core "github.com/igor-nav/biz/internal/biz"
+)
 
 func TestScoreRewardsKnownFinancials(t *testing.T) {
-	terms := Terms{DownPct: 0.10, AnnualRate: 0.105, TermYears: 10}
-	withFinancials := Business{
+	terms := core.Terms{DownPct: 0.10, AnnualRate: 0.105, TermYears: 10}
+	withFinancials := core.Business{
 		Name:        "Property Management Company",
 		Type:        "Property Management",
 		Location:    "Coral Springs, FL",
 		URL:         "https://example.com",
 		AskingPrice: 275_000,
-		SDE:         []YearlyFigure{{Year: 2026, Amount: 114_000}},
+		SDE:         []core.YearlyFigure{{Year: 2026, Amount: 114_000}},
 		AIOpportunity: "Automated tenant screening, predictive maintenance, dynamic pricing, " +
 			"smart lock integration, automated lease generation, and AI chatbot support.",
 		Notes:           "Recurring contracts and recession-resistant housing need.",
 		YearsInBusiness: 40,
 		RealEstate:      "unknown",
 	}
-	missingFinancials := Business{
+	missingFinancials := core.Business{
 		Name:          "Computer Repair and Device Sales",
 		Type:          "Computer Repair",
 		Location:      "Sunrise, FL",
@@ -27,8 +31,8 @@ func TestScoreRewardsKnownFinancials(t *testing.T) {
 		RealEstate:    "unknown",
 	}
 
-	known := ScoreBusiness(withFinancials, ComputeMetrics(withFinancials, terms))
-	missing := ScoreBusiness(missingFinancials, ComputeMetrics(missingFinancials, terms))
+	known := ScoreBusiness(withFinancials, core.ComputeMetrics(withFinancials, terms))
+	missing := ScoreBusiness(missingFinancials, core.ComputeMetrics(missingFinancials, terms))
 
 	if known.Total <= missing.Total {
 		t.Fatalf("known financials score %v should beat missing financials score %v", known.Total, missing.Total)
@@ -39,8 +43,8 @@ func TestScoreRewardsKnownFinancials(t *testing.T) {
 }
 
 func TestScoreWarnsOnMissingFinancials(t *testing.T) {
-	b := Business{Name: "Lead", AskingPrice: 100_000}
-	score := ScoreBusiness(b, ComputeMetrics(b, Terms{DownPct: 0.10, AnnualRate: 0.105, TermYears: 10}))
+	b := core.Business{Name: "Lead", AskingPrice: 100_000}
+	score := ScoreBusiness(b, core.ComputeMetrics(b, core.Terms{DownPct: 0.10, AnnualRate: 0.105, TermYears: 10}))
 
 	if len(score.Warnings) == 0 {
 		t.Fatal("expected warnings")
@@ -51,7 +55,7 @@ func TestScoreWarnsOnMissingFinancials(t *testing.T) {
 }
 
 func TestReportLinksDoNotFallBackToLegacyURL(t *testing.T) {
-	b := Business{URL: "https://example.com/search-results"}
+	b := core.Business{URL: "https://example.com/search-results"}
 
 	if got := reportLinks(b); len(got) != 0 {
 		t.Fatalf("reportLinks() = %#v, want no links", got)
@@ -59,10 +63,10 @@ func TestReportLinksDoNotFallBackToLegacyURL(t *testing.T) {
 }
 
 func TestReportLinksIncludeVerifiedReviewSources(t *testing.T) {
-	b := Business{
-		Links: Links{
+	b := core.Business{
+		Links: core.Links{
 			Source: "https://example.com/listing",
-			Reviews: []Link{
+			Reviews: []core.Link{
 				{Label: "Birdeye", URL: "https://reviews.example.com"},
 				{Label: "Missing URL"},
 				{URL: "https://missing-label.example.com"},

@@ -3,24 +3,26 @@ package main
 import (
 	"math"
 	"testing"
+
+	core "github.com/igor-nav/biz/internal/biz"
 )
 
 func TestComputeStatsUsesLatestFiguresAndAdjacentGrowth(t *testing.T) {
-	b := &Business{
+	b := core.Business{
 		AskingPrice: 1_000_000,
-		Revenue: []YearlyFigure{
+		Revenue: []core.YearlyFigure{
 			{Year: 2022, Amount: 500_000},
 			{Year: 2024, Amount: 700_000},
 			{Year: 2023, Amount: 600_000},
 		},
-		SDE: []YearlyFigure{
+		SDE: []core.YearlyFigure{
 			{Year: 2022, Amount: 150_000},
 			{Year: 2024, Amount: 210_000},
 			{Year: 2023, Amount: 180_000},
 		},
 	}
 
-	stats := computeStats("example", b, 0.10, 0.105, 10)
+	stats := core.ComputeMetrics(b, core.Terms{DownPct: 0.10, AnnualRate: 0.105, TermYears: 10})
 
 	assertEqual(t, stats.LatestRevenue, 700_000)
 	assertEqual(t, stats.LatestSDE, 210_000)

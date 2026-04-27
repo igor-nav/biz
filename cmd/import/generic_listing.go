@@ -6,6 +6,8 @@ import (
 	"regexp"
 	"strings"
 	"time"
+
+	core "github.com/igor-nav/biz/internal/biz"
 )
 
 // genericSiteProvider handles broker/listing sites that expose useful fields in
@@ -28,7 +30,7 @@ func (p *genericSiteProvider) Supports(u *url.URL) bool {
 	return false
 }
 
-func (p *genericSiteProvider) Fetch(rawURL string) (*Business, string, error) {
+func (p *genericSiteProvider) Fetch(rawURL string) (*core.Business, string, error) {
 	u, err := url.Parse(rawURL)
 	if err != nil {
 		return nil, "", fmt.Errorf("parsing URL: %w", err)
@@ -42,16 +44,18 @@ func (p *genericSiteProvider) Fetch(rawURL string) (*Business, string, error) {
 		return nil, "", err
 	}
 
-	biz := &Business{URL: rawURL}
-	parseJSONLD(body, biz)
-	parseGenericHTML(body, biz, p.siteName)
+	biz := mergeExtractions(
+		baseExtraction(rawURL),
+		extraction{Source: "json-ld", Business: parseJSONLD(body)},
+		extraction{Source: "html", Business: parseGenericHTML(body, p.siteName)},
+	)
 
 	hasFinancials := biz.AskingPrice > 0 || len(biz.SDE) > 0 || len(biz.Revenue) > 0
 	if biz.Name == "" || !hasFinancials {
 		return nil, "", fmt.Errorf("could not extract listing fields from %s; use a detail page instead of a search/results page", p.siteName)
 	}
 
-	return biz, genericSlug(rawURL, p.slugPrefix, biz.Name), nil
+	return &biz, genericSlug(rawURL, p.slugPrefix, biz.Name), nil
 }
 
 func (p *genericSiteProvider) isSearchPage(u *url.URL) bool {
@@ -73,7 +77,8 @@ var (
 	reGenericLoc   = regexp.MustCompile(`(?i)(?:location|located\s+in)\s*:?\s*([A-Z][A-Za-z .'-]+,\s*[A-Z]{2}\b)`)
 )
 
-func parseGenericHTML(body string, biz *Business, siteName string) {
+func parseGenericHTML(body string, siteName string) core.Business {
+	var biz core.Business
 	stripped := reScriptStyle.ReplaceAllString(body, " ")
 	text := reHTMLTag.ReplaceAllString(stripped, " ")
 	text = htmlUnescape(reExtraSpace.ReplaceAllString(text, " "))
@@ -88,12 +93,12 @@ func parseGenericHTML(body string, biz *Business, siteName string) {
 	year := bestFinancialYear(text)
 	if len(biz.SDE) == 0 {
 		if sde := firstMoney(text, reGenericSDE); sde > 0 {
-			biz.SDE = []YearlyFigure{{Year: year, Amount: sde}}
+			biz.SDE = []core.YearlyFigure{{Year: year, Amount: sde}}
 		}
 	}
 	if len(biz.Revenue) == 0 {
 		if revenue := firstMoney(text, reGenericRev); revenue > 0 {
-			biz.Revenue = []YearlyFigure{{Year: year, Amount: revenue}}
+			biz.Revenue = []core.YearlyFigure{{Year: year, Amount: revenue}}
 		}
 	}
 	if biz.Location == "" {
@@ -101,6 +106,7 @@ func parseGenericHTML(body string, biz *Business, siteName string) {
 			biz.Location = strings.TrimSpace(m[1])
 		}
 	}
+	return biz
 }
 
 func genericTitle(body, stripped, siteName string) string {
