@@ -77,6 +77,13 @@ fields that could not be scraped automatically (e.g. multi-year financials,
   "type": "IT Managed Services / MSP", // business category
   "location": "Austin, TX",
   "url": "https://bizbuysell.com/...", // listing URL (optional)
+  "links": {                           // diligence links for REPORT.md
+    "source": "https://bizbuysell.com/...",
+    "google_maps": "https://www.google.com/maps/search/?api=1&query=...",
+    "yelp": "https://www.yelp.com/search?find_desc=...&find_loc=...",
+    "bbb": "https://www.bbb.org/search?find_text=...&find_loc=...",
+    "web_reviews": "https://www.google.com/search?q=...+reviews"
+  },
   "asking_price": 750000,
 
   // yearly financials – include as many years as available (most recent wins)

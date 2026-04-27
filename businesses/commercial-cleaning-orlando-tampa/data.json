@@ -1,18 +1,29 @@
 {
-  "name": "Commercial Cleaning (Established)",
-  "type": "Commercial Cleaning",
-  "location": "Orlando / Tampa, FL",
-  "url": "https://www.bizbuysell.com/florida/orlando/service-businesses-for-sale/",
-  "asking_price": 400000,
-  "revenue": [],
-  "sde": [],
-  "inventory": 0,
-  "ffe": 0,
-  "real_estate": "unknown",
-  "lease_monthly": 0,
-  "years_in_business": 0,
-  "employees": 0,
-  "reason_for_selling": "",
-  "ai_opportunity": "Route optimization, automated scheduling, IoT supply tracking, and AI quality control cameras.",
-  "notes": "Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $300-500K estimate and cash flow as recurring contracts; midpoint $400K is used for analyzer sorting until exact broker data is available."
+    "name":  "Commercial Cleaning (Established)",
+    "type":  "Commercial Cleaning",
+    "location":  "Orlando / Tampa, FL",
+    "url":  "https://www.bizbuysell.com/florida/orlando/service-businesses-for-sale/",
+    "asking_price":  400000,
+    "revenue":  [
+
+                ],
+    "sde":  [
+
+            ],
+    "inventory":  0,
+    "ffe":  0,
+    "real_estate":  "unknown",
+    "lease_monthly":  0,
+    "years_in_business":  0,
+    "employees":  0,
+    "reason_for_selling":  "",
+    "ai_opportunity":  "Route optimization, automated scheduling, IoT supply tracking, and AI quality control cameras.",
+    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $300-500K estimate and cash flow as recurring contracts; midpoint $400K is used for analyzer sorting until exact broker data is available.",
+    "links":  {
+                  "source":  "https://www.bizbuysell.com/florida/orlando/service-businesses-for-sale/",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Commercial%20Cleaning%20in%20Orlando%20%2F%20Tampa%2C%20FL",
+                  "yelp":  "https://www.yelp.com/search?find_desc=Commercial%20Cleaning\u0026find_loc=Orlando%20%2F%20Tampa%2C%20FL",
+                  "bbb":  "https://www.bbb.org/search?find_text=Commercial%20Cleaning\u0026find_loc=Orlando%20%2F%20Tampa%2C%20FL",
+                  "web_reviews":  "https://www.google.com/search?q=Commercial%20Cleaning%20(Established)%20Commercial%20Cleaning%20Orlando%20%2F%20Tampa%2C%20FL%20reviews"
+              }
 }

@@ -1,18 +1,29 @@
 {
-  "name": "Telehealth Business - Turnkey",
-  "type": "Telehealth",
-  "location": "Fort Lauderdale, FL",
-  "url": "https://www.businessmart.com/businesses-for-sale/florida/broward-county.php",
-  "asking_price": 100000,
-  "revenue": [],
-  "sde": [],
-  "inventory": 0,
-  "ffe": 0,
-  "real_estate": "unknown",
-  "lease_monthly": 0,
-  "years_in_business": 0,
-  "employees": 0,
-  "reason_for_selling": "",
-  "ai_opportunity": "AI triage chatbot, automated prescriptions workflow, remote monitoring, and multi-state scaling.",
-  "notes": "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document."
+    "name":  "Telehealth Business - Turnkey",
+    "type":  "Telehealth",
+    "location":  "Fort Lauderdale, FL",
+    "url":  "https://www.businessmart.com/businesses-for-sale/florida/broward-county.php",
+    "asking_price":  100000,
+    "revenue":  [
+
+                ],
+    "sde":  [
+
+            ],
+    "inventory":  0,
+    "ffe":  0,
+    "real_estate":  "unknown",
+    "lease_monthly":  0,
+    "years_in_business":  0,
+    "employees":  0,
+    "reason_for_selling":  "",
+    "ai_opportunity":  "AI triage chatbot, automated prescriptions workflow, remote monitoring, and multi-state scaling.",
+    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.",
+    "links":  {
+                  "source":  "https://www.businessmart.com/businesses-for-sale/florida/broward-county.php",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Telehealth%20in%20Fort%20Lauderdale%2C%20FL",
+                  "yelp":  "https://www.yelp.com/search?find_desc=Telehealth\u0026find_loc=Fort%20Lauderdale%2C%20FL",
+                  "bbb":  "https://www.bbb.org/search?find_text=Telehealth\u0026find_loc=Fort%20Lauderdale%2C%20FL",
+                  "web_reviews":  "https://www.google.com/search?q=Telehealth%20Business%20-%20Turnkey%20Telehealth%20Fort%20Lauderdale%2C%20FL%20reviews"
+              }
 }

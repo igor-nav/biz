@@ -1,18 +1,29 @@
 {
-  "name": "Pest Control Business",
-  "type": "Pest Control",
-  "location": "Tampa / Hillsborough County, FL",
-  "url": "https://www.bizquest.com/pest-control-businesses-for-sale-in-florida/",
-  "asking_price": 450000,
-  "revenue": [],
-  "sde": [],
-  "inventory": 0,
-  "ffe": 0,
-  "real_estate": "unknown",
-  "lease_monthly": 0,
-  "years_in_business": 0,
-  "employees": 0,
-  "reason_for_selling": "",
-  "ai_opportunity": "AI route optimization, predictive treatment modeling, automated customer portal, drone property inspection, and AI-powered upselling.",
-  "notes": "Imported from AlexNaHub shared research updated 2026-04-26. Ranked #2 for AI/IT improvement potential. Shared document listed price as $300-600K estimate and cash flow as strong recurring; midpoint $450K is used for analyzer sorting until exact broker data is available."
+    "name":  "Pest Control Business",
+    "type":  "Pest Control",
+    "location":  "Tampa / Hillsborough County, FL",
+    "url":  "https://www.bizquest.com/pest-control-businesses-for-sale-in-florida/",
+    "asking_price":  450000,
+    "revenue":  [
+
+                ],
+    "sde":  [
+
+            ],
+    "inventory":  0,
+    "ffe":  0,
+    "real_estate":  "unknown",
+    "lease_monthly":  0,
+    "years_in_business":  0,
+    "employees":  0,
+    "reason_for_selling":  "",
+    "ai_opportunity":  "AI route optimization, predictive treatment modeling, automated customer portal, drone property inspection, and AI-powered upselling.",
+    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Ranked #2 for AI/IT improvement potential. Shared document listed price as $300-600K estimate and cash flow as strong recurring; midpoint $450K is used for analyzer sorting until exact broker data is available.",
+    "links":  {
+                  "source":  "https://www.bizquest.com/pest-control-businesses-for-sale-in-florida/",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Pest%20Control%20in%20Tampa%20%2F%20Hillsborough%20County%2C%20FL",
+                  "yelp":  "https://www.yelp.com/search?find_desc=Pest%20Control\u0026find_loc=Tampa%20%2F%20Hillsborough%20County%2C%20FL",
+                  "bbb":  "https://www.bbb.org/search?find_text=Pest%20Control\u0026find_loc=Tampa%20%2F%20Hillsborough%20County%2C%20FL",
+                  "web_reviews":  "https://www.google.com/search?q=Pest%20Control%20Business%20Pest%20Control%20Tampa%20%2F%20Hillsborough%20County%2C%20FL%20reviews"
+              }
 }

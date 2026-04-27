@@ -1,18 +1,29 @@
 {
-  "name": "SBA Pre-Qualified Amazon FBA Business",
-  "type": "Amazon FBA / Home and Kitchen Brands",
-  "location": "Tampa, FL",
-  "url": "https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/",
-  "asking_price": 400000,
-  "revenue": [],
-  "sde": [],
-  "inventory": 0,
-  "ffe": 0,
-  "real_estate": "none",
-  "lease_monthly": 0,
-  "years_in_business": 9,
-  "employees": 0,
-  "reason_for_selling": "",
-  "ai_opportunity": "AI demand forecasting, automated PPC optimization, inventory forecasting, listing optimization, review mining, and product expansion analytics.",
-  "notes": "Imported from AlexNaHub shared research updated 2026-04-26. Shared document says SBA pre-qualified, Tampa, 9-year-old Amazon FBA business with 4 home and kitchen brands. Price was listed as $400K+; $400K is used as a conservative floor until exact broker data is available."
+    "name":  "SBA Pre-Qualified Amazon FBA Business",
+    "type":  "Amazon FBA / Home and Kitchen Brands",
+    "location":  "Tampa, FL",
+    "url":  "https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/",
+    "asking_price":  400000,
+    "revenue":  [
+
+                ],
+    "sde":  [
+
+            ],
+    "inventory":  0,
+    "ffe":  0,
+    "real_estate":  "none",
+    "lease_monthly":  0,
+    "years_in_business":  9,
+    "employees":  0,
+    "reason_for_selling":  "",
+    "ai_opportunity":  "AI demand forecasting, automated PPC optimization, inventory forecasting, listing optimization, review mining, and product expansion analytics.",
+    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document says SBA pre-qualified, Tampa, 9-year-old Amazon FBA business with 4 home and kitchen brands. Price was listed as $400K+; $400K is used as a conservative floor until exact broker data is available.",
+    "links":  {
+                  "source":  "https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands%20in%20Tampa%2C%20FL",
+                  "yelp":  "https://www.yelp.com/search?find_desc=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands\u0026find_loc=Tampa%2C%20FL",
+                  "bbb":  "https://www.bbb.org/search?find_text=Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands\u0026find_loc=Tampa%2C%20FL",
+                  "web_reviews":  "https://www.google.com/search?q=SBA%20Pre-Qualified%20Amazon%20FBA%20Business%20Amazon%20FBA%20%2F%20Home%20and%20Kitchen%20Brands%20Tampa%2C%20FL%20reviews"
+              }
 }

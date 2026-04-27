@@ -1,18 +1,29 @@
 {
-  "name": "Pool Supply Franchise (#1 brand)",
-  "type": "Pool Supply Franchise",
-  "location": "Coconut Creek, FL",
-  "url": "https://www.businessmart.com/businesses-for-sale/florida/broward-county.php",
-  "asking_price": 695000,
-  "revenue": [],
-  "sde": [],
-  "inventory": 0,
-  "ffe": 0,
-  "real_estate": "unknown",
-  "lease_monthly": 0,
-  "years_in_business": 0,
-  "employees": 0,
-  "reason_for_selling": "",
-  "ai_opportunity": "Route optimization AI, predictive maintenance, IoT pool monitoring, and automated reordering.",
-  "notes": "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document."
+    "name":  "Pool Supply Franchise (#1 brand)",
+    "type":  "Pool Supply Franchise",
+    "location":  "Coconut Creek, FL",
+    "url":  "https://www.businessmart.com/businesses-for-sale/florida/broward-county.php",
+    "asking_price":  695000,
+    "revenue":  [
+
+                ],
+    "sde":  [
+
+            ],
+    "inventory":  0,
+    "ffe":  0,
+    "real_estate":  "unknown",
+    "lease_monthly":  0,
+    "years_in_business":  0,
+    "employees":  0,
+    "reason_for_selling":  "",
+    "ai_opportunity":  "Route optimization AI, predictive maintenance, IoT pool monitoring, and automated reordering.",
+    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.",
+    "links":  {
+                  "source":  "https://www.businessmart.com/businesses-for-sale/florida/broward-county.php",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Pool%20Supply%20Franchise%20in%20Coconut%20Creek%2C%20FL",
+                  "yelp":  "https://www.yelp.com/search?find_desc=Pool%20Supply%20Franchise\u0026find_loc=Coconut%20Creek%2C%20FL",
+                  "bbb":  "https://www.bbb.org/search?find_text=Pool%20Supply%20Franchise\u0026find_loc=Coconut%20Creek%2C%20FL",
+                  "web_reviews":  "https://www.google.com/search?q=Pool%20Supply%20Franchise%20(%231%20brand)%20Pool%20Supply%20Franchise%20Coconut%20Creek%2C%20FL%20reviews"
+              }
 }

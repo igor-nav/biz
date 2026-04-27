@@ -1,18 +1,29 @@
 {
-  "name": "Auto Repair and Tire Shop",
-  "type": "Auto Repair / Tire Shop",
-  "location": "Miami-Dade County, FL",
-  "url": "https://www.bizbuysell.com/florida/miami-dade-county/auto-repair-and-service-shops-for-sale/",
-  "asking_price": 500000,
-  "revenue": [],
-  "sde": [],
-  "inventory": 0,
-  "ffe": 0,
-  "real_estate": "unknown",
-  "lease_monthly": 0,
-  "years_in_business": 0,
-  "employees": 0,
-  "reason_for_selling": "",
-  "ai_opportunity": "AI diagnostics, predictive maintenance, automated inventory, and fleet management.",
-  "notes": "Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $400-600K estimate and cash flow as strong; midpoint $500K is used for analyzer sorting until exact broker data is available."
+    "name":  "Auto Repair and Tire Shop",
+    "type":  "Auto Repair / Tire Shop",
+    "location":  "Miami-Dade County, FL",
+    "url":  "https://www.bizbuysell.com/florida/miami-dade-county/auto-repair-and-service-shops-for-sale/",
+    "asking_price":  500000,
+    "revenue":  [
+
+                ],
+    "sde":  [
+
+            ],
+    "inventory":  0,
+    "ffe":  0,
+    "real_estate":  "unknown",
+    "lease_monthly":  0,
+    "years_in_business":  0,
+    "employees":  0,
+    "reason_for_selling":  "",
+    "ai_opportunity":  "AI diagnostics, predictive maintenance, automated inventory, and fleet management.",
+    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $400-600K estimate and cash flow as strong; midpoint $500K is used for analyzer sorting until exact broker data is available.",
+    "links":  {
+                  "source":  "https://www.bizbuysell.com/florida/miami-dade-county/auto-repair-and-service-shops-for-sale/",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Auto%20Repair%20%2F%20Tire%20Shop%20in%20Miami-Dade%20County%2C%20FL",
+                  "yelp":  "https://www.yelp.com/search?find_desc=Auto%20Repair%20%2F%20Tire%20Shop\u0026find_loc=Miami-Dade%20County%2C%20FL",
+                  "bbb":  "https://www.bbb.org/search?find_text=Auto%20Repair%20%2F%20Tire%20Shop\u0026find_loc=Miami-Dade%20County%2C%20FL",
+                  "web_reviews":  "https://www.google.com/search?q=Auto%20Repair%20and%20Tire%20Shop%20Auto%20Repair%20%2F%20Tire%20Shop%20Miami-Dade%20County%2C%20FL%20reviews"
+              }
 }

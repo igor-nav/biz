@@ -1,18 +1,29 @@
 {
-  "name": "Med Spa - Absentee Owner",
-  "type": "Med Spa",
-  "location": "Fort Lauderdale, FL",
-  "url": "https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/",
-  "asking_price": 700000,
-  "revenue": [],
-  "sde": [],
-  "inventory": 0,
-  "ffe": 0,
-  "real_estate": "unknown",
-  "lease_monthly": 0,
-  "years_in_business": 0,
-  "employees": 0,
-  "reason_for_selling": "",
-  "ai_opportunity": "AI booking, automated marketing, customer retention CRM, and online reputation management.",
-  "notes": "Imported from AlexNaHub shared research updated 2026-04-26. Shared document notes absentee owner, AAA location, and strong recurring revenue, but no numeric cash flow."
+    "name":  "Med Spa - Absentee Owner",
+    "type":  "Med Spa",
+    "location":  "Fort Lauderdale, FL",
+    "url":  "https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/",
+    "asking_price":  700000,
+    "revenue":  [
+
+                ],
+    "sde":  [
+
+            ],
+    "inventory":  0,
+    "ffe":  0,
+    "real_estate":  "unknown",
+    "lease_monthly":  0,
+    "years_in_business":  0,
+    "employees":  0,
+    "reason_for_selling":  "",
+    "ai_opportunity":  "AI booking, automated marketing, customer retention CRM, and online reputation management.",
+    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document notes absentee owner, AAA location, and strong recurring revenue, but no numeric cash flow.",
+    "links":  {
+                  "source":  "https://www.bizquest.com/businesses-for-sale-in-broward-county-fl/",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Med%20Spa%20in%20Fort%20Lauderdale%2C%20FL",
+                  "yelp":  "https://www.yelp.com/search?find_desc=Med%20Spa\u0026find_loc=Fort%20Lauderdale%2C%20FL",
+                  "bbb":  "https://www.bbb.org/search?find_text=Med%20Spa\u0026find_loc=Fort%20Lauderdale%2C%20FL",
+                  "web_reviews":  "https://www.google.com/search?q=Med%20Spa%20-%20Absentee%20Owner%20Med%20Spa%20Fort%20Lauderdale%2C%20FL%20reviews"
+              }
 }

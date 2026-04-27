@@ -24,6 +24,7 @@ type Business struct {
 	Type             string         `json:"type"`
 	Location         string         `json:"location"`
 	URL              string         `json:"url"`
+	Links            Links          `json:"links"`
 	AskingPrice      float64        `json:"asking_price"`
 	Revenue          []YearlyFigure `json:"revenue"`
 	SDE              []YearlyFigure `json:"sde"`
@@ -37,6 +38,14 @@ type Business struct {
 	ReasonForSelling string         `json:"reason_for_selling"`
 	AIOpportunity    string         `json:"ai_opportunity"`
 	Notes            string         `json:"notes"`
+}
+
+type Links struct {
+	Source     string `json:"source"`
+	GoogleMaps string `json:"google_maps"`
+	Yelp       string `json:"yelp"`
+	BBB        string `json:"bbb"`
+	WebReviews string `json:"web_reviews"`
 }
 
 type Candidate struct {
@@ -143,6 +152,7 @@ func renderReport(entries []ReportEntry, terms Terms) []byte {
 	fmt.Fprintf(&b, "Scoring assumptions: %.0f%% down, %.2f%% annual interest, %d-year SBA term. Scores are heuristic research triage, not investment advice.\n\n",
 		terms.DownPct*100, terms.AnnualRate*100, terms.TermYears)
 
+	writeGlossary(&b)
 	writeSummary(&b, entries)
 	writeMethod(&b)
 	writeDetails(&b, entries)
@@ -150,17 +160,19 @@ func renderReport(entries []ReportEntry, terms Terms) []byte {
 	return b.Bytes()
 }
 
+func writeGlossary(b *bytes.Buffer) {
+	fmt.Fprintf(b, "## Glossary\n\n")
+	fmt.Fprintf(b, "- SDE: Seller's Discretionary Earnings, a small-business cash-flow proxy that adds owner compensation and discretionary expenses back to earnings.\n")
+	fmt.Fprintf(b, "- DSCR: Debt Service Coverage Ratio, calculated here as latest SDE divided by annual SBA loan debt service. SBA underwriting usually wants at least 1.25.\n")
+	fmt.Fprintf(b, "- SDE Multiple: Asking price divided by latest SDE. It is analogous to a P/E ratio because both compare price to earnings power, but it is not the same: P/E uses public-company earnings per share, while this uses seller discretionary cash flow for a private small business.\n\n")
+}
+
 func writeSummary(b *bytes.Buffer, entries []ReportEntry) {
 	fmt.Fprintf(b, "## Ranked Candidates\n\n")
-	fmt.Fprintf(b, "| Rank | Score | Business | Location | Asking | SDE | DSCR | Multiple | Data | Why |\n")
-	fmt.Fprintf(b, "|---:|---:|---|---|---:|---:|---:|---:|---:|---|\n")
-	for i, entry := range entries {
-		why := ""
-		if len(entry.Score.Reasons) > 0 {
-			why = entry.Score.Reasons[0]
-		}
-		fmt.Fprintf(b, "| %d | %.1f | [%s](%s) | %s | %s | %s | %s | %s | %.1f | %s |\n",
-			i+1,
+	fmt.Fprintf(b, "| Score | Business | Location | Asking | SDE | DSCR | SDE Multiple | Links |\n")
+	fmt.Fprintf(b, "|---:|---|---|---:|---:|---:|---:|---|\n")
+	for _, entry := range entries {
+		fmt.Fprintf(b, "| %.1f | [%s](%s) | %s | %s | %s | %s | %s | %s |\n",
 			entry.Score.Total,
 			md(entry.Biz.Name),
 			mdLink(entry.Path),
@@ -169,8 +181,7 @@ func writeSummary(b *bytes.Buffer, entries []ReportEntry) {
 			usd(entry.Metrics.LatestSDE),
 			number(entry.Metrics.DSCR),
 			multiple(entry.Metrics.SDEMultiple),
-			entry.Score.DataConfidence,
-			md(why),
+			linkList(entry.Biz),
 		)
 	}
 	fmt.Fprintf(b, "\n")
@@ -197,6 +208,9 @@ func writeDetails(b *bytes.Buffer, entries []ReportEntry) {
 		fmt.Fprintf(b, "- Location: %s\n", blank(biz.Location))
 		if biz.URL != "" {
 			fmt.Fprintf(b, "- Source: <%s>\n", biz.URL)
+		}
+		if links := detailLinks(biz); links != "" {
+			fmt.Fprintf(b, "- Links: %s\n", links)
 		}
 		fmt.Fprintf(b, "- Asking price: %s; down payment at 10%%: %s\n", usd(biz.AskingPrice), usd(entry.Metrics.DownPayment))
 		fmt.Fprintf(b, "- Latest SDE: %s; latest revenue: %s; DSCR: %s; SDE multiple: %s\n",
@@ -256,7 +270,7 @@ func multiple(v float64) string {
 	if v <= 0 {
 		return "TBD"
 	}
-	return fmt.Sprintf("%.2fx", v)
+	return fmt.Sprintf("%.2f", v)
 }
 
 func blank(s string) string {
@@ -275,4 +289,54 @@ func md(s string) string {
 
 func mdLink(s string) string {
 	return strings.ReplaceAll(s, " ", "%20")
+}
+
+func linkList(b Business) string {
+	links := reportLinks(b)
+	parts := make([]string, 0, len(links))
+	for _, link := range links {
+		parts = append(parts, fmt.Sprintf("[%s](%s)", link.Label, link.URL))
+	}
+	return strings.Join(parts, " ")
+}
+
+func detailLinks(b Business) string {
+	links := reportLinks(b)
+	parts := make([]string, 0, len(links))
+	for _, link := range links {
+		parts = append(parts, fmt.Sprintf("[%s](%s)", link.Label, link.URL))
+	}
+	return strings.Join(parts, ", ")
+}
+
+type reportLink struct {
+	Label string
+	URL   string
+}
+
+func reportLinks(b Business) []reportLink {
+	links := []reportLink{
+		{Label: "Source", URL: firstNonEmpty(b.Links.Source, b.URL)},
+		{Label: "Maps", URL: b.Links.GoogleMaps},
+		{Label: "Yelp", URL: b.Links.Yelp},
+		{Label: "BBB", URL: b.Links.BBB},
+		{Label: "Web", URL: b.Links.WebReviews},
+	}
+
+	out := links[:0]
+	for _, link := range links {
+		if strings.TrimSpace(link.URL) != "" {
+			out = append(out, link)
+		}
+	}
+	return out
+}
+
+func firstNonEmpty(values ...string) string {
+	for _, value := range values {
+		if strings.TrimSpace(value) != "" {
+			return value
+		}
+	}
+	return ""
 }
