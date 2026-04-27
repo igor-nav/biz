@@ -1,25 +1,44 @@
 {
-    "name":  "Auto Repair and Tire Shop",
+    "name":  "38-Year Profitable Auto Repair \u0026 Tire Shop - Turnkey, 5 Bays",
     "type":  "Auto Repair / Tire Shop",
-    "location":  "Miami-Dade County, FL",
-    "url":  "",
-    "asking_price":  500000,
+    "location":  "Miami, FL",
+    "url":  "https://www.bizbuysell.com/business-opportunity/38-year-profitable-auto-repair-and-tire-shop-turnkey-5-bays/2460087/",
+    "asking_price":  487000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  372799
+                    }
                 ],
     "sde":  [
-
+                {
+                    "year":  2026,
+                    "amount":  108000
+                }
             ],
-    "inventory":  0,
-    "ffe":  0,
-    "real_estate":  "unknown",
-    "lease_monthly":  0,
-    "years_in_business":  0,
-    "employees":  0,
+    "inventory":  130000,
+    "ffe":  5000,
+    "real_estate":  "leased",
+    "lease_monthly":  6000,
+    "years_in_business":  38,
+    "employees":  2,
     "reason_for_selling":  "",
-    "ai_opportunity":  "AI diagnostics, predictive maintenance, automated inventory, and fleet management.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $400-600K estimate and cash flow as strong; midpoint $500K is used for analyzer sorting until exact broker data is available.",
+    "ai_opportunity":  "AI diagnostics, predictive maintenance, automated inventory, fleet management, customer history mining, and automated service reminders.",
+    "notes":  "Exact Miami listing located from the AlexNaHub auto-repair lead. Source identifies the operating business as Devonaire Service and Tire, lists a 4,500 sq ft leased facility, two full-time employees, a master technician in place, $130,000 inventory included, and a customer database with more than 2,000 active clients.",
     "links":  {
-
+                  "source":  "https://www.bizbuysell.com/business-opportunity/38-year-profitable-auto-repair-and-tire-shop-turnkey-5-bays/2460087/",
+                  "website":  "http://www.devonaireserviceandtire.com",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1\u0026query=Devonaire%20Service%20and%20Tire%2012253%20SW%20112th%20St%20Miami%20FL%2033186",
+                  "bbb":  "https://www.bbb.org/us/fl/miami/profile/auto-repair/devonaire-service-and-tire-inc-0633-90088334",
+                  "reviews":  [
+                                  {
+                                      "label":  "MapQuest",
+                                      "url":  "https://www.mapquest.com/us/florida/devonaire-service-and-tire-4432614"
+                                  },
+                                  {
+                                      "label":  "Yahoo",
+                                      "url":  "https://local.yahoo.com/info-14302337-devonaire-service-and-tire-miami/"
+                                  }
+                              ]
               }
 }

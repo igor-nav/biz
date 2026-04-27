@@ -1,25 +1,31 @@
 {
-    "name":  "Med Spa - Absentee Owner",
+    "name":  "Top Rated Med Spa - Absentee Owner",
     "type":  "Med Spa",
     "location":  "Fort Lauderdale, FL",
-    "url":  "",
+    "url":  "https://www.bizbuysell.com/business-opportunity/top-rated-med-spa-absentee-owner/2470227/",
     "asking_price":  700000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  1022050
+                    }
                 ],
     "sde":  [
-
+                {
+                    "year":  2026,
+                    "amount":  192000
+                }
             ],
     "inventory":  0,
     "ffe":  0,
     "real_estate":  "unknown",
     "lease_monthly":  0,
-    "years_in_business":  0,
-    "employees":  0,
-    "reason_for_selling":  "",
-    "ai_opportunity":  "AI booking, automated marketing, customer retention CRM, and online reputation management.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document notes absentee owner, AAA location, and strong recurring revenue, but no numeric cash flow.",
+    "years_in_business":  4,
+    "employees":  6,
+    "reason_for_selling":  "Seller relocating",
+    "ai_opportunity":  "AI booking, automated marketing, customer-retention CRM, reputation management, membership churn prediction, and utilization optimization.",
+    "notes":  "Exact Fort Lauderdale listing located from the AlexNaHub med-spa lead. Source describes an absentee-operated franchise with a full team, over $1M in annual revenue, about 200 active members producing 40% recurring revenue, six employees, and a protected 3-mile territory.",
     "links":  {
-
+                  "source":  "https://www.bizbuysell.com/business-opportunity/top-rated-med-spa-absentee-owner/2470227/"
               }
 }

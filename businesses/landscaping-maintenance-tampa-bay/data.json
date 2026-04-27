@@ -1,25 +1,31 @@
 {
-    "name":  "Landscaping / Maintenance",
-    "type":  "Landscaping / Maintenance",
-    "location":  "Tampa Bay, FL",
-    "url":  "",
-    "asking_price":  550000,
+    "name":  "FL Commercial Landscape Maintenance | $3M+ Revenue | Platform-Ready",
+    "type":  "Commercial Landscape Maintenance",
+    "location":  "Bradenton / Tampa Bay, FL",
+    "url":  "https://www.bizbuysell.com/business-opportunity/fl-commercial-landscape-maintenance-3m-revenue-platform-ready/2471958/",
+    "asking_price":  3300000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  3200000
+                    }
                 ],
     "sde":  [
-
+                {
+                    "year":  2026,
+                    "amount":  572000
+                }
             ],
     "inventory":  0,
-    "ffe":  0,
-    "real_estate":  "unknown",
-    "lease_monthly":  0,
-    "years_in_business":  0,
-    "employees":  0,
-    "reason_for_selling":  "",
-    "ai_opportunity":  "AI design tools, automated bidding, IoT soil sensors, route optimization, and drone surveys.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $400-700K estimate and cash flow as recurring; midpoint $550K is used for analyzer sorting until exact broker data is available.",
+    "ffe":  511000,
+    "real_estate":  "leased",
+    "lease_monthly":  4100,
+    "years_in_business":  34,
+    "employees":  37,
+    "reason_for_selling":  "Other business interests outside of the green industry",
+    "ai_opportunity":  "AI route density planning, automated bidding, IoT irrigation and soil monitoring, crew scheduling optimization, drone surveys, and contract price-escalation analytics.",
+    "notes":  "Replaced the estimated landscaping category row with an exact current listing found from the AlexNaHub landscape-maintenance source set. Source describes a commercial landscape-maintenance platform serving the Tampa Bay area with nearly 80% recurring revenue, 72% of recurring revenue from commercial contracts, 19 service vehicles, and $511,000 FF\u0026E included. It is far above the target budget but is kept as a concrete sourced comparator.",
     "links":  {
-
+                  "source":  "https://www.bizbuysell.com/business-opportunity/fl-commercial-landscape-maintenance-3m-revenue-platform-ready/2471958/"
               }
 }

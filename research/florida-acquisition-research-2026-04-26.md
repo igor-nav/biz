@@ -9,6 +9,39 @@ Criteria from the shared research:
 - Profitable businesses with high AI/IT improvement potential
 - Excludes restaurants and dental practices
 
+## Listing Reconciliation - 2026-04-27
+
+The shared document mixed exact listings with broker/category search leads. The
+report data has now been reconciled so rows in `REPORT.md` refer to actual
+listing pages wherever an exact listing could be found.
+
+Removed from the report:
+
+- Example IT Managed Services - sample placeholder data, no source.
+- Established Pool Service Route - South Florida - no matching AlexNaHub source
+  row or recoverable listing page for the supplied details.
+
+Corrected to exact listing names and imported missing financials where available:
+
+| Shared lead | Imported listing |
+|---|---|
+| Property Management Company - Coral Springs | Property Management Company Broward County |
+| Pest Control Business - Tampa/Hillsborough | Profitable Pest Control Store - Absentee Operated |
+| Commercial Cleaning - Orlando/Tampa | Established B2B Facility Services Business with Recurring Revenue |
+| Computer Repair + Device Sales - Sunrise | BRANDSMART Cellphone/Computer Repair/Device Sales Shop - Sunrise FL |
+| Auto Body Shop - Turnkey | Premier South Florida Auto Body Shop \| High Growth Potential |
+| Commissary/Commercial Kitchen | Commissary Kitchen / Commercial Kitchen / USDA Kitchen |
+| Pool Supply Franchise (#1 brand) | Just On The Market! Exceptional Pool Supply Franchise! |
+| Auto Repair & Tire Shop - Miami-Dade | 38-Year Profitable Auto Repair & Tire Shop - Turnkey, 5 Bays |
+| Commercial Cleaning / B2B service lead | Highly Profitable, Semi-Passive B2B Service Business |
+| Landscaping/Maintenance - Tampa Bay | FL Commercial Landscape Maintenance \| $3M+ Revenue \| Platform-Ready |
+| Med Spa - Absentee Owner | Top Rated Med Spa - Absentee Owner |
+| SBA Pre-Qualified Amazon FBA Business | SBA Pre-Qualified Amazon FBA Business \| 4 Home & Kitchen Brands |
+| SBA Pre-Qualified eCom Jewelry Brand | SBA Pre-Qualified eCommerce Brand \| Jewelry Memberships \| 70% ARR |
+| Telehealth Business - Turnkey | Established Turnkey Telehealth Business for Sale |
+| Promotional Products Franchise | Fire Sale: Established Promotional Products Franchise |
+| Secure Shredding & Document Storage | Secure Shredding & Document Storage |
+
 ## Highest AI/IT Potential
 
 1. Property Management Company - Coral Springs

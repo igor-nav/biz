@@ -1,14 +1,20 @@
 {
-    "name":  "Telehealth Business - Turnkey",
+    "name":  "Established Turnkey Telehealth Business for Sale",
     "type":  "Telehealth",
     "location":  "Fort Lauderdale, FL",
     "url":  "https://www.bizbuysell.com/Business-Opportunity/established-turnkey-telehealth-business-for-sale/2268825/",
     "asking_price":  100000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  100000
+                    }
                 ],
     "sde":  [
-
+                {
+                    "year":  2026,
+                    "amount":  80000
+                }
             ],
     "inventory":  0,
     "ffe":  0,
@@ -16,9 +22,9 @@
     "lease_monthly":  0,
     "years_in_business":  0,
     "employees":  0,
-    "reason_for_selling":  "",
-    "ai_opportunity":  "AI triage chatbot, automated prescriptions workflow, remote monitoring, and multi-state scaling.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.",
+    "reason_for_selling":  "Inquire with owner",
+    "ai_opportunity":  "AI triage chatbot, automated prescriptions workflow, remote monitoring, marketing automation, and multi-state scaling.",
+    "notes":  "Imported exact source financials. Source describes a fully operational telehealth business with a personalized platform, clinical team, marketing partners delivering booked paid patients, seller financing available, and a semi-absentee operating model.",
     "links":  {
                   "source":  "https://www.bizbuysell.com/Business-Opportunity/established-turnkey-telehealth-business-for-sale/2268825/"
               }

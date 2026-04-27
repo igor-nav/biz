@@ -1,24 +1,30 @@
 {
-    "name":  "Pool Supply Franchise (#1 brand)",
+    "name":  "Just On The Market! Exceptional Pool Supply Franchise!",
     "type":  "Pool Supply Franchise",
     "location":  "Coconut Creek, FL",
     "url":  "https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/",
     "asking_price":  695000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  1183014
+                    }
                 ],
     "sde":  [
-
+                {
+                    "year":  2026,
+                    "amount":  238150
+                }
             ],
-    "inventory":  0,
-    "ffe":  0,
-    "real_estate":  "unknown",
+    "inventory":  150000,
+    "ffe":  130000,
+    "real_estate":  "leased",
     "lease_monthly":  0,
-    "years_in_business":  0,
-    "employees":  0,
+    "years_in_business":  23,
+    "employees":  6,
     "reason_for_selling":  "",
-    "ai_opportunity":  "Route optimization AI, predictive maintenance, IoT pool monitoring, and automated reordering.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.",
+    "ai_opportunity":  "Route optimization AI, predictive maintenance, IoT pool monitoring, automated reordering, and service-account retention analytics.",
+    "notes":  "Corrected to the exact BizBuySell listing name and imported source financials. Source identifies the brand as Pinch A Penny, with retail, pool cleaning, repairs, ancillary services, a pool service supervisor overseeing 260 pool accounts, $150,000 inventory not included in asking price, and $130,000 FF\u0026E included.",
     "links":  {
                   "source":  "https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/",
                   "website":  "https://pinchapenny.com/stores/coconut-creek-fl-150",

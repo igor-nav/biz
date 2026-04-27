@@ -1,11 +1,14 @@
 {
-    "name":  "Promotional Products Franchise",
+    "name":  "Fire Sale: Established Promotional Products Franchise",
     "type":  "Promotional Products Franchise",
     "location":  "Broward County, FL",
     "url":  "https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/",
     "asking_price":  39500,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  958474
+                    }
                 ],
     "sde":  [
 
@@ -14,11 +17,11 @@
     "ffe":  0,
     "real_estate":  "unknown",
     "lease_monthly":  0,
-    "years_in_business":  0,
+    "years_in_business":  2,
     "employees":  0,
-    "reason_for_selling":  "",
-    "ai_opportunity":  "AI design tools, automated quoting, B2B lead generation, and e-commerce integration.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.",
+    "reason_for_selling":  "Seller health issues",
+    "ai_opportunity":  "AI design tools, automated quoting, B2B lead generation, e-commerce integration, CRM automation, and proposal generation.",
+    "notes":  "Corrected to the exact BizBuySell listing name and imported source revenue. Gross revenue figure comes from the 2025 FDD average for 39 stores, not necessarily this unit, so treat it as franchise benchmark data rather than unit-level revenue. SDE is not disclosed.",
     "links":  {
                   "source":  "https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/"
               }

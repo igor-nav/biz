@@ -1,24 +1,27 @@
 {
     "name":  "Lucrative Consulting Business",
-    "type":  "Consulting",
+    "type":  "Consulting / Exit Planning Franchise",
     "location":  "Broward County, FL",
     "url":  "https://www.bizbuysell.com/business-opportunity/lucrative-consulting-business/2482841/",
     "asking_price":  55000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  319007
+                    }
                 ],
     "sde":  [
 
             ],
     "inventory":  0,
     "ffe":  0,
-    "real_estate":  "unknown",
+    "real_estate":  "leased",
     "lease_monthly":  0,
     "years_in_business":  0,
     "employees":  0,
     "reason_for_selling":  "",
-    "ai_opportunity":  "AI proposal generation, automated onboarding, CRM automation, and AI research assistant workflows.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.",
+    "ai_opportunity":  "AI proposal generation, automated onboarding, CRM automation, valuation workflows, and AI research-assistant workflows.",
+    "notes":  "Imported exact source revenue. Source describes an established franchise focused on exit strategy and business coaching. Gross revenue and net-income figures are from the 2025 FDD affiliate historical data, not necessarily this unit, so treat the revenue field as franchise benchmark data until unit-level financials are collected. SDE is not disclosed.",
     "links":  {
                   "source":  "https://www.bizbuysell.com/business-opportunity/lucrative-consulting-business/2482841/"
               }

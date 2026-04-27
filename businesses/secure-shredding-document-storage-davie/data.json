@@ -1,24 +1,27 @@
 {
-    "name":  "Secure Shredding and Document Storage",
+    "name":  "Secure Shredding \u0026 Document Storage",
     "type":  "Secure Shredding / Document Storage",
     "location":  "Davie, FL",
     "url":  "https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/",
     "asking_price":  1450000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  651000
+                    }
                 ],
     "sde":  [
 
             ],
     "inventory":  0,
-    "ffe":  0,
-    "real_estate":  "unknown",
+    "ffe":  453000,
+    "real_estate":  "leased",
     "lease_monthly":  0,
-    "years_in_business":  0,
+    "years_in_business":  23,
     "employees":  0,
-    "reason_for_selling":  "",
-    "ai_opportunity":  "Route optimization, compliance automation, and digital transformation consulting.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document. Above the target budget; keep only if seller financing, SBA structure, or partnership makes it feasible.",
+    "reason_for_selling":  "Owners preparing for retirement",
+    "ai_opportunity":  "Route optimization, compliance automation, customer scheduling portal, recurring-account analytics, and digital transformation consulting.",
+    "notes":  "Corrected to the exact BizBuySell listing name and imported source revenue, operating history, FF\u0026E, and retirement motivation. Source describes a South Florida on-site shredding company with recurring commercial clients, specialized shredding trucks, equipment, locked shredding consoles at client locations, and document-storage operations. SDE is not disclosed.",
     "links":  {
                   "source":  "https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/"
               }

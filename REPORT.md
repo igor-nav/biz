@@ -14,26 +14,24 @@ Scoring assumptions: 10% down, 10.50% annual interest, 10-year SBA term. Scores 
 
 | Score | Business | Location | Asking | SDE | DSCR | SDE Multiple | Links |
 |---:|---|---|---:|---:|---:|---:|---|
-| 78.2 | [Established Pool Service Route - South Florida](businesses/established-pool-service-route-south-florida-2312834/data.json) | Deerfield Beach, FL | $485,000 | $148,000 | 2.09 | 3.28 |  |
-| 73.6 | [Property Management Company](businesses/property-management-company-coral-springs/data.json) | Coral Springs, FL | $275,000 | $114,000 | 2.84 | 2.41 |  |
-| 62.2 | [Example IT Managed Services](businesses/example/data.json) | Austin, TX | $750,000 | $195,000 | 1.78 | 3.85 |  |
-| 52.1 | [Pest Control Business](businesses/pest-control-business-tampa-hillsborough/data.json) | Tampa / Hillsborough County, FL | $450,000 | TBD | TBD | TBD |  |
-| 47.7 | [Commercial Cleaning (Established)](businesses/commercial-cleaning-orlando-tampa/data.json) | Orlando / Tampa, FL | $400,000 | TBD | TBD | TBD |  |
-| 46.4 | [Computer Repair and Device Sales](businesses/computer-repair-device-sales-sunrise/data.json) | Sunrise, FL | $100,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/) |
-| 43.9 | [Landscaping / Maintenance](businesses/landscaping-maintenance-tampa-bay/data.json) | Tampa Bay, FL | $550,000 | TBD | TBD | TBD |  |
-| 42.6 | [Pool Supply Franchise (#1 brand)](businesses/pool-supply-franchise-coconut-creek/data.json) | Coconut Creek, FL | $695,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/) [Website](https://pinchapenny.com/stores/coconut-creek-fl-150) [Maps](https://www.google.com/maps/search/?api=1&query=Pinch%20A%20Penny%20Pool%20Patio%20Spa%204420%20W%20Hillsboro%20Blvd%20Ste%20107%20Coconut%20Creek%20FL%2033073) [Birdeye](https://reviews.birdeye.com/pinch-a-penny-pool-patio-spa-166394679379172) [Chamber](https://www.chamberofcommerce.com/business-directory/florida/coconut-creek/swimming-pool-supply-store/2007668496-pinch-a-penny-pool-patio-spa) [YellowPages](https://www.yellowpages.com/coconut-creek-fl/mip/pinch-a-penny-pool-patio-spa-3091631) [MapQuest](https://www.mapquest.com/us/florida/pinch-a-penny-pool-patio-spa-278833284) |
-| 41.6 | [SBA Pre-Qualified Amazon FBA Business](businesses/sba-prequalified-amazon-fba-tampa/data.json) | Tampa, FL | $400,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/) |
-| 40.1 | [Auto Repair and Tire Shop](businesses/auto-repair-tire-shop-miami-dade/data.json) | Miami-Dade County, FL | $500,000 | TBD | TBD | TBD |  |
-| 39.6 | [Telehealth Business - Turnkey](businesses/telehealth-business-turnkey-fort-lauderdale/data.json) | Fort Lauderdale, FL | $100,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/Business-Opportunity/established-turnkey-telehealth-business-for-sale/2268825/) |
-| 38.9 | [Promotional Products Franchise](businesses/promotional-products-franchise-broward/data.json) | Broward County, FL | $39,500 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/) |
-| 36.6 | [Lucrative Consulting Business](businesses/lucrative-consulting-business-broward/data.json) | Broward County, FL | $55,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/lucrative-consulting-business/2482841/) |
-| 34.9 | [Med Spa - Absentee Owner](businesses/med-spa-absentee-owner-fort-lauderdale/data.json) | Fort Lauderdale, FL | $700,000 | TBD | TBD | TBD |  |
-| 34.4 | [Auto Body Shop - Turnkey](businesses/auto-body-shop-turnkey-broward/data.json) | Broward County, FL | $390,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-asset/premier-south-florida-auto-body-shop-high-growth-potential/2228786/) |
-| 34.4 | [Commissary / Commercial Kitchen](businesses/commissary-commercial-kitchen-broward/data.json) | Broward County, FL | $495,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-asset/commissary-kitchen-commercial-kitchen-usda-kitchen/2465883/) |
-| 34.1 | [Faith / Educational Streaming Platform](businesses/faith-educational-streaming-platform-fort-lauderdale/data.json) | Fort Lauderdale, FL | $1,000,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/faith-educational-social-white-label-streaming-platform/2377395/) |
-| 29.0 | [Secure Shredding and Document Storage](businesses/secure-shredding-document-storage-davie/data.json) | Davie, FL | $1,450,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/) |
-| 25.9 | [B2B Service (Home-Based)](businesses/b2b-service-home-based-florida/data.json) | Florida | TBD | TBD | TBD | TBD |  |
-| 24.9 | [SBA Pre-Qualified eCom Jewelry Brand](businesses/sba-prequalified-ecom-jewelry-brand-tampa/data.json) | Tampa, FL | TBD | TBD | TBD | TBD | [Source](https://www.websiteclosers.com/businesses/sba-pre-qualified-ecommerce-brand-jewelry-memberships-70-arr-3-400-active-members-180-000-social-media-followers-9-year-business/117008/) |
+| 86.5 | [Profitable Pest Control Store - Absentee Operated](businesses/pest-control-business-tampa-hillsborough/data.json) | Hillsborough County, FL | $275,000 | $84,182 | 2.10 | 3.27 | [Source](https://www.bizbuysell.com/business-opportunity/profitable-pest-control-store-absentee-operated/2485638/) |
+| 79.6 | [Property Management Company Broward County](businesses/property-management-company-coral-springs/data.json) | Coral Springs, FL | $275,000 | $114,292 | 2.85 | 2.41 | [Source](https://us.businessesforsale.com/us/property-management-company-broward-county.aspx) |
+| 77.9 | [Highly Profitable, Semi-Passive B2B Service Business](businesses/b2b-service-home-based-florida/data.json) | Palm Beach County, FL | $450,000 | $158,000 | 2.41 | 2.85 | [Source](https://www.bizbuysell.com/business-opportunity/highly-profitable-semi-passive-b2b-service-business/2469081/) |
+| 76.1 | [Just On The Market! Exceptional Pool Supply Franchise!](businesses/pool-supply-franchise-coconut-creek/data.json) | Coconut Creek, FL | $695,000 | $238,150 | 2.35 | 2.92 | [Source](https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/) [Website](https://pinchapenny.com/stores/coconut-creek-fl-150) [Maps](https://www.google.com/maps/search/?api=1&query=Pinch%20A%20Penny%20Pool%20Patio%20Spa%204420%20W%20Hillsboro%20Blvd%20Ste%20107%20Coconut%20Creek%20FL%2033073) [Birdeye](https://reviews.birdeye.com/pinch-a-penny-pool-patio-spa-166394679379172) [Chamber](https://www.chamberofcommerce.com/business-directory/florida/coconut-creek/swimming-pool-supply-store/2007668496-pinch-a-penny-pool-patio-spa) [YellowPages](https://www.yellowpages.com/coconut-creek-fl/mip/pinch-a-penny-pool-patio-spa-3091631) [MapQuest](https://www.mapquest.com/us/florida/pinch-a-penny-pool-patio-spa-278833284) |
+| 73.3 | [Established Turnkey Telehealth Business for Sale](businesses/telehealth-business-turnkey-fort-lauderdale/data.json) | Fort Lauderdale, FL | $100,000 | $80,000 | 5.49 | 1.25 | [Source](https://www.bizbuysell.com/Business-Opportunity/established-turnkey-telehealth-business-for-sale/2268825/) |
+| 68.6 | [38-Year Profitable Auto Repair & Tire Shop - Turnkey, 5 Bays](businesses/auto-repair-tire-shop-miami-dade/data.json) | Miami, FL | $487,000 | $108,000 | 1.52 | 4.51 | [Source](https://www.bizbuysell.com/business-opportunity/38-year-profitable-auto-repair-and-tire-shop-turnkey-5-bays/2460087/) [Website](http://www.devonaireserviceandtire.com) [Maps](https://www.google.com/maps/search/?api=1&query=Devonaire%20Service%20and%20Tire%2012253%20SW%20112th%20St%20Miami%20FL%2033186) [BBB](https://www.bbb.org/us/fl/miami/profile/auto-repair/devonaire-service-and-tire-inc-0633-90088334) [MapQuest](https://www.mapquest.com/us/florida/devonaire-service-and-tire-4432614) [Yahoo](https://local.yahoo.com/info-14302337-devonaire-service-and-tire-miami/) |
+| 67.4 | [SBA Pre-Qualified eCommerce Brand \| Jewelry Memberships \| 70% ARR](businesses/sba-prequalified-ecom-jewelry-brand-tampa/data.json) | Tampa, FL | $800,000 | $283,435 | 2.43 | 2.82 | [Source](https://www.websiteclosers.com/businesses/sba-pre-qualified-ecommerce-brand-jewelry-memberships-70-arr-3-400-active-members-180-000-social-media-followers-9-year-business/117008/) |
+| 59.9 | [Top Rated Med Spa - Absentee Owner](businesses/med-spa-absentee-owner-fort-lauderdale/data.json) | Fort Lauderdale, FL | $700,000 | $192,000 | 1.88 | 3.65 | [Source](https://www.bizbuysell.com/business-opportunity/top-rated-med-spa-absentee-owner/2470227/) |
+| 56.6 | [SBA Pre-Qualified Amazon FBA Business \| 4 Home & Kitchen Brands](businesses/sba-prequalified-amazon-fba-tampa/data.json) | Tampa, FL | $1,449,000 | $414,912 | 1.96 | 3.49 | [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/) |
+| 53.0 | [Established B2B Facility Services Business with Recurring Revenue](businesses/commercial-cleaning-orlando-tampa/data.json) | Tampa, FL | $350,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/established-b2b-facility-services-business-with-recurring-revenue/2460929/) |
+| 48.1 | [FL Commercial Landscape Maintenance \| $3M+ Revenue \| Platform-Ready](businesses/landscaping-maintenance-tampa-bay/data.json) | Bradenton / Tampa Bay, FL | $3,300,000 | $572,000 | 1.19 | 5.77 | [Source](https://www.bizbuysell.com/business-opportunity/fl-commercial-landscape-maintenance-3m-revenue-platform-ready/2471958/) |
+| 47.9 | [BRANDSMART Cellphone/Computer Repair/Device Sales Shop - Sunrise FL](businesses/computer-repair-device-sales-sunrise/data.json) | Sunrise, FL | $100,000 | TBD | TBD | TBD | [Source](https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/) |
+| 43.6 | [Fire Sale: Established Promotional Products Franchise](businesses/promotional-products-franchise-broward/data.json) | Broward County, FL | $39,500 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/) |
+| 41.6 | [Premier South Florida Auto Body Shop \| High Growth Potential](businesses/auto-body-shop-turnkey-broward/data.json) | Broward County, FL | $480,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-asset/premier-south-florida-auto-body-shop-high-growth-potential/2228786/) |
+| 40.0 | [Secure Shredding & Document Storage](businesses/secure-shredding-document-storage-davie/data.json) | Davie, FL | $1,450,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/) |
+| 38.6 | [Lucrative Consulting Business](businesses/lucrative-consulting-business-broward/data.json) | Broward County, FL | $55,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/lucrative-consulting-business/2482841/) |
+| 38.1 | [Faith-Educational-Social-White Label Streaming Platform](businesses/faith-educational-streaming-platform-fort-lauderdale/data.json) | Fort Lauderdale, FL | $1,000,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-opportunity/faith-educational-social-white-label-streaming-platform/2377395/) |
+| 37.1 | [Commissary Kitchen / Commercial Kitchen / USDA Kitchen](businesses/commissary-commercial-kitchen-broward/data.json) | Broward County, FL | $495,000 | TBD | TBD | TBD | [Source](https://www.bizbuysell.com/business-asset/commissary-kitchen-commercial-kitchen-usda-kitchen/2465883/) |
 
 ## Scoring Model
 
@@ -49,70 +47,157 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 
 ## Candidate Notes
 
-### 1. Established Pool Service Route - South Florida - 78.2
+### 1. Profitable Pest Control Store - Absentee Operated - 86.5
 
-- Slug: `established-pool-service-route-south-florida-2312834`
-- Type: Pool Service / Maintenance
-- Location: Deerfield Beach, FL
-- Asking price: $485,000; down payment at 10%: $48,500
-- Latest SDE: $148,000; latest revenue: $420,000; DSCR: 2.09; SDE multiple: 3.28
-- Score breakdown: financial 28.0, AI/IT 13.8, budget 18.0, recurring 9.4, data 9.0
-- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; asking price fits the target budget; recurring or defensible revenue signals
-- AI opportunity: Automate route scheduling and customer communication; add AI-based water-chemistry monitoring upsell for smart-pool customers
-- Notes: Profitable pool cleaning and maintenance route with 120+ residential and commercial accounts in Broward County. Accounts are contracted; strong recurring revenue. Includes 2 service vans, all equipment, and chemicals inventory. New owner can immediately add commercial accounts.
+- Slug: `pest-control-business-tampa-hillsborough`
+- Type: Pest Control Supply Store
+- Location: Hillsborough County, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/profitable-pest-control-store-absentee-operated/2485638/)
+- Asking price: $275,000; down payment at 10%: $27,500
+- Latest SDE: $84,182; latest revenue: $315,174; DSCR: 2.10; SDE multiple: 3.27
+- Score breakdown: financial 27.0, AI/IT 23.4, budget 18.0, recurring 8.1, data 10.0
+- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; asking price fits the target budget; strong AI/IT improvement surface; recurring or defensible revenue signals
+- AI opportunity: AI route optimization, predictive replenishment, e-commerce expansion, automated customer portal, inventory analytics, and targeted upsell campaigns for repeat professional customers.
+- Notes: Exact Hillsborough listing located from the AlexNaHub pest-control lead. Source describes a niche retail pest-control supply store in Tampa with loyal repeat customers, two part-time employees, absentee operation, and potential to add e-commerce sales. Inventory and FF&E are included in asking price.
 
-### 2. Property Management Company - 73.6
+### 2. Property Management Company Broward County - 79.6
 
 - Slug: `property-management-company-coral-springs`
 - Type: Property Management
 - Location: Coral Springs, FL
+- Links: [Source](https://us.businessesforsale.com/us/property-management-company-broward-county.aspx)
 - Asking price: $275,000; down payment at 10%: $27,500
-- Latest SDE: $114,000; latest revenue: TBD; DSCR: 2.84; SDE multiple: 2.41
-- Score breakdown: financial 26.0, AI/IT 16.8, budget 18.0, recurring 5.8, data 7.0
+- Latest SDE: $114,292; latest revenue: $401,467; DSCR: 2.85; SDE multiple: 2.41
+- Score breakdown: financial 29.0, AI/IT 16.8, budget 18.0, recurring 5.8, data 10.0
 - Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; asking price fits the target budget
-- Open questions: revenue is missing; real-estate/lease status is unknown
+- Open questions: real-estate/lease status is unknown
 - AI opportunity: Automated tenant screening, predictive maintenance, dynamic pricing, smart lock integration, automated lease generation, and AI chatbot support for tenant inquiries.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Ranked #1 for AI/IT improvement potential. Notes cite 40-year goodwill, low recession risk, and very high scalability. Cash flow shown as approximately $114K/year.
+- Notes: Exact listing located while reconciling AlexNaHub research. Source lists $401,467 revenue, $114,292 cash flow, 31 associations, 1,333 units under management, average client relationship of 20 years, and a CAM-licensed manager who will stay post-closing.
 
-### 3. Example IT Managed Services - 62.2
+### 3. Highly Profitable, Semi-Passive B2B Service Business - 77.9
 
-- Slug: `example`
-- Type: IT Managed Services / MSP
-- Location: Austin, TX
-- Asking price: $750,000; down payment at 10%: $75,000
-- Latest SDE: $195,000; latest revenue: $620,000; DSCR: 1.78; SDE multiple: 3.85
-- Score breakdown: financial 24.0, AI/IT 9.4, budget 15.0, recurring 4.8, data 9.0
-- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple
-- AI opportunity: Automate tier-1 helpdesk with AI agents; upsell AI-readiness assessments to SMB clients
-- Notes: Recurring revenue ~70% of total. Strong SMB client base. Owner will train for 90 days.
-
-### 4. Pest Control Business - 52.1
-
-- Slug: `pest-control-business-tampa-hillsborough`
-- Type: Pest Control
-- Location: Tampa / Hillsborough County, FL
+- Slug: `b2b-service-home-based-florida`
+- Type: B2B Service Franchise
+- Location: Palm Beach County, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/highly-profitable-semi-passive-b2b-service-business/2469081/)
 - Asking price: $450,000; down payment at 10%: $45,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 21.2, budget 18.0, recurring 6.9, data 3.0
-- Positive signals: asking price fits the target budget; strong AI/IT improvement surface
-- Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
-- AI opportunity: AI route optimization, predictive treatment modeling, automated customer portal, drone property inspection, and AI-powered upselling.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Ranked #2 for AI/IT improvement potential. Shared document listed price as $300-600K estimate and cash flow as strong recurring; midpoint $450K is used for analyzer sorting until exact broker data is available.
+- Latest SDE: $158,000; latest revenue: $594,000; DSCR: 2.41; SDE multiple: 2.85
+- Score breakdown: financial 27.0, AI/IT 16.0, budget 18.0, recurring 6.9, data 10.0
+- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; asking price fits the target budget
+- AI opportunity: AI client onboarding, automated delivery, scheduling and quoting automation, predictive upselling, lead scoring, and route expansion analytics.
+- Notes: Exact home-based B2B service listing located from the AlexNaHub 55-65% recurring lead. Source describes a semi-passive franchise with a seasoned manager, owner workload of 10-15 hours per week, 55-65% recurring clients, and low-overhead home-based operations.
 
-### 5. Commercial Cleaning (Established) - 47.7
+### 4. Just On The Market! Exceptional Pool Supply Franchise! - 76.1
+
+- Slug: `pool-supply-franchise-coconut-creek`
+- Type: Pool Supply Franchise
+- Location: Coconut Creek, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/), [Website](https://pinchapenny.com/stores/coconut-creek-fl-150), [Maps](https://www.google.com/maps/search/?api=1&query=Pinch%20A%20Penny%20Pool%20Patio%20Spa%204420%20W%20Hillsboro%20Blvd%20Ste%20107%20Coconut%20Creek%20FL%2033073), [Birdeye](https://reviews.birdeye.com/pinch-a-penny-pool-patio-spa-166394679379172), [Chamber](https://www.chamberofcommerce.com/business-directory/florida/coconut-creek/swimming-pool-supply-store/2007668496-pinch-a-penny-pool-patio-spa), [YellowPages](https://www.yellowpages.com/coconut-creek-fl/mip/pinch-a-penny-pool-patio-spa-3091631), [MapQuest](https://www.mapquest.com/us/florida/pinch-a-penny-pool-patio-spa-278833284)
+- Asking price: $695,000; down payment at 10%: $69,500
+- Latest SDE: $238,150; latest revenue: $1,183,014; DSCR: 2.35; SDE multiple: 2.92
+- Score breakdown: financial 27.0, AI/IT 16.0, budget 15.0, recurring 8.1, data 10.0
+- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; recurring or defensible revenue signals
+- AI opportunity: Route optimization AI, predictive maintenance, IoT pool monitoring, automated reordering, and service-account retention analytics.
+- Notes: Corrected to the exact BizBuySell listing name and imported source financials. Source identifies the brand as Pinch A Penny, with retail, pool cleaning, repairs, ancillary services, a pool service supervisor overseeing 260 pool accounts, $150,000 inventory not included in asking price, and $130,000 FF&E included.
+
+### 5. Established Turnkey Telehealth Business for Sale - 73.3
+
+- Slug: `telehealth-business-turnkey-fort-lauderdale`
+- Type: Telehealth
+- Location: Fort Lauderdale, FL
+- Links: [Source](https://www.bizbuysell.com/Business-Opportunity/established-turnkey-telehealth-business-for-sale/2268825/)
+- Asking price: $100,000; down payment at 10%: $10,000
+- Latest SDE: $80,000; latest revenue: $100,000; DSCR: 5.49; SDE multiple: 1.25
+- Score breakdown: financial 30.0, AI/IT 16.8, budget 18.0, recurring 0.0, data 8.5
+- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; asking price fits the target budget
+- Open questions: real-estate/lease status is unknown
+- AI opportunity: AI triage chatbot, automated prescriptions workflow, remote monitoring, marketing automation, and multi-state scaling.
+- Notes: Imported exact source financials. Source describes a fully operational telehealth business with a personalized platform, clinical team, marketing partners delivering booked paid patients, seller financing available, and a semi-absentee operating model.
+
+### 6. 38-Year Profitable Auto Repair & Tire Shop - Turnkey, 5 Bays - 68.6
+
+- Slug: `auto-repair-tire-shop-miami-dade`
+- Type: Auto Repair / Tire Shop
+- Location: Miami, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/38-year-profitable-auto-repair-and-tire-shop-turnkey-5-bays/2460087/), [Website](http://www.devonaireserviceandtire.com), [Maps](https://www.google.com/maps/search/?api=1&query=Devonaire%20Service%20and%20Tire%2012253%20SW%20112th%20St%20Miami%20FL%2033186), [BBB](https://www.bbb.org/us/fl/miami/profile/auto-repair/devonaire-service-and-tire-inc-0633-90088334), [MapQuest](https://www.mapquest.com/us/florida/devonaire-service-and-tire-4432614), [Yahoo](https://local.yahoo.com/info-14302337-devonaire-service-and-tire-miami/)
+- Asking price: $487,000; down payment at 10%: $48,700
+- Latest SDE: $108,000; latest revenue: $372,799; DSCR: 1.52; SDE multiple: 4.51
+- Score breakdown: financial 21.0, AI/IT 13.8, budget 18.0, recurring 5.8, data 10.0
+- Positive signals: passes SBA DSCR threshold; asking price fits the target budget
+- AI opportunity: AI diagnostics, predictive maintenance, automated inventory, fleet management, customer history mining, and automated service reminders.
+- Notes: Exact Miami listing located from the AlexNaHub auto-repair lead. Source identifies the operating business as Devonaire Service and Tire, lists a 4,500 sq ft leased facility, two full-time employees, a master technician in place, $130,000 inventory included, and a customer database with more than 2,000 active clients.
+
+### 7. SBA Pre-Qualified eCommerce Brand | Jewelry Memberships | 70% ARR - 67.4
+
+- Slug: `sba-prequalified-ecom-jewelry-brand-tampa`
+- Type: E-Commerce Jewelry Brand
+- Location: Tampa, FL
+- Links: [Source](https://www.websiteclosers.com/businesses/sba-pre-qualified-ecommerce-brand-jewelry-memberships-70-arr-3-400-active-members-180-000-social-media-followers-9-year-business/117008/)
+- Asking price: $800,000; down payment at 10%: $80,000
+- Latest SDE: $283,435; latest revenue: $813,918; DSCR: 2.43; SDE multiple: 2.82
+- Score breakdown: financial 28.0, AI/IT 11.6, budget 14.0, recurring 3.8, data 10.0
+- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; SBA pre-qualified signal
+- Open questions: above the preferred purchase-price range
+- AI opportunity: AI merchandising, retention automation, membership personalization, churn prediction, paid-media optimization, creative testing, and customer-support automation.
+- Notes: Replaced the dead BizBuySell URL from the shared research with the active WebsiteClosers listing. Source lists pending status, $800,000 asking price, $283,435 cash flow, $813,918 gross income, 3,400+ active members, 70% ARR, 180,000 social followers, 250,000+ email subscribers, and owner involvement of about 8-10 hours weekly.
+
+### 8. Top Rated Med Spa - Absentee Owner - 59.9
+
+- Slug: `med-spa-absentee-owner-fort-lauderdale`
+- Type: Med Spa
+- Location: Fort Lauderdale, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/top-rated-med-spa-absentee-owner/2470227/)
+- Asking price: $700,000; down payment at 10%: $70,000
+- Latest SDE: $192,000; latest revenue: $1,022,050; DSCR: 1.88; SDE multiple: 3.65
+- Score breakdown: financial 21.5, AI/IT 11.6, budget 15.0, recurring 2.3, data 9.5
+- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple
+- Open questions: real-estate/lease status is unknown
+- AI opportunity: AI booking, automated marketing, customer-retention CRM, reputation management, membership churn prediction, and utilization optimization.
+- Notes: Exact Fort Lauderdale listing located from the AlexNaHub med-spa lead. Source describes an absentee-operated franchise with a full team, over $1M in annual revenue, about 200 active members producing 40% recurring revenue, six employees, and a protected 3-mile territory.
+
+### 9. SBA Pre-Qualified Amazon FBA Business | 4 Home & Kitchen Brands - 56.6
+
+- Slug: `sba-prequalified-amazon-fba-tampa`
+- Type: Amazon FBA / Home and Kitchen Brands
+- Location: Tampa, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/)
+- Asking price: $1,449,000; down payment at 10%: $144,900
+- Latest SDE: $414,912; latest revenue: $2,347,714; DSCR: 1.96; SDE multiple: 3.49
+- Score breakdown: financial 23.5, AI/IT 11.6, budget 10.0, recurring 1.5, data 10.0
+- Positive signals: passes SBA DSCR threshold; valuation is within preferred SDE multiple; SBA pre-qualified signal
+- Open questions: above the preferred purchase-price range
+- AI opportunity: AI demand forecasting, automated PPC optimization, inventory forecasting, listing optimization, review mining, and product expansion analytics.
+- Notes: Imported exact current source financials for the SBA-prequalified Amazon FBA lead. Source describes four home and kitchen brands, 40+ active SKUs, 100% Amazon FBA, 4.9 seller feedback, owner involvement of 5-10 hours per week, and a $100,000 working-capital requirement.
+
+### 10. Established B2B Facility Services Business with Recurring Revenue - 53.0
 
 - Slug: `commercial-cleaning-orlando-tampa`
-- Type: Commercial Cleaning
-- Location: Orlando / Tampa, FL
-- Asking price: $400,000; down payment at 10%: $40,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 16.8, budget 18.0, recurring 6.9, data 3.0
-- Positive signals: asking price fits the target budget
-- Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
-- AI opportunity: Route optimization, automated scheduling, IoT supply tracking, and AI quality control cameras.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $300-500K estimate and cash flow as recurring contracts; midpoint $400K is used for analyzer sorting until exact broker data is available.
+- Type: Commercial Cleaning / Facility Services
+- Location: Tampa, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/established-b2b-facility-services-business-with-recurring-revenue/2460929/)
+- Asking price: $350,000; down payment at 10%: $35,000
+- Latest SDE: TBD; latest revenue: $792,335; DSCR: TBD; SDE multiple: TBD
+- Score breakdown: financial 3.0, AI/IT 16.8, budget 18.0, recurring 9.2, data 6.0
+- Positive signals: asking price fits the target budget; recurring or defensible revenue signals
+- Open questions: SDE/cash flow is missing
+- AI opportunity: Route optimization, automated scheduling, IoT supply tracking, AI quality control, quote automation, and account expansion analytics.
+- Notes: Exact Tampa listing located from the AlexNaHub commercial-cleaning lead. Source describes commercial cleaning, not janitorial, for restaurants, gyms, retail, dealerships, and other storefronts with recurring weekly B2B revenue and national account relationships. SDE is not disclosed; NDA required for financial details.
 
-### 6. Computer Repair and Device Sales - 46.4
+### 11. FL Commercial Landscape Maintenance | $3M+ Revenue | Platform-Ready - 48.1
+
+- Slug: `landscaping-maintenance-tampa-bay`
+- Type: Commercial Landscape Maintenance
+- Location: Bradenton / Tampa Bay, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/fl-commercial-landscape-maintenance-3m-revenue-platform-ready/2471958/)
+- Asking price: $3,300,000; down payment at 10%: $330,000
+- Latest SDE: $572,000; latest revenue: $3,200,000; DSCR: 1.19; SDE multiple: 5.77
+- Score breakdown: financial 8.5, AI/IT 18.2, budget 1.0, recurring 10.4, data 10.0
+- Positive signals: strong AI/IT improvement surface; recurring or defensible revenue signals
+- Open questions: some values are estimates from source research; above the preferred purchase-price range
+- AI opportunity: AI route density planning, automated bidding, IoT irrigation and soil monitoring, crew scheduling optimization, drone surveys, and contract price-escalation analytics.
+- Notes: Replaced the estimated landscaping category row with an exact current listing found from the AlexNaHub landscape-maintenance source set. Source describes a commercial landscape-maintenance platform serving the Tampa Bay area with nearly 80% recurring revenue, 72% of recurring revenue from commercial contracts, 19 service vehicles, and $511,000 FF&E included. It is far above the target budget but is kept as a concrete sourced comparator.
+
+### 12. BRANDSMART Cellphone/Computer Repair/Device Sales Shop - Sunrise FL - 47.9
 
 - Slug: `computer-repair-device-sales-sunrise`
 - Type: Computer Repair / Device Sales
@@ -120,136 +205,83 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Links: [Source](https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/)
 - Asking price: $100,000; down payment at 10%: $10,000
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 16.8, budget 18.0, recurring 4.6, data 4.0
+- Score breakdown: financial 3.0, AI/IT 16.8, budget 18.0, recurring 4.6, data 5.5
 - Positive signals: asking price fits the target budget
 - Open questions: SDE/cash flow is missing; revenue is missing; real-estate/lease status is unknown
 - AI opportunity: AI diagnostics, managed IT expansion, remote monitoring, automated ticket systems, B2B service contracts, cybersecurity offerings, and automated inventory management.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Ranked #3 for AI/IT improvement potential. Cash flow was undisclosed in the shared document.
+- Notes: Exact BizQuest listing from the AlexNaHub lead table. Source shows $100,000 asking price, two full-time employees, three years in operation, and $10,000 inventory not included in asking price. Cash flow and revenue are not disclosed.
 
-### 7. Landscaping / Maintenance - 43.9
-
-- Slug: `landscaping-maintenance-tampa-bay`
-- Type: Landscaping / Maintenance
-- Location: Tampa Bay, FL
-- Asking price: $550,000; down payment at 10%: $55,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 16.0, budget 15.0, recurring 6.9, data 3.0
-- Positive signals: AI/IT angle identified, but financial diligence is still needed
-- Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
-- AI opportunity: AI design tools, automated bidding, IoT soil sensors, route optimization, and drone surveys.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $400-700K estimate and cash flow as recurring; midpoint $550K is used for analyzer sorting until exact broker data is available.
-
-### 8. Pool Supply Franchise (#1 brand) - 42.6
-
-- Slug: `pool-supply-franchise-coconut-creek`
-- Type: Pool Supply Franchise
-- Location: Coconut Creek, FL
-- Links: [Source](https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/), [Website](https://pinchapenny.com/stores/coconut-creek-fl-150), [Maps](https://www.google.com/maps/search/?api=1&query=Pinch%20A%20Penny%20Pool%20Patio%20Spa%204420%20W%20Hillsboro%20Blvd%20Ste%20107%20Coconut%20Creek%20FL%2033073), [Birdeye](https://reviews.birdeye.com/pinch-a-penny-pool-patio-spa-166394679379172), [Chamber](https://www.chamberofcommerce.com/business-directory/florida/coconut-creek/swimming-pool-supply-store/2007668496-pinch-a-penny-pool-patio-spa), [YellowPages](https://www.yellowpages.com/coconut-creek-fl/mip/pinch-a-penny-pool-patio-spa-3091631), [MapQuest](https://www.mapquest.com/us/florida/pinch-a-penny-pool-patio-spa-278833284)
-- Asking price: $695,000; down payment at 10%: $69,500
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 16.0, budget 15.0, recurring 4.6, data 4.0
-- Positive signals: AI/IT angle identified, but financial diligence is still needed
-- Open questions: SDE/cash flow is missing; revenue is missing; real-estate/lease status is unknown
-- AI opportunity: Route optimization AI, predictive maintenance, IoT pool monitoring, and automated reordering.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.
-
-### 9. SBA Pre-Qualified Amazon FBA Business - 41.6
-
-- Slug: `sba-prequalified-amazon-fba-tampa`
-- Type: Amazon FBA / Home and Kitchen Brands
-- Location: Tampa, FL
-- Links: [Source](https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/)
-- Asking price: $400,000; down payment at 10%: $40,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 11.6, budget 20.0, recurring 1.5, data 5.5
-- Positive signals: asking price fits the target budget; SBA pre-qualified signal
-- Open questions: SDE/cash flow is missing; revenue is missing
-- AI opportunity: AI demand forecasting, automated PPC optimization, inventory forecasting, listing optimization, review mining, and product expansion analytics.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Shared document says SBA pre-qualified, Tampa, 9-year-old Amazon FBA business with 4 home and kitchen brands. Price was listed as $400K+; $400K is used as a conservative floor until exact broker data is available.
-
-### 10. Auto Repair and Tire Shop - 40.1
-
-- Slug: `auto-repair-tire-shop-miami-dade`
-- Type: Auto Repair / Tire Shop
-- Location: Miami-Dade County, FL
-- Asking price: $500,000; down payment at 10%: $50,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 13.8, budget 18.0, recurring 2.3, data 3.0
-- Positive signals: asking price fits the target budget
-- Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
-- AI opportunity: AI diagnostics, predictive maintenance, automated inventory, and fleet management.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $400-600K estimate and cash flow as strong; midpoint $500K is used for analyzer sorting until exact broker data is available.
-
-### 11. Telehealth Business - Turnkey - 39.6
-
-- Slug: `telehealth-business-turnkey-fort-lauderdale`
-- Type: Telehealth
-- Location: Fort Lauderdale, FL
-- Links: [Source](https://www.bizbuysell.com/Business-Opportunity/established-turnkey-telehealth-business-for-sale/2268825/)
-- Asking price: $100,000; down payment at 10%: $10,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 14.6, budget 18.0, recurring 0.0, data 4.0
-- Positive signals: asking price fits the target budget
-- Open questions: SDE/cash flow is missing; revenue is missing; real-estate/lease status is unknown
-- AI opportunity: AI triage chatbot, automated prescriptions workflow, remote monitoring, and multi-state scaling.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.
-
-### 12. Promotional Products Franchise - 38.9
+### 13. Fire Sale: Established Promotional Products Franchise - 43.6
 
 - Slug: `promotional-products-franchise-broward`
 - Type: Promotional Products Franchise
 - Location: Broward County, FL
 - Links: [Source](https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/)
 - Asking price: $39,500; down payment at 10%: $3,950
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 11.6, budget 18.0, recurring 2.3, data 4.0
+- Latest SDE: TBD; latest revenue: $958,474; DSCR: TBD; SDE multiple: TBD
+- Score breakdown: financial 3.0, AI/IT 13.8, budget 18.0, recurring 2.3, data 6.5
 - Positive signals: asking price fits the target budget
-- Open questions: SDE/cash flow is missing; revenue is missing; real-estate/lease status is unknown
-- AI opportunity: AI design tools, automated quoting, B2B lead generation, and e-commerce integration.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.
+- Open questions: SDE/cash flow is missing; real-estate/lease status is unknown
+- AI opportunity: AI design tools, automated quoting, B2B lead generation, e-commerce integration, CRM automation, and proposal generation.
+- Notes: Corrected to the exact BizBuySell listing name and imported source revenue. Gross revenue figure comes from the 2025 FDD average for 39 stores, not necessarily this unit, so treat it as franchise benchmark data rather than unit-level revenue. SDE is not disclosed.
 
-### 13. Lucrative Consulting Business - 36.6
-
-- Slug: `lucrative-consulting-business-broward`
-- Type: Consulting
-- Location: Broward County, FL
-- Links: [Source](https://www.bizbuysell.com/business-opportunity/lucrative-consulting-business/2482841/)
-- Asking price: $55,000; down payment at 10%: $5,500
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 11.6, budget 18.0, recurring 0.0, data 4.0
-- Positive signals: asking price fits the target budget
-- Open questions: SDE/cash flow is missing; revenue is missing; real-estate/lease status is unknown
-- AI opportunity: AI proposal generation, automated onboarding, CRM automation, and AI research assistant workflows.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.
-
-### 14. Med Spa - Absentee Owner - 34.9
-
-- Slug: `med-spa-absentee-owner-fort-lauderdale`
-- Type: Med Spa
-- Location: Fort Lauderdale, FL
-- Asking price: $700,000; down payment at 10%: $70,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 11.6, budget 15.0, recurring 2.3, data 3.0
-- Positive signals: AI/IT angle identified, but financial diligence is still needed
-- Open questions: SDE/cash flow is missing; revenue is missing; real-estate/lease status is unknown
-- AI opportunity: AI booking, automated marketing, customer retention CRM, and online reputation management.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Shared document notes absentee owner, AAA location, and strong recurring revenue, but no numeric cash flow.
-
-### 15. Auto Body Shop - Turnkey - 34.4
+### 14. Premier South Florida Auto Body Shop | High Growth Potential - 41.6
 
 - Slug: `auto-body-shop-turnkey-broward`
 - Type: Auto Body / Collision Repair
 - Location: Broward County, FL
 - Links: [Source](https://www.bizbuysell.com/business-asset/premier-south-florida-auto-body-shop-high-growth-potential/2228786/)
-- Asking price: $390,000; down payment at 10%: $39,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 9.4, budget 18.0, recurring 0.0, data 4.0
+- Asking price: $480,000; down payment at 10%: $48,000
+- Latest SDE: TBD; latest revenue: $1,250,000; DSCR: TBD; SDE multiple: TBD
+- Score breakdown: financial 3.0, AI/IT 11.6, budget 18.0, recurring 2.5, data 6.5
 - Positive signals: asking price fits the target budget
-- Open questions: SDE/cash flow is missing; revenue is missing; some values are estimates from source research; real-estate/lease status is unknown
-- AI opportunity: AI photo estimates, automated parts sourcing, workflow optimization, and paint-matching AI.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.
+- Open questions: SDE/cash flow is missing; some values are estimates from source research; real-estate/lease status is unknown
+- AI opportunity: AI photo estimates, automated parts sourcing, workflow optimization, paint-matching AI, insurance workflow automation, and fleet-account CRM.
+- Notes: Corrected to the exact BizBuySell listing name and current source price. Source says annual revenue exceeds $1.25M, the shop was established in 2015, has a 7,200 sq ft facility with capacity for up to 40 vehicles, and seller financing may be available. SDE is not disclosed.
 
-### 16. Commissary / Commercial Kitchen - 34.4
+### 15. Secure Shredding & Document Storage - 40.0
+
+- Slug: `secure-shredding-document-storage-davie`
+- Type: Secure Shredding / Document Storage
+- Location: Davie, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/)
+- Asking price: $1,450,000; down payment at 10%: $145,000
+- Latest SDE: TBD; latest revenue: $651,000; DSCR: TBD; SDE multiple: TBD
+- Score breakdown: financial 3.0, AI/IT 11.6, budget 8.0, recurring 10.4, data 7.0
+- Positive signals: recurring or defensible revenue signals
+- Open questions: SDE/cash flow is missing; above the preferred purchase-price range
+- AI opportunity: Route optimization, compliance automation, customer scheduling portal, recurring-account analytics, and digital transformation consulting.
+- Notes: Corrected to the exact BizBuySell listing name and imported source revenue, operating history, FF&E, and retirement motivation. Source describes a South Florida on-site shredding company with recurring commercial clients, specialized shredding trucks, equipment, locked shredding consoles at client locations, and document-storage operations. SDE is not disclosed.
+
+### 16. Lucrative Consulting Business - 38.6
+
+- Slug: `lucrative-consulting-business-broward`
+- Type: Consulting / Exit Planning Franchise
+- Location: Broward County, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/lucrative-consulting-business/2482841/)
+- Asking price: $55,000; down payment at 10%: $5,500
+- Latest SDE: TBD; latest revenue: $319,007; DSCR: TBD; SDE multiple: TBD
+- Score breakdown: financial 3.0, AI/IT 11.6, budget 18.0, recurring 0.0, data 6.0
+- Positive signals: asking price fits the target budget
+- Open questions: SDE/cash flow is missing
+- AI opportunity: AI proposal generation, automated onboarding, CRM automation, valuation workflows, and AI research-assistant workflows.
+- Notes: Imported exact source revenue. Source describes an established franchise focused on exit strategy and business coaching. Gross revenue and net-income figures are from the 2025 FDD affiliate historical data, not necessarily this unit, so treat the revenue field as franchise benchmark data until unit-level financials are collected. SDE is not disclosed.
+
+### 17. Faith-Educational-Social-White Label Streaming Platform - 38.1
+
+- Slug: `faith-educational-streaming-platform-fort-lauderdale`
+- Type: Streaming Platform / SaaS
+- Location: Fort Lauderdale, FL
+- Links: [Source](https://www.bizbuysell.com/business-opportunity/faith-educational-social-white-label-streaming-platform/2377395/)
+- Asking price: $1,000,000; down payment at 10%: $100,000
+- Latest SDE: TBD; latest revenue: $250,000; DSCR: TBD; SDE multiple: TBD
+- Score breakdown: financial 3.0, AI/IT 14.6, budget 12.0, recurring 1.5, data 7.0
+- Positive signals: AI/IT angle identified, but financial diligence is still needed
+- Open questions: SDE/cash flow is missing; above the preferred purchase-price range
+- AI opportunity: White-label SaaS expansion, AI content recommendations, automated monetization, ministry customer segmentation, donor analytics, and global scale.
+- Notes: Corrected to the exact BizBuySell listing name and imported source revenue. Source describes a developer-backed white-label streaming platform conducting a pilot with 20 ministries, $500,000 raised in foundation funding in the last two years, some seller financing possible up to 30%, and five employees. SDE is not disclosed.
+
+### 18. Commissary Kitchen / Commercial Kitchen / USDA Kitchen - 37.1
 
 - Slug: `commissary-commercial-kitchen-broward`
 - Type: Commercial Kitchen / Commissary
@@ -257,64 +289,9 @@ Candidates with missing SDE can still appear in the report, but they score poorl
 - Links: [Source](https://www.bizbuysell.com/business-asset/commissary-kitchen-commercial-kitchen-usda-kitchen/2465883/)
 - Asking price: $495,000; down payment at 10%: $49,500
 - Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 9.4, budget 18.0, recurring 0.0, data 4.0
+- Score breakdown: financial 3.0, AI/IT 11.6, budget 18.0, recurring 0.0, data 4.5
 - Positive signals: asking price fits the target budget
-- Open questions: SDE/cash flow is missing; revenue is missing; real-estate/lease status is unknown
-- AI opportunity: Ghost kitchen hub, IoT monitoring, tech-enabled booking, and multi-tenant management software.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.
-
-### 17. Faith / Educational Streaming Platform - 34.1
-
-- Slug: `faith-educational-streaming-platform-fort-lauderdale`
-- Type: Streaming Platform / SaaS
-- Location: Fort Lauderdale, FL
-- Links: [Source](https://www.bizbuysell.com/business-opportunity/faith-educational-social-white-label-streaming-platform/2377395/)
-- Asking price: $1,000,000; down payment at 10%: $100,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 14.6, budget 12.0, recurring 0.0, data 4.5
-- Positive signals: AI/IT angle identified, but financial diligence is still needed
-- Open questions: SDE/cash flow is missing; revenue is missing; above the preferred purchase-price range
-- AI opportunity: White-label SaaS expansion, AI content recommendations, automated monetization, and global scale.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Above budget, but shared document suggests exploring partnership, SBA, or investor structure. Cash flow was undisclosed.
-
-### 18. Secure Shredding and Document Storage - 29.0
-
-- Slug: `secure-shredding-document-storage-davie`
-- Type: Secure Shredding / Document Storage
-- Location: Davie, FL
-- Links: [Source](https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/)
-- Asking price: $1,450,000; down payment at 10%: $145,000
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 9.4, budget 8.0, recurring 4.6, data 4.0
-- Positive signals: AI/IT angle identified, but financial diligence is still needed
-- Open questions: SDE/cash flow is missing; revenue is missing; above the preferred purchase-price range; real-estate/lease status is unknown
-- AI opportunity: Route optimization, compliance automation, and digital transformation consulting.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document. Above the target budget; keep only if seller financing, SBA structure, or partnership makes it feasible.
-
-### 19. B2B Service (Home-Based) - 25.9
-
-- Slug: `b2b-service-home-based-florida`
-- Type: B2B Service
-- Location: Florida
-- Asking price: TBD; down payment at 10%: TBD
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 13.8, budget 3.0, recurring 4.6, data 1.5
-- Positive signals: AI/IT angle identified, but financial diligence is still needed
-- Open questions: asking price is missing; SDE/cash flow is missing; revenue is missing
-- AI opportunity: AI client onboarding, automated delivery, predictive upselling, and lead scoring.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Price was TBD and cash flow was described as 55-65% recurring with no numeric amount.
-
-### 20. SBA Pre-Qualified eCom Jewelry Brand - 24.9
-
-- Slug: `sba-prequalified-ecom-jewelry-brand-tampa`
-- Type: E-Commerce Jewelry Brand
-- Location: Tampa, FL
-- Links: [Source](https://www.websiteclosers.com/businesses/sba-pre-qualified-ecommerce-brand-jewelry-memberships-70-arr-3-400-active-members-180-000-social-media-followers-9-year-business/117008/)
-- Asking price: TBD; down payment at 10%: TBD
-- Latest SDE: TBD; latest revenue: TBD; DSCR: TBD; SDE multiple: TBD
-- Score breakdown: financial 3.0, AI/IT 11.6, budget 3.0, recurring 3.8, data 3.5
-- Positive signals: SBA pre-qualified signal
-- Open questions: asking price is missing; SDE/cash flow is missing; revenue is missing
-- AI opportunity: AI merchandising, retention automation, membership personalization, churn prediction, paid media optimization, and customer support automation.
-- Notes: Imported from AlexNaHub shared research updated 2026-04-26. Shared document says SBA pre-qualified, 9-year-old e-commerce jewelry brand with 3,400+ active members and 70% ARR. Asking price and cash flow were not included in the shared document.
+- Open questions: SDE/cash flow is missing; revenue is missing
+- AI opportunity: Ghost kitchen hub, IoT monitoring, tech-enabled booking, shared-kitchen scheduling, and multi-tenant management software.
+- Notes: Corrected to the exact BizBuySell listing name. Source describes a 9,600 sq ft permitted food-production facility with construction underway, approved permits, a new 25.5 ft Type I hood system, a 410 sq ft walk-in cooler, $340,000 of prepaid construction costs, and a 5-year lease with two 5-year renewal options. Cash flow and revenue are not disclosed.
 

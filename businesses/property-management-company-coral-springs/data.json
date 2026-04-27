@@ -1,28 +1,31 @@
 {
-    "name":  "Property Management Company",
+    "name":  "Property Management Company Broward County",
     "type":  "Property Management",
     "location":  "Coral Springs, FL",
-    "url":  "",
+    "url":  "https://us.businessesforsale.com/us/property-management-company-broward-county.aspx",
     "asking_price":  275000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  401467
+                    }
                 ],
     "sde":  [
                 {
                     "year":  2026,
-                    "amount":  114000
+                    "amount":  114292
                 }
             ],
     "inventory":  0,
-    "ffe":  0,
+    "ffe":  5000,
     "real_estate":  "unknown",
     "lease_monthly":  0,
     "years_in_business":  40,
-    "employees":  0,
-    "reason_for_selling":  "",
+    "employees":  5,
+    "reason_for_selling":  "Retirement",
     "ai_opportunity":  "Automated tenant screening, predictive maintenance, dynamic pricing, smart lock integration, automated lease generation, and AI chatbot support for tenant inquiries.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Ranked #1 for AI/IT improvement potential. Notes cite 40-year goodwill, low recession risk, and very high scalability. Cash flow shown as approximately $114K/year.",
+    "notes":  "Exact listing located while reconciling AlexNaHub research. Source lists $401,467 revenue, $114,292 cash flow, 31 associations, 1,333 units under management, average client relationship of 20 years, and a CAM-licensed manager who will stay post-closing.",
     "links":  {
-
+                  "source":  "https://us.businessesforsale.com/us/property-management-company-broward-county.aspx"
               }
 }

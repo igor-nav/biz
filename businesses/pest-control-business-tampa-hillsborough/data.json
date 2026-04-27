@@ -1,25 +1,31 @@
 {
-    "name":  "Pest Control Business",
-    "type":  "Pest Control",
-    "location":  "Tampa / Hillsborough County, FL",
-    "url":  "",
-    "asking_price":  450000,
+    "name":  "Profitable Pest Control Store - Absentee Operated",
+    "type":  "Pest Control Supply Store",
+    "location":  "Hillsborough County, FL",
+    "url":  "https://www.bizbuysell.com/business-opportunity/profitable-pest-control-store-absentee-operated/2485638/",
+    "asking_price":  275000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  315174
+                    }
                 ],
     "sde":  [
-
+                {
+                    "year":  2026,
+                    "amount":  84182
+                }
             ],
-    "inventory":  0,
-    "ffe":  0,
-    "real_estate":  "unknown",
-    "lease_monthly":  0,
-    "years_in_business":  0,
-    "employees":  0,
-    "reason_for_selling":  "",
-    "ai_opportunity":  "AI route optimization, predictive treatment modeling, automated customer portal, drone property inspection, and AI-powered upselling.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Ranked #2 for AI/IT improvement potential. Shared document listed price as $300-600K estimate and cash flow as strong recurring; midpoint $450K is used for analyzer sorting until exact broker data is available.",
+    "inventory":  25000,
+    "ffe":  5000,
+    "real_estate":  "leased",
+    "lease_monthly":  1522,
+    "years_in_business":  29,
+    "employees":  2,
+    "reason_for_selling":  "Other business interests",
+    "ai_opportunity":  "AI route optimization, predictive replenishment, e-commerce expansion, automated customer portal, inventory analytics, and targeted upsell campaigns for repeat professional customers.",
+    "notes":  "Exact Hillsborough listing located from the AlexNaHub pest-control lead. Source describes a niche retail pest-control supply store in Tampa with loyal repeat customers, two part-time employees, absentee operation, and potential to add e-commerce sales. Inventory and FF\u0026E are included in asking price.",
     "links":  {
-
+                  "source":  "https://www.bizbuysell.com/business-opportunity/profitable-pest-control-store-absentee-operated/2485638/"
               }
 }

@@ -1,25 +1,28 @@
 {
-    "name":  "Commercial Cleaning (Established)",
-    "type":  "Commercial Cleaning",
-    "location":  "Orlando / Tampa, FL",
-    "url":  "",
-    "asking_price":  400000,
+    "name":  "Established B2B Facility Services Business with Recurring Revenue",
+    "type":  "Commercial Cleaning / Facility Services",
+    "location":  "Tampa, FL",
+    "url":  "https://www.bizbuysell.com/business-opportunity/established-b2b-facility-services-business-with-recurring-revenue/2460929/",
+    "asking_price":  350000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  792335
+                    }
                 ],
     "sde":  [
 
             ],
     "inventory":  0,
     "ffe":  0,
-    "real_estate":  "unknown",
+    "real_estate":  "leased",
     "lease_monthly":  0,
     "years_in_business":  0,
     "employees":  0,
     "reason_for_selling":  "",
-    "ai_opportunity":  "Route optimization, automated scheduling, IoT supply tracking, and AI quality control cameras.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document listed price as $300-500K estimate and cash flow as recurring contracts; midpoint $400K is used for analyzer sorting until exact broker data is available.",
+    "ai_opportunity":  "Route optimization, automated scheduling, IoT supply tracking, AI quality control, quote automation, and account expansion analytics.",
+    "notes":  "Exact Tampa listing located from the AlexNaHub commercial-cleaning lead. Source describes commercial cleaning, not janitorial, for restaurants, gyms, retail, dealerships, and other storefronts with recurring weekly B2B revenue and national account relationships. SDE is not disclosed; NDA required for financial details.",
     "links":  {
-
+                  "source":  "https://www.bizbuysell.com/business-opportunity/established-b2b-facility-services-business-with-recurring-revenue/2460929/"
               }
 }

@@ -1,11 +1,14 @@
 {
-    "name":  "Auto Body Shop - Turnkey",
+    "name":  "Premier South Florida Auto Body Shop | High Growth Potential",
     "type":  "Auto Body / Collision Repair",
     "location":  "Broward County, FL",
     "url":  "https://www.bizbuysell.com/business-asset/premier-south-florida-auto-body-shop-high-growth-potential/2228786/",
-    "asking_price":  390000,
+    "asking_price":  480000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  1250000
+                    }
                 ],
     "sde":  [
 
@@ -14,11 +17,11 @@
     "ffe":  0,
     "real_estate":  "unknown",
     "lease_monthly":  0,
-    "years_in_business":  0,
-    "employees":  0,
-    "reason_for_selling":  "",
-    "ai_opportunity":  "AI photo estimates, automated parts sourcing, workflow optimization, and paint-matching AI.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Cash flow was undisclosed in the shared document.",
+    "years_in_business":  11,
+    "employees":  5,
+    "reason_for_selling":  "Seller other interests",
+    "ai_opportunity":  "AI photo estimates, automated parts sourcing, workflow optimization, paint-matching AI, insurance workflow automation, and fleet-account CRM.",
+    "notes":  "Corrected to the exact BizBuySell listing name and current source price. Source says annual revenue exceeds $1.25M, the shop was established in 2015, has a 7,200 sq ft facility with capacity for up to 40 vehicles, and seller financing may be available. SDE is not disclosed.",
     "links":  {
                   "source":  "https://www.bizbuysell.com/business-asset/premier-south-florida-auto-body-shop-high-growth-potential/2228786/"
               }

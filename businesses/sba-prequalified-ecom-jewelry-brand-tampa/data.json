@@ -1,14 +1,20 @@
 {
-    "name":  "SBA Pre-Qualified eCom Jewelry Brand",
+    "name":  "SBA Pre-Qualified eCommerce Brand | Jewelry Memberships | 70% ARR",
     "type":  "E-Commerce Jewelry Brand",
     "location":  "Tampa, FL",
     "url":  "https://www.websiteclosers.com/businesses/sba-pre-qualified-ecommerce-brand-jewelry-memberships-70-arr-3-400-active-members-180-000-social-media-followers-9-year-business/117008/",
-    "asking_price":  0,
+    "asking_price":  800000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  813918
+                    }
                 ],
     "sde":  [
-
+                {
+                    "year":  2026,
+                    "amount":  283435
+                }
             ],
     "inventory":  0,
     "ffe":  0,
@@ -17,8 +23,8 @@
     "years_in_business":  9,
     "employees":  0,
     "reason_for_selling":  "",
-    "ai_opportunity":  "AI merchandising, retention automation, membership personalization, churn prediction, paid media optimization, and customer support automation.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document says SBA pre-qualified, 9-year-old e-commerce jewelry brand with 3,400+ active members and 70% ARR. Asking price and cash flow were not included in the shared document.",
+    "ai_opportunity":  "AI merchandising, retention automation, membership personalization, churn prediction, paid-media optimization, creative testing, and customer-support automation.",
+    "notes":  "Replaced the dead BizBuySell URL from the shared research with the active WebsiteClosers listing. Source lists pending status, $800,000 asking price, $283,435 cash flow, $813,918 gross income, 3,400+ active members, 70% ARR, 180,000 social followers, 250,000+ email subscribers, and owner involvement of about 8-10 hours weekly.",
     "links":  {
                   "source":  "https://www.websiteclosers.com/businesses/sba-pre-qualified-ecommerce-brand-jewelry-memberships-70-arr-3-400-active-members-180-000-social-media-followers-9-year-business/117008/"
               }

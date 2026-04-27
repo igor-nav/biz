@@ -1,14 +1,20 @@
 {
-    "name":  "SBA Pre-Qualified Amazon FBA Business",
+    "name":  "SBA Pre-Qualified Amazon FBA Business | 4 Home \u0026 Kitchen Brands",
     "type":  "Amazon FBA / Home and Kitchen Brands",
     "location":  "Tampa, FL",
     "url":  "https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/",
-    "asking_price":  400000,
+    "asking_price":  1449000,
     "revenue":  [
-
+                    {
+                        "year":  2026,
+                        "amount":  2347714
+                    }
                 ],
     "sde":  [
-
+                {
+                    "year":  2026,
+                    "amount":  414912
+                }
             ],
     "inventory":  0,
     "ffe":  0,
@@ -18,7 +24,7 @@
     "employees":  0,
     "reason_for_selling":  "",
     "ai_opportunity":  "AI demand forecasting, automated PPC optimization, inventory forecasting, listing optimization, review mining, and product expansion analytics.",
-    "notes":  "Imported from AlexNaHub shared research updated 2026-04-26. Shared document says SBA pre-qualified, Tampa, 9-year-old Amazon FBA business with 4 home and kitchen brands. Price was listed as $400K+; $400K is used as a conservative floor until exact broker data is available.",
+    "notes":  "Imported exact current source financials for the SBA-prequalified Amazon FBA lead. Source describes four home and kitchen brands, 40+ active SKUs, 100% Amazon FBA, 4.9 seller feedback, owner involvement of 5-10 hours per week, and a $100,000 working-capital requirement.",
     "links":  {
                   "source":  "https://www.bizbuysell.com/business-opportunity/sba-pre-qualified-amazon-fba-business-4-home-and-kitchen-brands/2444178/"
               }
