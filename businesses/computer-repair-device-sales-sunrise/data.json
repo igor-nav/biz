@@ -1,5 +1,6 @@
 {
-    "name":  "BRANDSMART Cellphone/Computer Repair/Device Sales Shop - Sunrise FL",
+    "name":  "TECHY Electronics Repair Franchise - Sunrise/BrandsMart",
+    "name_evidence":  "Moderate-confidence brand unmasking, but the exact unit still needs broker confirmation. The [BizQuest listing](https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/) names the seller broker as Dr. Phone Fix, Inc. and the indexed listing text says the opportunity is a TECHY Electronics Repair franchise. Public pages for [Techy Sunrise](https://techysunrise.com/) show the matching cell-phone/computer/electronics repair concept near Sunrise/Plantation, with [Chamber](https://www.chamberofcommerce.com/business-directory/florida/plantation/mobile-phone-repair-shop/2017672927-techy-sunrise), [Cylex](https://www.cylex.us.com/company/techy-sunrise-33357336.html), and [Techy corporate](https://techycompany.com/sunrise-westplantation-fl) pages confirming the operating brand. The BrandsMart/Sunrise store address should still be verified with the seller.",
     "type":  "Computer Repair / Device Sales",
     "location":  "Sunrise, FL",
     "url":  "https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/",
@@ -20,6 +21,22 @@
     "ai_opportunity":  "AI diagnostics, managed IT expansion, remote monitoring, automated ticket systems, B2B service contracts, cybersecurity offerings, and automated inventory management.",
     "notes":  "Exact BizQuest listing from the AlexNaHub lead table. Source shows $100,000 asking price, two full-time employees, three years in operation, and $10,000 inventory not included in asking price. Cash flow and revenue are not disclosed.",
     "links":  {
-                  "source":  "https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/"
+                  "source":  "https://www.bizquest.com/business-for-sale/brandsmart-cellphone-computer-repair-device-sales-shop-sunrise-fl/BW2485508/",
+                  "website":  "https://techysunrise.com/",
+                  "google_maps":  "https://www.google.com/maps/search/?api=1&query=Techy%20Sunrise%208359%20W%20Sunrise%20Blvd%20Plantation%20FL%2033322",
+                  "reviews":  [
+                                  {
+                                      "label":  "Chamber",
+                                      "url":  "https://www.chamberofcommerce.com/business-directory/florida/plantation/mobile-phone-repair-shop/2017672927-techy-sunrise"
+                                  },
+                                  {
+                                      "label":  "Cylex",
+                                      "url":  "https://www.cylex.us.com/company/techy-sunrise-33357336.html"
+                                  },
+                                  {
+                                      "label":  "Techy Corporate",
+                                      "url":  "https://techycompany.com/sunrise-westplantation-fl"
+                                  }
+                              ]
               }
 }

@@ -135,6 +135,9 @@ func writeDetails(b *bytes.Buffer, entries []ReportEntry) {
 		if links := detailLinks(biz); links != "" {
 			fmt.Fprintf(b, "- Links: %s\n", links)
 		}
+		if biz.NameEvidence != "" {
+			fmt.Fprintf(b, "- Name evidence: %s\n", md(biz.NameEvidence))
+		}
 		fmt.Fprintf(b, "- Asking price: %s; down payment at 10%%: %s\n", usd(biz.AskingPrice), usd(entry.Metrics.DownPayment))
 		fmt.Fprintf(b, "- Latest SDE: %s; latest revenue: %s; DSCR: %s; SDE multiple: %s\n",
 			usd(entry.Metrics.LatestSDE),

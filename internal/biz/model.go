@@ -24,6 +24,7 @@ type Links struct {
 
 type Business struct {
 	Name             string         `json:"name"`
+	NameEvidence     string         `json:"name_evidence,omitempty"`
 	Type             string         `json:"type"`
 	Location         string         `json:"location"`
 	URL              string         `json:"url,omitempty"`

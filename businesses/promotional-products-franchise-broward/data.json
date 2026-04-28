@@ -1,5 +1,6 @@
 {
-    "name":  "Fire Sale: Established Promotional Products Franchise",
+    "name":  "Fully Promoted Promotional Products Franchise - Broward County",
+    "name_evidence":  "Moderate-confidence brand unmasking, but not a confirmed specific store. The [BizBuySell listing](https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/) says this is a nationally recognized promotional-products/branded-apparel franchise and quotes a 2025 FDD average gross revenue of $958,474 for 39 stores with at least one full-time outside salesperson. That exact FDD language and number appear in the [Fully Promoted 2025 FDD](https://storage.googleapis.com/franchiseindx_fdds/Business-Services/Fully%20Promoted_2025_qLduMZ4D) and third-party [Fully Promoted franchise analysis](https://franzy.com/franchises/fully-promoted). Broward has several Fully Promoted locations, so the local unit still requires broker confirmation before using any store-specific review pages.",
     "type":  "Promotional Products Franchise",
     "location":  "Broward County, FL",
     "url":  "https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/",
@@ -23,6 +24,7 @@
     "ai_opportunity":  "AI design tools, automated quoting, B2B lead generation, e-commerce integration, CRM automation, and proposal generation.",
     "notes":  "Corrected to the exact BizBuySell listing name and imported source revenue. Gross revenue figure comes from the 2025 FDD average for 39 stores, not necessarily this unit, so treat it as franchise benchmark data rather than unit-level revenue. SDE is not disclosed.",
     "links":  {
-                  "source":  "https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/"
+                  "source":  "https://www.bizbuysell.com/business-opportunity/fire-sale-established-promotional-products-franchise/2465795/",
+                  "website":  "https://fullypromoted.com/"
               }
 }
