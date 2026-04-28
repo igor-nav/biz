@@ -1,5 +1,5 @@
 {
-    "name":  "Just On The Market! Exceptional Pool Supply Franchise!",
+    "name":  "Pinch A Penny Pool Patio Spa - Coconut Creek",
     "type":  "Pool Supply Franchise",
     "location":  "Coconut Creek, FL",
     "url":  "https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/",
@@ -24,7 +24,7 @@
     "employees":  6,
     "reason_for_selling":  "",
     "ai_opportunity":  "Route optimization AI, predictive maintenance, IoT pool monitoring, automated reordering, and service-account retention analytics.",
-    "notes":  "Corrected to the exact BizBuySell listing name and imported source financials. Source identifies the brand as Pinch A Penny, with retail, pool cleaning, repairs, ancillary services, a pool service supervisor overseeing 260 pool accounts, $150,000 inventory not included in asking price, and $130,000 FF\u0026E included.",
+    "notes":  "Replaced the listing title with the operating store name after matching the source listing's Pinch A Penny brand, Coconut Creek location, store website, phone/address, and public review pages. Source identifies retail, pool cleaning, repairs, ancillary services, a pool service supervisor overseeing 260 pool accounts, $150,000 inventory not included in asking price, and $130,000 FF\u0026E included.",
     "links":  {
                   "source":  "https://www.bizbuysell.com/business-opportunity/just-on-the-market-exceptional-pool-supply-franchise/2488180/",
                   "website":  "https://pinchapenny.com/stores/coconut-creek-fl-150",
@@ -37,6 +37,18 @@
                                   {
                                       "label":  "Chamber",
                                       "url":  "https://www.chamberofcommerce.com/business-directory/florida/coconut-creek/swimming-pool-supply-store/2007668496-pinch-a-penny-pool-patio-spa"
+                                  },
+                                  {
+                                      "label":  "Nextdoor",
+                                      "url":  "https://nextdoor.com/pages/pinch-a-penny-pompano-beach-fl/"
+                                  },
+                                  {
+                                      "label":  "Maytronics",
+                                      "url":  "https://www.maytronics.com/en-us/store-locator/usa/florida/coconut-creek/pinch-a-penny-pool-patio-and-spa-%7C-coconut-creek/"
+                                  },
+                                  {
+                                      "label":  "Waze",
+                                      "url":  "https://www.waze.com/live-map/directions/pinch-a-penny-pool-patio-spa-w-hillsboro-blvd-4420-coconut-creek?to=place.w.183369991.1833830984.2140107"
                                   },
                                   {
                                       "label":  "YellowPages",
