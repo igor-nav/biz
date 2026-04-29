@@ -28,13 +28,13 @@ func ComputeMetrics(b Business, terms Terms) Metrics {
 	var m Metrics
 	if latestSDE, ok := LatestFigure(b.SDE); ok {
 		m.LatestSDE = latestSDE.Amount
-		if prev, ok := PreviousFigure(b.SDE, latestSDE); ok && prev.Amount > 0 {
+		if prev, ok := PriorYearFigure(b.SDE, latestSDE); ok && prev.Amount > 0 {
 			m.SDEGrowth = (latestSDE.Amount - prev.Amount) / prev.Amount
 		}
 	}
 	if latestRevenue, ok := LatestFigure(b.Revenue); ok {
 		m.LatestRevenue = latestRevenue.Amount
-		if prev, ok := PreviousFigure(b.Revenue, latestRevenue); ok && prev.Amount > 0 {
+		if prev, ok := PriorYearFigure(b.Revenue, latestRevenue); ok && prev.Amount > 0 {
 			m.RevenueGrowth = (latestRevenue.Amount - prev.Amount) / prev.Amount
 		}
 	}
@@ -75,7 +75,7 @@ func LatestFigure(figures []YearlyFigure) (YearlyFigure, bool) {
 	return best, true
 }
 
-func PreviousFigure(figures []YearlyFigure, current YearlyFigure) (YearlyFigure, bool) {
+func PriorYearFigure(figures []YearlyFigure, current YearlyFigure) (YearlyFigure, bool) {
 	target := current.Year - 1
 	for _, figure := range figures {
 		if figure.Year == target {

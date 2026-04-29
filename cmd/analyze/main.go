@@ -5,7 +5,6 @@ package main
 import (
 	"flag"
 	"fmt"
-	"math"
 	"os"
 	"sort"
 	"strings"
@@ -19,17 +18,7 @@ type analyzedCandidate struct {
 }
 
 func usd(v float64) string {
-	s := fmt.Sprintf("%.0f", math.Round(v))
-	n := len(s)
-	out := make([]byte, 0, n+n/3+1)
-	for i, c := range s {
-		pos := n - i
-		if i > 0 && pos%3 == 0 {
-			out = append(out, ',')
-		}
-		out = append(out, byte(c))
-	}
-	return "$" + string(out)
+	return core.FormatUSD(v)
 }
 
 func pct(v float64) string { return fmt.Sprintf("%.1f%%", v*100) }
@@ -143,10 +132,11 @@ func printSummary(all []analyzedCandidate) {
 }
 
 func truncate(s string, max int) string {
-	if len(s) <= max {
+	r := []rune(s)
+	if len(r) <= max {
 		return s
 	}
-	return s[:max-1] + "."
+	return string(r[:max-1]) + "."
 }
 
 func main() {

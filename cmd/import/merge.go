@@ -65,7 +65,8 @@ func mergeLinks(dst, src core.Links) core.Links {
 }
 
 func firstString(a, b string) string {
-	if strings.TrimSpace(a) != "" {
+	a = strings.TrimSpace(a)
+	if a != "" {
 		return a
 	}
 	return strings.TrimSpace(b)

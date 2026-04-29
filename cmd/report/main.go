@@ -5,7 +5,6 @@ import (
 	"bytes"
 	"flag"
 	"fmt"
-	"math"
 	"os"
 	"sort"
 	"strings"
@@ -169,20 +168,7 @@ func writeDetails(b *bytes.Buffer, entries []ReportEntry) {
 }
 
 func usd(v float64) string {
-	if v <= 0 {
-		return "TBD"
-	}
-	s := fmt.Sprintf("%.0f", math.Round(v))
-	n := len(s)
-	out := make([]byte, 0, n+n/3)
-	for i, c := range s {
-		pos := n - i
-		if i > 0 && pos%3 == 0 {
-			out = append(out, ',')
-		}
-		out = append(out, byte(c))
-	}
-	return "$" + string(out)
+	return core.FormatUSD(v)
 }
 
 func number(v float64) string {
