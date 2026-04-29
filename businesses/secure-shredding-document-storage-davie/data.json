@@ -1,29 +1,53 @@
 {
-    "name":  "Secure Shredding \u0026 Document Storage",
-    "name_evidence":  "I have not found a public operating name. The current name is the exact title on [BizBuySell](https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/) and [BizQuest](https://www.bizquest.com/business-for-sale/secure-shredding-and-document-storage/BW2485929/), which match the Davie location, 2003/23-year history, $651,000 revenue, $453,000 FF&E, specialized shredding trucks, locked consoles, warehouse/document-storage operations, and owner-retirement motivation. Omit review links until the broker discloses the real name.",
-    "type":  "Secure Shredding / Document Storage",
-    "location":  "Davie, FL",
-    "url":  "https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/",
-    "asking_price":  1450000,
-    "revenue":  [
-                    {
-                        "year":  2026,
-                        "amount":  651000
-                    }
-                ],
-    "sde":  [
-
-            ],
-    "inventory":  0,
-    "ffe":  453000,
-    "real_estate":  "leased",
-    "lease_monthly":  0,
-    "years_in_business":  23,
-    "employees":  0,
-    "reason_for_selling":  "Owners preparing for retirement",
-    "ai_opportunity":  "Route optimization, compliance automation, customer scheduling portal, recurring-account analytics, and digital transformation consulting.",
-    "notes":  "Corrected to the exact BizBuySell listing name and imported source revenue, operating history, FF\u0026E, and retirement motivation. Source describes a South Florida on-site shredding company with recurring commercial clients, specialized shredding trucks, equipment, locked shredding consoles at client locations, and document-storage operations. SDE is not disclosed.",
-    "links":  {
-                  "source":  "https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/"
-              }
+    "name": "MicroShred, LLC",
+    "name_evidence": "High-confidence unmasking. The [BizBuySell listing](https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/) and [BizQuest mirror](https://www.bizquest.com/business-for-sale/secure-shredding-and-document-storage/BW2485929/) describe a Davie secure-shredding and document-storage company established in 2003, with recurring clients, locked shredding consoles, specialized shredding trucks, a 1,700 sq ft leased warehouse, $4,180 monthly rent, and the contact phone 305-999-9234. [MicroShred](https://microshred.com/) uses the same phone number, says it is locally owned and operated since 2003, serves Miami-Dade/Broward/Palm Beach, and offers the same recurring shredding, hard-drive/media/product destruction, and document-storage services. The [BBB profile](https://www.bbb.org/us/fl/davie/profile/document-shredding/microshred-llc-0633-26002577) ties MicroShred to 10384 W State Road 84 Ste 3, Davie, lists BBB accreditation since 2004, and names Orly Ciechanowicki as an officer/customer contact; Orly Ciechanowiecki is also the person listed on the sale listing. Verify with seller/NDA, but the public trail is unusually direct.",
+    "type": "Document Shredding / Records Management",
+    "location": "Davie, FL",
+    "url": "https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/",
+    "asking_price": 1450000,
+    "revenue": [
+        {
+            "year": 2026,
+            "amount": 651000
+        }
+    ],
+    "sde": [],
+    "inventory": 0,
+    "ffe": 453000,
+    "real_estate": "leased",
+    "lease_monthly": 4180,
+    "lease_expires_year": 2027,
+    "years_in_business": 23,
+    "employees": 0,
+    "reason_for_selling": "Owners preparing for retirement after more than 20 years",
+    "ai_opportunity": "Route-density optimization, recurring-service scheduling, CRM/quote automation, barcode inventory and box-retrieval workflows for document storage, scan-on-demand workflow automation, digital certificate-of-destruction generation, customer portal, retention/churn analytics, and truck-utilization dashboards.",
+    "notes": "High-confidence match to MicroShred, LLC. Public listing economics: $1.45M asking price, $651K gross revenue, no SDE/EBITDA disclosed, and $453K FF&E included. Asking price is 2.23x revenue before knowing SDE, so normalized owner earnings are the make-or-break diligence item. Assets include specialized shredding trucks, a box truck, baler, forklift, industrial pallet racking, office equipment, and many locked shredding consoles placed at client locations. Facility is a 1,700 sq ft leased Davie warehouse used for truck parking, equipment storage, and document-storage operations; rent is $4,180/mo and lease expires 02/28/2027. Services confirmed from MicroShred pages include recurring route shredding with lockable bins, one-time/bulk purge shredding, drop-off shredding by appointment, hard-drive/media/product destruction, and secure document storage with barcode tracking, scan-on-demand, same-day retrieval, and optional destruction. BBB shows A+ accreditation and names Rosemary Tsohn as president and Orly Ciechanowicki as officer/customer contact; Florida business-profile mirrors list active LLC status and managers Rosemary Tsohn, Ami Hai Tsohn, and Orly Ciechanowiecki. Public job listings show recent hiring for driver/warehouse helper labor at $14-$14.50/hr, with route work, box-truck duties, background checks, drug screening, and 45 lb lifting. Key diligence: get tax returns and monthly P&L, customer/route revenue by cohort, customer concentration, recurring contract terms, churn, console count/deployment list, truck titles/maintenance/accidents, recycling/bale vendor economics, document-storage box count/MRR/liability, proof of insurance/bonding, i-SIGMA/NAID status, lease assignment/options, seller noncompete/training, and explanation of the old MicroShred Inc./Cornerstone acquisition trail. Detailed memo: [research/secure-shredding-document-storage-davie-2026-04-29.md](research/secure-shredding-document-storage-davie-2026-04-29.md).",
+    "links": {
+        "source": "https://www.bizbuysell.com/business-opportunity/secure-shredding-and-document-storage/2485929/",
+        "website": "https://microshred.com/",
+        "google_maps": "https://www.google.com/maps/search/?api=1&query=MicroShred%2010384%20W%20State%20Road%2084%20Ste%203%20Davie%20FL%2033324",
+        "bbb": "https://www.bbb.org/us/fl/davie/profile/document-shredding/microshred-llc-0633-26002577",
+        "reviews": [
+            {
+                "label": "BizQuest",
+                "url": "https://www.bizquest.com/business-for-sale/secure-shredding-and-document-storage/BW2485929/"
+            },
+            {
+                "label": "Cylex",
+                "url": "https://www.cylex.us.com/company/microshred--llc-37711671.html"
+            },
+            {
+                "label": "YellowPages",
+                "url": "https://www.yellowpages.com/davie-fl/mip/microshred-577648713"
+            },
+            {
+                "label": "BizProfiles",
+                "url": "https://bisprofiles.com/fl/microshred-l09000090287"
+            },
+            {
+                "label": "PR.com 2014 Event",
+                "url": "https://www.pr.com/press-release/537514"
+            }
+        ]
+    }
 }
